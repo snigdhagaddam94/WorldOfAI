@@ -105,9 +105,9 @@ jobs:
           git add -f CareerOps/data/applications.md 2>/dev/null || true
           git add -f CareerOps/data/pipeline.md 2>/dev/null || true
           git add -f CareerOps/data/scan-history.tsv 2>/dev/null || true
-          git add    CareerOps/batch/batch-state.tsv 2>/dev/null || true
-          git add    CareerOps/reports/ 2>/dev/null || true
-          git add    CareerOps/batch/batch-input.tsv 2>/dev/null || true
+          git add -f CareerOps/batch/batch-state.tsv 2>/dev/null || true
+          git add -f CareerOps/reports/ 2>/dev/null || true
+          git add -f CareerOps/batch/batch-input.tsv 2>/dev/null || true
 
           if git diff --cached --quiet; then
             echo "No changes to commit"
