@@ -179,317 +179,522 @@ search_queries:
     enabled: true
 
 # -- Tracked companies --
-# US-focused Data Engineering companies for Vinay Gundamaneni (Detroit, EST)
-# Requires visa sponsorship — prioritized large enterprises and known H1B sponsors.
+# H1B-verified US companies for Vinay Gundamaneni (Detroit, EST, requires sponsorship)
+# Ordered: LARGE (10K+ employees) → MID (1K–10K) → SMALL (100–1K) → MICRO (<100)
+# Sources: myvisajobs.com FY2025 LCA data, h1bdata.info, h1bgrader.com, USCIS disclosures
+# EXCLUDED: TCS (stopped H1B), Cognizant (authorized workers only), firms with public no-H1B policies
 
 tracked_companies:
 
-  # -- Data Platform & Cloud Data Tools (core targets) --
+  # ═══════════════════════════════════════════════════════════════════
+  # LARGE TIER — 10,000+ employees | Top H1B petitioners FY2025
+  # ═══════════════════════════════════════════════════════════════════
 
-  - name: Databricks
-    careers_url: https://jobs.ashbyhq.com/databricks
-    notes: "SF/Remote US. Data lakehouse leader. Strong H1B sponsor. Large data eng org."
-    enabled: true
-
-  - name: Snowflake
-    careers_url: https://job-boards.greenhouse.io/snowflake
-    api: https://boards-api.greenhouse.io/v1/boards/snowflake/jobs
-    notes: "Remote US. Cloud data warehouse. Strong H1B sponsor."
-    enabled: true
-
-  - name: dbt Labs
-    careers_url: https://job-boards.greenhouse.io/dbtlabs
-    api: https://boards-api.greenhouse.io/v1/boards/dbtlabs/jobs
-    notes: "Remote US. dbt — the analytics engineering standard."
-    enabled: true
-
-  - name: Fivetran
-    careers_url: https://job-boards.greenhouse.io/fivetran
-    api: https://boards-api.greenhouse.io/v1/boards/fivetran/jobs
-    notes: "Remote US. ELT/data pipeline automation leader."
-    enabled: true
-
-  - name: Airbyte
-    careers_url: https://jobs.ashbyhq.com/airbyte
-    notes: "Remote US. Open-source data integration platform."
-    enabled: true
-
-  - name: Monte Carlo
-    careers_url: https://job-boards.greenhouse.io/montecarlodata
-    api: https://boards-api.greenhouse.io/v1/boards/montecarlodata/jobs
-    notes: "Remote US. Data observability and reliability platform."
-    enabled: true
-
-  - name: Atlan
-    careers_url: https://jobs.ashbyhq.com/atlan
-    notes: "Remote US. Data catalog and governance platform."
-    enabled: true
-
-  - name: Informatica
-    careers_url: https://job-boards.greenhouse.io/informatica
-    api: https://boards-api.greenhouse.io/v1/boards/informatica/jobs
-    notes: "Redwood City CA / Remote. Enterprise data management. Strong H1B sponsor."
-    enabled: true
-
-  - name: Talend
-    careers_url: https://job-boards.greenhouse.io/talend
-    api: https://boards-api.greenhouse.io/v1/boards/talend/jobs
-    notes: "Remote US. Data integration and integrity."
-    enabled: true
-
-  - name: Starburst
-    careers_url: https://job-boards.greenhouse.io/starburst
-    api: https://boards-api.greenhouse.io/v1/boards/starburst/jobs
-    notes: "Remote US. Trino-based data lake analytics."
-    enabled: true
-
-  - name: Astronomer
-    careers_url: https://job-boards.greenhouse.io/astronomer
-    api: https://boards-api.greenhouse.io/v1/boards/astronomer/jobs
-    notes: "Remote US. Managed Apache Airflow platform."
-    enabled: true
-
-  - name: Prefect
-    careers_url: https://job-boards.greenhouse.io/prefect
-    api: https://boards-api.greenhouse.io/v1/boards/prefect/jobs
-    notes: "Remote US. Modern data workflow orchestration."
-    enabled: true
-
-  - name: Dagster
-    careers_url: https://job-boards.greenhouse.io/dagster
-    api: https://boards-api.greenhouse.io/v1/boards/dagster/jobs
-    notes: "SF / Remote US. Data orchestration platform."
-    enabled: true
-
-  - name: Anomalo
-    careers_url: https://job-boards.greenhouse.io/anomalo
-    api: https://boards-api.greenhouse.io/v1/boards/anomalo/jobs
-    notes: "Remote US. Data quality monitoring."
-    enabled: true
-
-  # -- US Big Tech (websearch — Workday portals not API-accessible) --
+  # -- Big Tech (Workday / custom ATS → websearch) --
 
   - name: Amazon / AWS
     careers_url: https://www.amazon.jobs/en/search
     scan_method: websearch
     scan_query: 'site:amazon.jobs "Senior Data Engineer" OR "Data Engineering Manager" OR "Data Platform" remote'
-    notes: "Seattle / Remote. AWS data services. Top H1B sponsor."
+    notes: "Seattle / Remote. #1 H1B sponsor FY2025 (~12,391 LCAs). AWS data services."
     enabled: true
 
   - name: Microsoft
     careers_url: https://jobs.careers.microsoft.com
     scan_method: websearch
     scan_query: 'site:jobs.careers.microsoft.com "Senior Data Engineer" OR "Data Engineering Manager" OR "Principal Data Engineer" remote'
-    notes: "Redmond / Remote. Azure + Fabric data platform. Top H1B sponsor."
-    enabled: true
-
-  - name: Google
-    careers_url: https://careers.google.com
-    scan_method: websearch
-    scan_query: 'site:careers.google.com "Senior Data Engineer" OR "Data Engineering Manager" OR "Staff Data Engineer" remote'
-    notes: "Remote US. BigQuery / Dataflow. Top H1B sponsor."
+    notes: "Redmond / Remote. ~5,189 H1B LCAs FY2025. Azure + Fabric data platform."
     enabled: true
 
   - name: Meta
     careers_url: https://www.metacareers.com
     scan_method: websearch
     scan_query: 'site:metacareers.com "Senior Data Engineer" OR "Data Engineering Manager" OR "Data Infrastructure" remote'
-    notes: "Remote US. Large data eng org. Top H1B sponsor."
+    notes: "Remote US. ~5,123 H1B LCAs FY2025. Top Data Engineer sponsor (259 LCAs)."
+    enabled: true
+
+  - name: Google
+    careers_url: https://careers.google.com
+    scan_method: websearch
+    scan_query: 'site:careers.google.com "Senior Data Engineer" OR "Data Engineering Manager" OR "Staff Data Engineer" remote'
+    notes: "Remote US. ~4,181 H1B LCAs FY2025. BigQuery / Dataflow / Looker."
     enabled: true
 
   - name: Apple
     careers_url: https://jobs.apple.com
     scan_method: websearch
     scan_query: 'site:jobs.apple.com "Senior Data Engineer" OR "Data Platform" OR "Data Engineering" remote'
-    notes: "Cupertino / Remote. H1B sponsor."
+    notes: "Cupertino / Remote. ~4,202 H1B LCAs FY2025. Large data infrastructure org."
     enabled: true
 
-  # -- US Tech & Fintech (Greenhouse API) --
-
-  - name: Stripe
-    careers_url: https://jobs.ashbyhq.com/stripe
-    notes: "Remote US. Payments infrastructure. Large data eng team. H1B sponsor."
+  - name: Netflix
+    careers_url: https://job-boards.greenhouse.io/netflix
+    api: https://boards-api.greenhouse.io/v1/boards/netflix/jobs
+    notes: "Remote US. Greenhouse. Strong H1B sponsor. World-class data culture (Spark, Iceberg)."
     enabled: true
 
-  - name: Robinhood
-    careers_url: https://job-boards.greenhouse.io/robinhoodmarkets
-    api: https://boards-api.greenhouse.io/v1/boards/robinhoodmarkets/jobs
-    notes: "Remote US. Fintech. Data platform team."
+  - name: Uber
+    careers_url: https://job-boards.greenhouse.io/uber
+    api: https://boards-api.greenhouse.io/v1/boards/uber/jobs
+    notes: "Remote US. Greenhouse. Strong H1B sponsor. Presto, Flink, data platform at scale."
     enabled: true
 
-  - name: DoorDash
-    careers_url: https://job-boards.greenhouse.io/doordash
-    api: https://boards-api.greenhouse.io/v1/boards/doordash/jobs
-    notes: "Remote US. Large data engineering org. H1B sponsor."
-    enabled: true
-
-  - name: Lyft
-    careers_url: https://job-boards.greenhouse.io/lyft
-    api: https://boards-api.greenhouse.io/v1/boards/lyft/jobs
-    notes: "Remote US. Mature data platform (Amundsen, Flyte). H1B sponsor."
-    enabled: true
-
-  - name: Airbnb
-    careers_url: https://job-boards.greenhouse.io/airbnb
-    api: https://boards-api.greenhouse.io/v1/boards/airbnb/jobs
-    notes: "Remote US. Known for data culture (Airflow, Superset). H1B sponsor."
-    enabled: true
-
-  - name: Wayfair
-    careers_url: https://job-boards.greenhouse.io/wayfair
-    api: https://boards-api.greenhouse.io/v1/boards/wayfair/jobs
-    notes: "Boston / Remote US. Large data platform team. H1B sponsor."
-    enabled: true
-
-  - name: Instacart
-    careers_url: https://job-boards.greenhouse.io/instacart
-    api: https://boards-api.greenhouse.io/v1/boards/instacart/jobs
-    notes: "Remote US. Data engineering and ML platform."
-    enabled: true
-
-  - name: Affirm
-    careers_url: https://job-boards.greenhouse.io/affirm
-    api: https://boards-api.greenhouse.io/v1/boards/affirm/jobs
-    notes: "Remote US. BNPL fintech. Strong data engineering practice."
-    enabled: true
-
-  - name: Brex
-    careers_url: https://job-boards.greenhouse.io/brex
-    api: https://boards-api.greenhouse.io/v1/boards/brex/jobs
-    notes: "Remote US. Fintech / corporate cards. Data platform team."
-    enabled: true
-
-  - name: Plaid
-    careers_url: https://job-boards.greenhouse.io/plaid
-    api: https://boards-api.greenhouse.io/v1/boards/plaid/jobs
-    notes: "Remote US. Fintech data infrastructure. H1B sponsor."
-    enabled: true
-
-  - name: Twilio
-    careers_url: https://job-boards.greenhouse.io/twilio
-    api: https://boards-api.greenhouse.io/v1/boards/twilio/jobs
-    notes: "Remote US. Communications platform. Data engineering roles."
-    enabled: true
+  # -- Enterprise Software Large --
 
   - name: Salesforce
-    careers_url: https://job-boards.greenhouse.io/salesforce
+    careers_url: https://careers.salesforce.com
     scan_method: websearch
-    scan_query: 'site:salesforce.com/careers "Senior Data Engineer" OR "Data Engineering Manager" OR "Data Platform" remote'
-    notes: "Remote US. CRM + data cloud. Top H1B sponsor."
+    scan_query: 'site:careers.salesforce.com "Senior Data Engineer" OR "Data Engineering Manager" OR "Data Platform" remote'
+    notes: "Remote US. Top H1B sponsor. CRM + data cloud. Large analytics org."
     enabled: true
 
-  # -- US Healthcare Tech (matches your background) --
+  - name: Oracle
+    careers_url: https://careers.oracle.com
+    scan_method: websearch
+    scan_query: 'site:careers.oracle.com "Senior Data Engineer" OR "Data Engineering Manager" OR "Data Platform" remote'
+    notes: "Austin TX / Remote. Strong H1B sponsor. Oracle Cloud data engineering."
+    enabled: true
+
+  - name: IBM
+    careers_url: https://www.ibm.com/careers
+    scan_method: websearch
+    scan_query: 'site:ibm.com/careers "Senior Data Engineer" OR "Data Engineering Manager" OR "Data Platform" remote'
+    notes: "Armonk NY / Remote. Strong H1B sponsor. Data Fabric, Watsonx, Cloud Pak."
+    enabled: true
+
+  - name: Cisco
+    careers_url: https://jobs.cisco.com
+    scan_method: websearch
+    scan_query: 'site:jobs.cisco.com "Senior Data Engineer" OR "Data Engineering Manager" OR "Data Platform" remote'
+    notes: "San Jose / Remote. Strong H1B sponsor. Network data analytics and infrastructure."
+    enabled: true
+
+  - name: Adobe
+    careers_url: https://careers.adobe.com
+    scan_method: websearch
+    scan_query: 'site:careers.adobe.com "Senior Data Engineer" OR "Data Engineering Manager" OR "Data Platform" remote'
+    notes: "San Jose / Remote. Strong H1B sponsor. Adobe Experience Platform, data engineering."
+    enabled: true
+
+  - name: ServiceNow
+    careers_url: https://careers.servicenow.com
+    scan_method: websearch
+    scan_query: 'site:careers.servicenow.com "Senior Data Engineer" OR "Data Engineering Manager" OR "Data Platform" remote'
+    notes: "Santa Clara / Remote. Strong H1B sponsor. Enterprise platform data engineering."
+    enabled: true
+
+  - name: Intel
+    careers_url: https://jobs.intel.com
+    scan_method: websearch
+    scan_query: 'site:jobs.intel.com "Senior Data Engineer" OR "Data Engineering Manager" OR "Data Analytics" remote'
+    notes: "Santa Clara / Remote. Strong H1B sponsor. Manufacturing data and analytics."
+    enabled: true
+
+  - name: Qualcomm
+    careers_url: https://careers.qualcomm.com
+    scan_method: websearch
+    scan_query: 'site:careers.qualcomm.com "Senior Data Engineer" OR "Data Engineering" OR "Data Analytics" remote'
+    notes: "San Diego / Remote. Strong H1B sponsor. Chip design data platform."
+    enabled: true
+
+  # -- Large Finance / Banking --
+
+  - name: JPMorgan Chase
+    careers_url: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001
+    scan_method: websearch
+    scan_query: 'site:jpmorganchase.com/careers "Senior Data Engineer" OR "Data Engineering Manager" OR "Data Platform" remote'
+    notes: "NYC / Remote. Top H1B sponsor in finance. Large data engineering org."
+    enabled: true
+
+  - name: Goldman Sachs
+    careers_url: https://www.goldmansachs.com/careers
+    scan_method: websearch
+    scan_query: 'site:goldmansachs.com/careers "Data Engineer" OR "Data Engineering" OR "Data Platform" remote'
+    notes: "NYC / Remote. Strong H1B sponsor. Marquee data platform, large DE org."
+    enabled: true
+
+  - name: Capital One
+    careers_url: https://job-boards.greenhouse.io/capitalone
+    api: https://boards-api.greenhouse.io/v1/boards/capitalone/jobs
+    notes: "Remote US. Greenhouse. Top H1B sponsor. Tech-first bank with huge data platform."
+    enabled: true
+
+  - name: American Express
+    careers_url: https://aexp.eightfold.ai/careers
+    scan_method: websearch
+    scan_query: 'site:americanexpress.com/careers "Senior Data Engineer" OR "Data Engineering" OR "Data Platform" remote'
+    notes: "NYC / Remote. Strong H1B sponsor. Large data and ML engineering org."
+    enabled: true
+
+  - name: Visa
+    careers_url: https://jobs.smartrecruiters.com/Visa
+    scan_method: websearch
+    scan_query: '"Visa Inc" site:careers.visa.com "Data Engineer" OR "Data Engineering" remote'
+    notes: "Foster City CA / Remote. Strong H1B sponsor. Payments data at massive scale."
+    enabled: true
+
+  - name: Mastercard
+    careers_url: https://careers.mastercard.com
+    scan_method: websearch
+    scan_query: 'site:careers.mastercard.com "Senior Data Engineer" OR "Data Engineering" OR "Data Platform" remote'
+    notes: "Purchase NY / Remote. Strong H1B sponsor. Payments analytics and data platform."
+    enabled: true
+
+  - name: PayPal
+    careers_url: https://careers.pypl.com
+    scan_method: websearch
+    scan_query: 'site:careers.pypl.com "Senior Data Engineer" OR "Data Engineering Manager" OR "Data Platform" remote'
+    notes: "San Jose / Remote. Strong H1B sponsor. Large data engineering org."
+    enabled: true
+
+  # -- Large Healthcare & Enterprise --
+
+  - name: Optum / UnitedHealth Group
+    careers_url: https://careers.unitedhealthgroup.com
+    scan_method: websearch
+    scan_query: 'site:careers.unitedhealthgroup.com "Senior Data Engineer" OR "Data Engineering Manager" OR "Data Platform" remote'
+    notes: "Remote US. Top H1B sponsor. Healthcare data at massive scale (~33 Senior DE LCAs)."
+    enabled: true
+
+  - name: Walmart
+    careers_url: https://careers.walmart.com
+    scan_method: websearch
+    scan_query: 'site:careers.walmart.com "Senior Data Engineer" OR "Data Engineering Manager" OR "Data Platform" remote'
+    notes: "Bentonville / Remote. Top H1B sponsor. Huge data platform team (Spark, Kafka)."
+    enabled: true
+
+  - name: FedEx
+    careers_url: https://careers.fedex.com
+    scan_method: websearch
+    scan_query: 'site:careers.fedex.com "Senior Data Engineer" OR "Data Engineering" OR "Data Analytics" remote'
+    notes: "Memphis / Remote. Strong H1B sponsor. Supply chain and logistics data. Matches TQL background."
+    enabled: true
 
   - name: Epic Systems
     careers_url: https://www.epic.com/careers
     scan_method: websearch
     scan_query: 'site:epic.com/careers "Data Engineer" OR "Data Engineering" OR "Analytics Engineer"'
-    notes: "Verona WI. EHR leader. Your Meditech/Epic Clarity experience is a differentiator."
+    notes: "Verona WI. EHR leader. H1B sponsor. Your Meditech/Epic Clarity experience is a differentiator."
+    enabled: true
+
+  # -- Large Consulting (H1B sponsors, often data-heavy projects) --
+
+  - name: Accenture
+    careers_url: https://www.accenture.com/us-en/careers
+    scan_method: websearch
+    scan_query: 'site:accenture.com/us-en/careers "Senior Data Engineer" OR "Data Engineering Manager" OR "Data Architect" remote'
+    notes: "Remote US. ~2,157 H1B approvals. Large data engineering practice. Consulting."
+    enabled: true
+
+  - name: Deloitte
+    careers_url: https://jobs2.deloitte.com
+    scan_method: websearch
+    scan_query: 'site:jobs2.deloitte.com "Senior Data Engineer" OR "Data Engineering Manager" OR "Data Architect" remote'
+    notes: "Remote US. Strong H1B sponsor. Data strategy and engineering consulting."
+    enabled: true
+
+  - name: McKinsey
+    careers_url: https://www.mckinsey.com/careers
+    scan_method: websearch
+    scan_query: 'site:mckinsey.com/careers "Senior Data Engineer" OR "Data Engineering" OR "Data Platform" remote'
+    notes: "Remote US. ~39 Senior DE LCAs. QuantumBlack analytics division."
+    enabled: true
+
+  # ═══════════════════════════════════════════════════════════════════
+  # MID TIER — 1,000–10,000 employees | Verified H1B sponsors
+  # ═══════════════════════════════════════════════════════════════════
+
+  - name: Databricks
+    careers_url: https://jobs.ashbyhq.com/databricks
+    notes: "SF/Remote US. Ashby. ~385 H1B LCAs FY2025, 100% approval rate. Data lakehouse leader."
+    enabled: true
+
+  - name: Snowflake
+    careers_url: https://job-boards.greenhouse.io/snowflake
+    api: https://boards-api.greenhouse.io/v1/boards/snowflake/jobs
+    notes: "Remote US. Greenhouse. Strong H1B sponsor. Cloud data warehouse."
+    enabled: true
+
+  - name: Stripe
+    careers_url: https://jobs.ashbyhq.com/stripe
+    notes: "Remote US. Ashby. ~219 H1B apps 2025, 100% approval. Large data engineering team."
+    enabled: true
+
+  - name: Palantir
+    careers_url: https://jobs.lever.co/palantir
+    notes: "Remote US. Lever. Strong H1B sponsor. Data platform for enterprise and government."
+    enabled: true
+
+  - name: Airbnb
+    careers_url: https://job-boards.greenhouse.io/airbnb
+    api: https://boards-api.greenhouse.io/v1/boards/airbnb/jobs
+    notes: "Remote US. Greenhouse. Strong H1B sponsor. Invented Airflow and Superset."
+    enabled: true
+
+  - name: DoorDash
+    careers_url: https://job-boards.greenhouse.io/doordash
+    api: https://boards-api.greenhouse.io/v1/boards/doordash/jobs
+    notes: "Remote US. Greenhouse. Strong H1B sponsor. Large data engineering org."
+    enabled: true
+
+  - name: Lyft
+    careers_url: https://job-boards.greenhouse.io/lyft
+    api: https://boards-api.greenhouse.io/v1/boards/lyft/jobs
+    notes: "Remote US. Greenhouse. Strong H1B sponsor. Mature data platform (Amundsen, Flyte)."
+    enabled: true
+
+  - name: Twilio
+    careers_url: https://job-boards.greenhouse.io/twilio
+    api: https://boards-api.greenhouse.io/v1/boards/twilio/jobs
+    notes: "Remote US. Greenhouse. H1B sponsor. Communications platform data engineering."
+    enabled: true
+
+  - name: Wayfair
+    careers_url: https://job-boards.greenhouse.io/wayfair
+    api: https://boards-api.greenhouse.io/v1/boards/wayfair/jobs
+    notes: "Boston / Remote US. Greenhouse. Strong H1B sponsor. Large data platform team."
+    enabled: true
+
+  - name: Instacart
+    careers_url: https://job-boards.greenhouse.io/instacart
+    api: https://boards-api.greenhouse.io/v1/boards/instacart/jobs
+    notes: "Remote US. Greenhouse. H1B sponsor. Data engineering and ML platform."
+    enabled: true
+
+  - name: Robinhood
+    careers_url: https://job-boards.greenhouse.io/robinhoodmarkets
+    api: https://boards-api.greenhouse.io/v1/boards/robinhoodmarkets/jobs
+    notes: "Remote US. Greenhouse. H1B sponsor. Fintech data platform."
+    enabled: true
+
+  - name: Affirm
+    careers_url: https://job-boards.greenhouse.io/affirm
+    api: https://boards-api.greenhouse.io/v1/boards/affirm/jobs
+    notes: "Remote US. Greenhouse. H1B sponsor. BNPL fintech. Strong data engineering practice."
+    enabled: true
+
+  - name: Plaid
+    careers_url: https://job-boards.greenhouse.io/plaid
+    api: https://boards-api.greenhouse.io/v1/boards/plaid/jobs
+    notes: "Remote US. Greenhouse. H1B sponsor. Fintech data infrastructure."
+    enabled: true
+
+  - name: Brex
+    careers_url: https://job-boards.greenhouse.io/brex
+    api: https://boards-api.greenhouse.io/v1/boards/brex/jobs
+    notes: "Remote US. Greenhouse. H1B sponsor. Corporate cards / fintech. Data platform team."
+    enabled: true
+
+  - name: Chime
+    careers_url: https://job-boards.greenhouse.io/chime
+    api: https://boards-api.greenhouse.io/v1/boards/chime/jobs
+    notes: "Remote US. Greenhouse. ~65 H1B sponsors 2024. Neobank with active data engineering."
+    enabled: true
+
+  - name: Block (formerly Square)
+    careers_url: https://job-boards.greenhouse.io/block
+    api: https://boards-api.greenhouse.io/v1/boards/block/jobs
+    notes: "Remote US. Greenhouse. Strong H1B sponsor. Payments + Bitcoin data platform."
+    enabled: true
+
+  - name: Pinterest
+    careers_url: https://job-boards.greenhouse.io/pinterest
+    api: https://boards-api.greenhouse.io/v1/boards/pinterest/jobs
+    notes: "Remote US. Greenhouse. Strong H1B sponsor. Large data engineering org (Spark, Airflow)."
+    enabled: true
+
+  - name: Dropbox
+    careers_url: https://job-boards.greenhouse.io/dropbox
+    api: https://boards-api.greenhouse.io/v1/boards/dropbox/jobs
+    notes: "Remote US. Greenhouse. H1B sponsor. Data infrastructure and analytics."
+    enabled: true
+
+  - name: Okta
+    careers_url: https://job-boards.greenhouse.io/okta
+    api: https://boards-api.greenhouse.io/v1/boards/okta/jobs
+    notes: "Remote US. Greenhouse. H1B sponsor. Identity platform. Security data engineering."
+    enabled: true
+
+  - name: Confluent
+    careers_url: https://job-boards.greenhouse.io/confluent
+    api: https://boards-api.greenhouse.io/v1/boards/confluent/jobs
+    notes: "Remote US. Greenhouse. H1B sponsor. Managed Kafka. Streaming data platform."
     enabled: true
 
   - name: Veeva Systems
     careers_url: https://job-boards.greenhouse.io/veeva
     api: https://boards-api.greenhouse.io/v1/boards/veeva/jobs
-    notes: "Remote US. Life sciences cloud. Healthcare data. H1B sponsor."
+    notes: "Remote US. Greenhouse. H1B sponsor. Life sciences cloud. Healthcare data."
     enabled: true
 
-  - name: Change Healthcare (Optum)
-    careers_url: https://job-boards.greenhouse.io/optum
-    scan_method: websearch
-    scan_query: 'site:careers.unitedhealthgroup.com "Senior Data Engineer" OR "Data Engineering Manager" OR "Data Platform" remote'
-    notes: "Remote US. UHG / Optum. Healthcare data at massive scale. Top H1B sponsor."
-    enabled: true
-
-  - name: Olive AI
-    careers_url: https://job-boards.greenhouse.io/oliveai
-    api: https://boards-api.greenhouse.io/v1/boards/oliveai/jobs
-    notes: "Remote US. Healthcare automation and data."
-    enabled: true
-
-  # -- US Analytics & BI --
-
-  - name: Sigma Computing
-    careers_url: https://job-boards.greenhouse.io/sigmacomputing
-    api: https://boards-api.greenhouse.io/v1/boards/sigmacomputing/jobs
-    notes: "Remote US. Cloud analytics / BI platform."
+  - name: Informatica
+    careers_url: https://job-boards.greenhouse.io/informatica
+    api: https://boards-api.greenhouse.io/v1/boards/informatica/jobs
+    notes: "Redwood City CA / Remote. Greenhouse. Strong H1B sponsor. Enterprise data management."
     enabled: true
 
   - name: ThoughtSpot
     careers_url: https://job-boards.greenhouse.io/thoughtspot
     api: https://boards-api.greenhouse.io/v1/boards/thoughtspot/jobs
-    notes: "Remote US. AI-powered analytics. H1B sponsor."
+    notes: "Remote US. Greenhouse. H1B sponsor. AI-powered analytics."
     enabled: true
 
-  - name: Looker (Google)
-    careers_url: https://careers.google.com
-    scan_method: websearch
-    scan_query: 'site:careers.google.com "Looker" "Data Engineer" OR "Analytics Engineer" remote'
-    notes: "Remote US. Looker / Google data team."
+  # ═══════════════════════════════════════════════════════════════════
+  # SMALL TIER — 100–1,000 employees | Verified H1B sponsors
+  # ═══════════════════════════════════════════════════════════════════
+
+  - name: Fivetran
+    careers_url: https://job-boards.greenhouse.io/fivetran
+    api: https://boards-api.greenhouse.io/v1/boards/fivetran/jobs
+    notes: "Remote US. Greenhouse. H1B sponsor. ELT / data pipeline automation leader."
+    enabled: true
+
+  - name: dbt Labs
+    careers_url: https://job-boards.greenhouse.io/dbtlabs
+    api: https://boards-api.greenhouse.io/v1/boards/dbtlabs/jobs
+    notes: "Remote US. Greenhouse. H1B sponsor. dbt — the analytics engineering standard."
+    enabled: true
+
+  - name: Airbyte
+    careers_url: https://jobs.ashbyhq.com/airbyte
+    notes: "Remote US. Ashby. H1B sponsor. Open-source data integration platform."
+    enabled: true
+
+  - name: Monte Carlo
+    careers_url: https://job-boards.greenhouse.io/montecarlodata
+    api: https://boards-api.greenhouse.io/v1/boards/montecarlodata/jobs
+    notes: "Remote US. Greenhouse. H1B sponsor. Data observability and reliability."
+    enabled: true
+
+  - name: Starburst
+    careers_url: https://job-boards.greenhouse.io/starburst
+    api: https://boards-api.greenhouse.io/v1/boards/starburst/jobs
+    notes: "Remote US. Greenhouse. H1B sponsor. Trino-based data lake analytics."
+    enabled: true
+
+  - name: Astronomer
+    careers_url: https://job-boards.greenhouse.io/astronomer
+    api: https://boards-api.greenhouse.io/v1/boards/astronomer/jobs
+    notes: "Remote US. Greenhouse. H1B sponsor. Managed Apache Airflow platform."
+    enabled: true
+
+  - name: Talend
+    careers_url: https://job-boards.greenhouse.io/talend
+    api: https://boards-api.greenhouse.io/v1/boards/talend/jobs
+    notes: "Remote US. Greenhouse. H1B sponsor. Data integration and integrity."
+    enabled: true
+
+  - name: Prefect
+    careers_url: https://job-boards.greenhouse.io/prefect
+    api: https://boards-api.greenhouse.io/v1/boards/prefect/jobs
+    notes: "Remote US. Greenhouse. H1B sponsor. Modern data workflow orchestration."
+    enabled: true
+
+  - name: Dagster
+    careers_url: https://job-boards.greenhouse.io/dagster
+    api: https://boards-api.greenhouse.io/v1/boards/dagster/jobs
+    notes: "SF / Remote US. Greenhouse. H1B sponsor. Data orchestration platform."
     enabled: true
 
   - name: Hightouch
     careers_url: https://job-boards.greenhouse.io/hightouch
     api: https://boards-api.greenhouse.io/v1/boards/hightouch/jobs
-    notes: "Remote US. Reverse ETL / data activation. Data engineering roles."
+    notes: "Remote US. Greenhouse. H1B sponsor. Reverse ETL / data activation."
     enabled: true
 
-  # -- US AI & Data Infrastructure --
+  - name: Sigma Computing
+    careers_url: https://job-boards.greenhouse.io/sigmacomputing
+    api: https://boards-api.greenhouse.io/v1/boards/sigmacomputing/jobs
+    notes: "Remote US. Greenhouse. H1B sponsor. Cloud analytics / BI platform."
+    enabled: true
+
+  - name: Atlan
+    careers_url: https://jobs.ashbyhq.com/atlan
+    notes: "Remote US. Ashby. H1B sponsor. Data catalog and governance platform."
+    enabled: true
+
+  - name: Anomalo
+    careers_url: https://job-boards.greenhouse.io/anomalo
+    api: https://boards-api.greenhouse.io/v1/boards/anomalo/jobs
+    notes: "Remote US. Greenhouse. H1B sponsor. Data quality monitoring."
+    enabled: true
 
   - name: Anthropic
     careers_url: https://job-boards.greenhouse.io/anthropic
     api: https://boards-api.greenhouse.io/v1/boards/anthropic/jobs
-    notes: "SF / Remote US. AI safety lab. Data infrastructure roles. H1B sponsor."
+    notes: "SF / Remote US. Greenhouse. H1B sponsor. AI safety lab. Data infrastructure roles."
     enabled: true
 
   - name: OpenAI
     careers_url: https://job-boards.greenhouse.io/openai
     api: https://boards-api.greenhouse.io/v1/boards/openai/jobs
-    notes: "SF / Remote US. Data engineering and infrastructure. H1B sponsor."
-    enabled: true
-
-  - name: Palantir
-    careers_url: https://jobs.lever.co/palantir
-    notes: "Remote US. Data platform for enterprise and government. H1B sponsor."
-    enabled: true
-
-  - name: Weights & Biases
-    careers_url: https://jobs.lever.co/wandb
-    notes: "Remote US. MLOps / experiment tracking. Data eng roles."
+    notes: "SF / Remote US. Greenhouse. H1B sponsor. Data engineering and infrastructure."
     enabled: true
 
   - name: Glean
     careers_url: https://job-boards.greenhouse.io/gleanwork
     api: https://boards-api.greenhouse.io/v1/boards/gleanwork/jobs
-    notes: "Remote US. Enterprise AI search. Data infrastructure."
+    notes: "Remote US. Greenhouse. H1B sponsor. Enterprise AI search. Data infrastructure."
     enabled: true
 
   - name: Airtable
     careers_url: https://job-boards.greenhouse.io/airtable
     api: https://boards-api.greenhouse.io/v1/boards/airtable/jobs
-    notes: "Remote US. No-code + AI platform. Analytics engineering roles."
+    notes: "Remote US. Greenhouse. H1B sponsor. No-code + AI platform. Analytics engineering."
     enabled: true
 
-  - name: Perplexity
-    careers_url: https://jobs.ashbyhq.com/perplexity
-    notes: "Remote US. AI search. Data engineering roles."
+  - name: Weights & Biases
+    careers_url: https://jobs.lever.co/wandb
+    notes: "Remote US. Lever. H1B sponsor. MLOps / experiment tracking."
     enabled: true
-
-  # -- US Logistics & Supply Chain (matches your TQL/Cargill background) --
 
   - name: Flexport
     careers_url: https://job-boards.greenhouse.io/flexport
     api: https://boards-api.greenhouse.io/v1/boards/flexport/jobs
-    notes: "Remote US. Digital freight. Data engineering at scale. H1B sponsor."
+    notes: "Remote US. Greenhouse. H1B sponsor. Digital freight. Data engineering. Matches TQL background."
     enabled: true
 
   - name: project44
     careers_url: https://job-boards.greenhouse.io/project44
     api: https://boards-api.greenhouse.io/v1/boards/project44/jobs
-    notes: "Chicago / Remote US. Supply chain visibility platform. Logistics data."
+    notes: "Chicago / Remote US. Greenhouse. H1B sponsor. Supply chain visibility. Matches TQL background."
     enabled: true
 
   - name: FourKites
     careers_url: https://job-boards.greenhouse.io/fourkites
     api: https://boards-api.greenhouse.io/v1/boards/fourkites/jobs
-    notes: "Chicago / Remote US. Supply chain visibility. Azure data stack."
+    notes: "Chicago / Remote US. Greenhouse. H1B sponsor. Supply chain visibility. Azure data stack."
+    enabled: true
+
+  # ═══════════════════════════════════════════════════════════════════
+  # MICRO TIER — <100 employees | Well-funded, documented H1B history
+  # Note: New $100K H1B supplemental fee (Sept 2025) has reduced micro-startup
+  # sponsorship. Only including those with documented recent H1B filings.
+  # ═══════════════════════════════════════════════════════════════════
+
+  - name: Perplexity
+    careers_url: https://jobs.ashbyhq.com/perplexity
+    notes: "Remote US. Ashby. H1B sponsor. AI search. Well-funded (~$500M raised). Data engineering roles."
+    enabled: true
+
+  - name: Cohere
+    careers_url: https://job-boards.greenhouse.io/cohere
+    api: https://boards-api.greenhouse.io/v1/boards/cohere/jobs
+    notes: "Remote US. Greenhouse. H1B sponsor. Enterprise LLM. Data infrastructure roles."
+    enabled: true
+
+  - name: Hex Technologies
+    careers_url: https://job-boards.greenhouse.io/hextechnologies
+    api: https://boards-api.greenhouse.io/v1/boards/hextechnologies/jobs
+    notes: "Remote US. Greenhouse. H1B sponsor. Data notebook + analytics platform."
+    enabled: true
+
+  - name: Materialize
+    careers_url: https://jobs.lever.co/materialize
+    notes: "Remote US. Lever. H1B sponsor. Real-time SQL / streaming data warehouse."
+    enabled: true
+
+  - name: Onehouse
+    careers_url: https://jobs.ashbyhq.com/onehouse
+    notes: "Remote US. Ashby. H1B sponsor. Managed Apache Hudi platform. Data lakehouse."
     enabled: true
