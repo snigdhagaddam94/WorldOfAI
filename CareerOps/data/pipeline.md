@@ -70,3 +70,58 @@
 - [ ] https://jobs.lever.co/spotify/48e5f3e3-2a32-4088-bb61-684202899d1c | Spotify | Senior Data Engineer - Cost Platform
 - [ ] https://jobs.lever.co/spotify/6fe64020-9ec1-4aed-a15c-1c32dcda6248 | Spotify | Senior Fullstack Engineer - Data Platform
 
+
+- [ ] https://careers.airbnb.com/positions/7640881?gh_jid=7640881 | Airbnb | Senior Data Engineer, BizTech
+- [ ] https://careers.airbnb.com/positions/7256787?gh_jid=7256787 | Airbnb | Senior Data Engineer, Payments
+- [ ] https://careers.airbnb.com/positions/7683174?gh_jid=7683174 | Airbnb | Senior Software Engineer, Data Infrastructure
+- [ ] https://careers.airbnb.com/positions/7463663?gh_jid=7463663 | Airbnb | Senior Staff Data Engineer, Marketplaces DNA
+- [ ] https://careers.airbnb.com/positions/7733495?gh_jid=7733495 | Airbnb | Staff Analytics Engineer 
+- [ ] https://careers.airbnb.com/positions/7095225?gh_jid=7095225 | Airbnb | Staff Software Engineer, Data Engineering
+- [ ] https://instacart.careers/job/?gh_jid=7754354 | Instacart | Senior Analytics Engineer, Marketing
+- [ ] https://instacart.careers/job/?gh_jid=7728839 | Instacart | Staff Software Engineer, Ads Data Platform
+- [ ] https://job-boards.greenhouse.io/twilio/jobs/7155492 | Twilio | Principal Machine Learning & Data Engineer 
+- [ ] https://job-boards.greenhouse.io/twilio/jobs/7551660 | Twilio | Staff Analytics Engineer
+- [ ] https://job-boards.greenhouse.io/twilio/jobs/7593382 | Twilio | Staff Product Manager - Data Platforms
+- [ ] https://job-boards.greenhouse.io/twilio/jobs/7782805 | Twilio | Staff Software Engineer (L4) Data Platform
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7713579003 | Affirm | Analytics Manager, Consumer Analytics 
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7704631003 | Affirm | Analytics Manager, Credit Risk 
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7532268003 | Affirm | Analytics Manager, Full Stack (Fraud Analytics)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7651525003 | Affirm | Senior Software Engineer, Backend (Merchant Data Platform EU)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7709632003 | Affirm | Software Engineer II, Backend (Merchant Data Platform EU)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7715407003 | Affirm | Staff Analytics Engineer, Subledger Platform
+- [ ] https://app.careerpuck.com/job-board/lyft/job/8477563002?gh_jid=8477563002 | Lyft | Analytics Lead, Events & Venues
+- [ ] https://app.careerpuck.com/job-board/lyft/job/8367674002?gh_jid=8367674002 | Lyft | Analytics Lead, LUS
+- [ ] https://app.careerpuck.com/job-board/lyft/job/8503985002?gh_jid=8503985002 | Lyft | Analytics Lead, Market Insights
+- [ ] https://app.careerpuck.com/job-board/lyft/job/8427742002?gh_jid=8427742002 | Lyft | Analytics Lead, Marketplace Strategy
+- [ ] https://app.careerpuck.com/job-board/lyft/job/8474660002?gh_jid=8474660002 | Lyft | Analytics Lead, Safety & Customer Care
+- [ ] https://app.careerpuck.com/job-board/lyft/job/8503982002?gh_jid=8503982002 | Lyft | Data Engineer
+- [ ] https://app.careerpuck.com/job-board/lyft/job/7888101002?gh_jid=7888101002 | Lyft | Senior Backend and Data Engineer, Telematics
+- [ ] https://app.careerpuck.com/job-board/lyft/job/8479543002?gh_jid=8479543002 | Lyft | Senior Data Engineer, PickupXP
+- [ ] https://app.careerpuck.com/job-board/lyft/job/8397196002?gh_jid=8397196002 | Lyft | Senior Software Engineer, Data Platforms
+- [ ] https://www.brex.com/careers/8523806002?gh_jid=8523806002 | Brex | Data Engineer
+- [ ] https://www.brex.com/careers/8430196002?gh_jid=8430196002 | Brex | Senior Software Engineer, Product Data Platform
+- [ ] https://boards.greenhouse.io/chime/jobs/8477424002?gh_jid=8477424002 | Chime | Engineering Manager, Data Platform
+- [ ] https://boards.greenhouse.io/chime/jobs/8382253002?gh_jid=8382253002 | Chime | Product Manager, Data Platform
+- [ ] https://boards.greenhouse.io/chime/jobs/8505462002?gh_jid=8505462002 | Chime | Senior Software Engineer, Data Engineering
+- [ ] https://boards.greenhouse.io/chime/jobs/8457140002?gh_jid=8457140002 | Chime | Senior Software Engineer, Data Platform
+- [ ] https://jobs.dropbox.com/listing/7739553?gh_jid=7739553 | Dropbox | Data Engineer
+- [ ] https://jobs.dropbox.com/listing/7739574?gh_jid=7739574 | Dropbox | Data Engineer, Analytics Data Engineering
+- [ ] https://jobs.dropbox.com/listing/7739568?gh_jid=7739568 | Dropbox | Staff Data Engineer
+- [ ] https://jobs.dropbox.com/listing/7595183?gh_jid=7595183 | Dropbox | Staff Data Engineer, Analytics Data Engineering
+- [ ] https://www.okta.com/company/careers/opportunity/6856431?gh_jid=6856431 | Okta | Business Analytics Manager
+- [ ] https://www.okta.com/company/careers/opportunity/7615384?gh_jid=7615384 | Okta | DevOps Data Engineer
+- [ ] https://www.okta.com/company/careers/opportunity/7648974?gh_jid=7648974 | Okta | Principal Data Platform Engineer (Bengaluru)
+- [ ] https://www.okta.com/company/careers/opportunity/7818510?gh_jid=7818510 | Okta | Senior Analytics Engineer
+- [ ] https://www.okta.com/company/careers/opportunity/7572029?gh_jid=7572029 | Okta | Senior Data Engineer
+- [ ] https://www.okta.com/company/careers/opportunity/7648977?gh_jid=7648977 | Okta | Senior Data Platform Engineer (Bengaluru)
+- [ ] https://www.okta.com/company/careers/opportunity/7874907?gh_jid=7874907 | Okta | Staff Data Engineer - Federal (Auth0)
+- [ ] https://www.okta.com/company/careers/opportunity/7633454?gh_jid=7633454 | Okta | Staff Software Engineer - Data Platform
+- [ ] https://www.okta.com/company/careers/opportunity/7674814?gh_jid=7674814 | Okta | Staff Software Engineer, Data Platform (FedRamp)
+- [ ] https://www.fivetran.com/careers/job?gh_jid=6666499003 | Fivetran | Senior Product Manager, Reverse ETL
+- [ ] https://www.fivetran.com/careers/job?gh_jid=7644168003 | Fivetran | Staff Product Manager, Reverse ETL
+- [ ] https://www.fivetran.com/careers/job?gh_jid=7694977003 | Fivetran | Staff Software Engineer - ETL Platform
+- [ ] https://job-boards.greenhouse.io/sigmacomputing/jobs/7714451003 | Sigma Computing | Director of Strategic Partnerships, Snowflake
+- [ ] https://job-boards.greenhouse.io/sigmacomputing/jobs/7721534003 | Sigma Computing |  Senior Partner Engineer, Databricks Alliance
+- [ ] https://job-boards.greenhouse.io/sigmacomputing/jobs/7714478003 | Sigma Computing | Senior Partner Engineer, Snowflake Alliance
+- [ ] https://job-boards.greenhouse.io/project44/jobs/7681532 | project44 | Data Engineer 2
+- [ ] https://job-boards.greenhouse.io/project44/jobs/7758046 | project44 | Staff Data Engineer
