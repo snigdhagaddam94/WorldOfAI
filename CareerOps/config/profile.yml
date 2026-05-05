@@ -1,0 +1,74 @@
+# Career-Ops Profile Configuration
+# This is the single source of truth for personal data across all modes.
+
+candidate:
+  full_name: "Vinay Gundamaneni"
+  email: "Vinay.g0228@gmail.com"
+  phone: ""
+  location: "Detroit, MI"
+  linkedin: "linkedin.com/in/vinay-gundamaneni"
+  portfolio_url: ""
+  github: ""
+  twitter: ""
+
+target_roles:
+  # Your North Star roles — what you're optimizing for
+  primary:
+    - "Senior Data Engineer"
+    - "Lead Data Engineer"
+    - "Manager Data Engineering"
+  # Archetypes help the evaluation system score fit
+  archetypes:
+    - name: "Senior Data Engineer"
+      level: "Senior"
+      fit: "primary"        # primary = dream role, secondary = good fit, adjacent = stretch
+    - name: "Lead Data Engineer"
+      level: "Lead"
+      fit: "primary"
+    - name: "Manager Data Engineering"
+      level: "Manager"
+      fit: "primary"
+    - name: "Data Analytics Manager"
+      level: "Manager"
+      fit: "secondary"
+    - name: "Director Data Domains"
+      level: "Director"
+      fit: "secondary"
+
+narrative:
+  # Your professional headline (1 line)
+  headline: "Azure Data Engineer with 12+ years building scalable cloud data platforms in healthcare and logistics"
+  # Your story — what makes you unique
+  exit_story: "12+ years of data engineering across healthcare (HIPAA, EMR/EHR) and logistics. Deep Azure stack expertise — Databricks, ADF, Synapse. Led multi-team platform migrations and built Medallion architectures from scratch. Targeting Senior IC, Lead, and Manager roles."
+  # Your top superpowers
+  superpowers:
+    - "Azure cloud data platform (Databricks, ADF, Synapse, ADLS) — end to end"
+    - "Healthcare data specialization — HIPAA compliance, Epic/Meditech, clinical pipelines"
+    - "Legacy-to-cloud migration — on-prem SQL/SSIS/Hadoop to Azure, full lifecycle"
+    - "Medallion architecture design — staging, silver, gold with enforced data quality"
+    - "Stakeholder bridge — business requirements translated to architecture and delivery"
+  # Proof points — from your work history
+  proof_points:
+    - name: "Medallion Architecture at TQL"
+      hero_metric: "Designed and implemented Medallion architecture for batch + streaming workloads across multiple business units"
+    - name: "Legacy Migration at Prime Healthcare"
+      hero_metric: "Led full migration of SQL Server/SSIS to ADF + Databricks; added real-time streaming analytics"
+    - name: "Global Platform Modernization at Cargill"
+      hero_metric: "Integrated Oracle, Hadoop, and SQL Server into unified Azure data platform with global team coordination"
+
+compensation:
+  target_range: "$170K+"
+  currency: "USD"
+  minimum: "$170K"               # Walk-away number
+  location_flexibility: "Remote preferred, open to on-site"
+
+location:
+  country: "United States"
+  city: "Detroit"
+  timezone: "EST"
+  visa_status: "Requires visa sponsorship"
+
+cv:
+  output_format: "html" # "html" (default) or "latex"
+  # (Optional) Canva resume design ID for visual CV generation via /career-ops pdf.
+  # canva_resume_design_id: "DAxxxxxxxxx"
