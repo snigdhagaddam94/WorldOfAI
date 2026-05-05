@@ -355,9 +355,10 @@ process_offer() {
     -e "s|{{ID}}|${esc_id}|g" \
     "$PROMPT_FILE" > "$resolved_prompt"
 
-  # Launch claude -p worker (uses default model from Claude Max subscription)
+  # Launch claude -p worker with Haiku for cost efficiency (~20x cheaper than Sonnet)
   local exit_code=0
   claude -p \
+    --model claude-haiku-4-5-20251001 \
     --dangerously-skip-permissions \
     --append-system-prompt-file "$resolved_prompt" \
     "$prompt" \
