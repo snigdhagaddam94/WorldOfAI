@@ -125,3 +125,16 @@
 - [ ] https://job-boards.greenhouse.io/sigmacomputing/jobs/7714478003 | Sigma Computing | Senior Partner Engineer, Snowflake Alliance
 - [ ] https://job-boards.greenhouse.io/project44/jobs/7681532 | project44 | Data Engineer 2
 - [ ] https://job-boards.greenhouse.io/project44/jobs/7758046 | project44 | Staff Data Engineer
+
+- [ ] https://app.careerpuck.com/job-board/lyft/job/8474709002?gh_jid=8474709002 | Lyft | Analytics Lead, Safety & Customer Care
+- [ ] https://app.careerpuck.com/job-board/lyft/job/8461103002?gh_jid=8461103002 | Lyft | Data Engineer
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7651523003 | Affirm | Senior Software Engineer, Backend (Merchant Data Platform EU)
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7715405003 | Affirm | Staff Analytics Engineer, Subledger Platform
+- [ ] https://www.brex.com/careers/8366850002?gh_jid=8366850002 | Brex | Data Engineer
+- [ ] https://www.brex.com/careers/8430197002?gh_jid=8430197002 | Brex | Senior Software Engineer, Product Data Platform
+- [ ] https://jobs.dropbox.com/listing/7739571?gh_jid=7739571 | Dropbox | Data Engineer, Analytics Data Engineering
+- [ ] https://jobs.dropbox.com/listing/7595186?gh_jid=7595186 | Dropbox | Staff Data Engineer, Analytics Data Engineering
+- [ ] https://www.okta.com/company/careers/opportunity/7572037?gh_jid=7572037 | Okta | Senior Data Engineer
+- [ ] https://www.fivetran.com/careers/job?gh_jid=6648720003 | Fivetran | Senior Product Manager, Reverse ETL
+- [ ] https://www.fivetran.com/careers/job?gh_jid=7487101003 | Fivetran | Staff Software Engineer - ETL Platform
+- [ ] https://job-boards.greenhouse.io/sigmacomputing/jobs/7714452003 | Sigma Computing | Director of Strategic Partnerships, Snowflake
