@@ -100,82 +100,68 @@ title_filter:
 # Customized for Vinay Gundamaneni — Data Engineering roles, US remote, EST
 
 search_queries:
-  # -- Ashby --
+  # NOTE: All queries scoped to US remote only. EU Greenhouse board (job-boards.eu.greenhouse.io)
+  # is intentionally excluded. Location filter in scan.mjs provides a secondary defense.
+
+  # -- Ashby (US-remote only) --
   - name: Ashby — Senior Data Engineer
-    query: 'site:jobs.ashbyhq.com "Senior Data Engineer" OR "Lead Data Engineer" OR "Staff Data Engineer" remote'
+    query: 'site:jobs.ashbyhq.com "Senior Data Engineer" OR "Lead Data Engineer" OR "Staff Data Engineer" "United States" OR "US Remote" OR "Remote US"'
     enabled: true
 
   - name: Ashby — Data Engineering Manager
-    query: 'site:jobs.ashbyhq.com "Data Engineering Manager" OR "Manager Data Engineering" OR "Director Data" remote'
+    query: 'site:jobs.ashbyhq.com "Data Engineering Manager" OR "Manager Data Engineering" OR "Director Data" "United States" OR "US Remote"'
     enabled: true
 
   - name: Ashby — Analytics Engineer
-    query: 'site:jobs.ashbyhq.com "Analytics Engineer" OR "Data Analytics Manager" OR "Analytics Manager" remote'
+    query: 'site:jobs.ashbyhq.com "Analytics Engineer" OR "Data Analytics Manager" OR "Analytics Manager" "United States" OR "US Remote"'
     enabled: true
 
-  # -- Greenhouse --
+  # -- Greenhouse US board only (explicitly exclude .eu. subdomain) --
   - name: Greenhouse — Senior Data Engineer
-    query: 'site:boards.greenhouse.io OR site:job-boards.greenhouse.io "Senior Data Engineer" OR "Lead Data Engineer" remote'
+    query: 'site:job-boards.greenhouse.io "Senior Data Engineer" OR "Lead Data Engineer" OR "Staff Data Engineer" "United States" OR "Remote"'
     enabled: true
 
   - name: Greenhouse — Data Engineering Manager
-    query: 'site:boards.greenhouse.io OR site:job-boards.greenhouse.io "Data Engineering Manager" OR "Director Data Engineering" remote'
+    query: 'site:job-boards.greenhouse.io "Data Engineering Manager" OR "Director Data Engineering" OR "Head of Data Engineering" "United States" OR "Remote"'
     enabled: true
 
   - name: Greenhouse — Analytics Engineer
-    query: 'site:boards.greenhouse.io OR site:job-boards.greenhouse.io "Analytics Engineer" OR "Data Platform" remote'
+    query: 'site:job-boards.greenhouse.io "Analytics Engineer" OR "Analytics Manager" OR "Data Platform Engineer" "United States" OR "Remote"'
     enabled: true
 
-  # -- Lever --
+  # -- Lever (US-remote only) --
   - name: Lever — Senior Data Engineer
-    query: 'site:jobs.lever.co "Senior Data Engineer" OR "Lead Data Engineer" OR "Staff Data Engineer" remote'
+    query: 'site:jobs.lever.co "Senior Data Engineer" OR "Lead Data Engineer" OR "Staff Data Engineer" "United States" OR "Remote"'
     enabled: true
 
   - name: Lever — Data Engineering Manager
-    query: 'site:jobs.lever.co "Data Engineering Manager" OR "Director Data" OR "Head of Data" remote'
+    query: 'site:jobs.lever.co "Data Engineering Manager" OR "Director Data" OR "Head of Data" "United States" OR "Remote"'
     enabled: true
 
-  # -- Workable --
-  - name: Workable — Data Engineering
-    query: 'site:apply.workable.com "Senior Data Engineer" OR "Data Engineering Manager" OR "Analytics Engineer" remote'
-    enabled: true
-
-  # -- Remote job boards (US-focused) --
+  # -- US-specific remote job boards --
   - name: Remotive — Senior Data Engineer
-    query: 'site:remotive.com "Senior Data Engineer" OR "Lead Data Engineer" OR "Data Engineering Manager" remote'
+    query: 'site:remotive.com "Senior Data Engineer" OR "Lead Data Engineer" OR "Data Engineering Manager"'
     enabled: true
 
   - name: WeWorkRemotely — Data Engineering
     query: 'site:weworkremotely.com "Data Engineer" OR "Analytics Engineer" OR "Data Platform" senior OR lead'
     enabled: true
 
-  - name: RemoteOK — Data Engineering
-    query: 'site:remoteok.com "Senior Data Engineer" OR "Lead Data Engineer" OR "Data Engineering Manager"'
-    enabled: true
-
   - name: Himalayas — Data Engineering
-    query: 'site:himalayas.app "Senior Data Engineer" OR "Lead Data Engineer" OR "Data Engineering Manager" OR "Analytics Engineer" remote'
+    query: 'site:himalayas.app "Senior Data Engineer" OR "Lead Data Engineer" OR "Data Engineering Manager" OR "Analytics Engineer"'
     enabled: true
 
-  # -- Broad cross-portal discovery --
-  - name: Senior Data Engineer — All portals
-    query: '"Senior Data Engineer" OR "Lead Data Engineer" remote Snowflake OR Databricks OR Spark OR dbt'
+  # -- Broad discovery (US anchored) --
+  - name: Senior Data Engineer — US Remote
+    query: '"Senior Data Engineer" OR "Staff Data Engineer" "United States" OR "US Remote" Snowflake OR Databricks OR Spark OR dbt'
     enabled: true
 
-  - name: Data Engineering Manager — All portals
-    query: '"Data Engineering Manager" OR "Manager Data Engineering" OR "Director Data Engineering" remote'
-    enabled: true
-
-  - name: Data Architect — All portals
-    query: '"Data Architect" OR "Principal Data Engineer" remote Snowflake OR Databricks OR cloud'
-    enabled: true
-
-  - name: HN Who's Hiring — Data Engineering
-    query: 'site:news.ycombinator.com "Data Engineer" OR "Analytics Engineer" OR "Data Platform" senior remote'
+  - name: Data Engineering Manager — US Remote
+    query: '"Data Engineering Manager" OR "Manager Data Engineering" OR "Director Data Engineering" "United States" OR "US Remote"'
     enabled: true
 
   - name: YC Jobs — Data Engineering
-    query: 'site:workatastartup.com "Senior Data Engineer" OR "Data Engineering Manager" OR "Analytics Engineer" remote'
+    query: 'site:workatastartup.com "Senior Data Engineer" OR "Data Engineering Manager" OR "Analytics Engineer"'
     enabled: true
 
 # -- Tracked companies --

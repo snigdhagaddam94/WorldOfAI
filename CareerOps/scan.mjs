@@ -120,6 +120,36 @@ async function fetchJson(url) {
   }
 }
 
+// ── Location filter ─────────────────────────────────────────────────
+// Rejects jobs with explicit non-US/offshore locations.
+// Jobs with empty/blank locations pass (most remote US jobs omit location).
+
+const EU_OFFLINE_SIGNALS = [
+  'berlin', 'london', 'amsterdam', 'paris', 'munich', 'zurich', 'stockholm',
+  'oslo', 'copenhagen', 'helsinki', 'vienna', 'brussels', 'madrid', 'barcelona',
+  'rome', 'milan', 'lisbon', 'dublin', 'prague', 'warsaw', 'budapest',
+  'bangalore', 'bengaluru', 'hyderabad', 'chennai', 'pune', 'mumbai', 'delhi',
+  'india', 'germany', 'france', 'spain', 'italy', 'portugal', 'sweden',
+  'norway', 'denmark', 'finland', 'austria', 'belgium', 'netherlands',
+  'switzerland', 'united kingdom', ' uk ', 'singapore', 'sydney', 'melbourne',
+  'toronto', 'vancouver', 'canada',
+];
+
+function isUSOrRemoteLocation(location) {
+  if (!location || location.trim() === '') return true;
+  const loc = location.toLowerCase();
+  if (loc.includes('united states') || loc.includes('remote') ||
+      loc.includes(' us,') || loc.startsWith('us,') || loc.includes('usa') ||
+      loc.includes('new york') || loc.includes('san francisco') ||
+      loc.includes('seattle') || loc.includes('chicago') || loc.includes('boston') ||
+      loc.includes('austin') || loc.includes('denver') || loc.includes('los angeles') ||
+      loc.includes('atlanta') || loc.includes('dallas') || loc.includes('detroit')) {
+    return true;
+  }
+  if (EU_OFFLINE_SIGNALS.some(s => loc.includes(s))) return false;
+  return true;
+}
+
 // ── Title filter ────────────────────────────────────────────────────
 
 function buildTitleFilter(titleFilter) {
@@ -298,6 +328,10 @@ async function main() {
 
       for (const job of jobs) {
         if (!titleFilter(job.title)) {
+          totalFiltered++;
+          continue;
+        }
+        if (!isUSOrRemoteLocation(job.location)) {
           totalFiltered++;
           continue;
         }
