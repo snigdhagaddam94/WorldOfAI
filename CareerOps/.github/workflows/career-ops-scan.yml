@@ -1,0 +1,111 @@
+name: Career-Ops Job Scan
+
+on:
+  schedule:
+    # Mon, Wed, Fri at 9 AM EST (14:00 UTC)
+    - cron: '0 14 * * 1,3,5'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Dry run (scan only, no evaluation)'
+        type: boolean
+        default: false
+      min_score:
+        description: 'Minimum score to include in digest (default: 4.0)'
+        default: '4.0'
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  scan-and-evaluate:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: CareerOps
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: CareerOps/package.json
+
+      - name: Install dependencies
+        run: npm install
+
+      # ── Step 1: Scan job portals (zero Claude tokens) ──────────────
+      - name: Scan job portals
+        run: node scan.mjs
+        continue-on-error: false
+
+      # ── Step 2: Convert pipeline.md → batch-input.tsv ──────────────
+      - name: Prepare batch input
+        run: node scripts/pipeline-to-batch.mjs
+
+      # ── Step 3: Evaluate with Claude (skipped on dry-run) ──────────
+      - name: Install Claude CLI
+        if: ${{ github.event.inputs.dry_run != 'true' }}
+        run: npm install -g @anthropic-ai/claude-code
+        working-directory: /tmp
+
+      - name: Evaluate new job offers with Claude
+        if: ${{ github.event.inputs.dry_run != 'true' }}
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [[ ! -f batch/batch-input.tsv ]]; then
+            echo "No batch-input.tsv found — nothing to evaluate"
+            exit 0
+          fi
+
+          NEW_COUNT=$(tail -n +2 batch/batch-input.tsv | grep -c '[^[:space:]]' || true)
+
+          if [[ "$NEW_COUNT" -eq 0 ]]; then
+            echo "No new offers since last scan — skipping evaluation"
+            exit 0
+          fi
+
+          echo "Evaluating $NEW_COUNT new offers..."
+          MIN_SCORE="${{ github.event.inputs.min_score || '4.0' }}"
+          bash batch/batch-runner.sh --parallel 2 --min-score "$MIN_SCORE"
+
+      # ── Step 4: Merge tracker additions ────────────────────────────
+      - name: Merge tracker additions
+        if: ${{ github.event.inputs.dry_run != 'true' }}
+        run: node merge-tracker.mjs
+        continue-on-error: true
+
+      # ── Step 5: Create GitHub Issue digest ─────────────────────────
+      - name: Create job digest issue
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          MIN_SCORE: ${{ github.event.inputs.min_score || '4.0' }}
+        run: node scripts/create-digest.mjs
+
+      # ── Step 6: Commit updated data files back to repo ─────────────
+      - name: Commit scan results
+        run: |
+          cd ..
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+
+          git add CareerOps/data/ || true
+          git add -f CareerOps/data/applications.md CareerOps/data/pipeline.md CareerOps/data/scan-history.tsv 2>/dev/null || true
+          git add CareerOps/batch/batch-state.tsv 2>/dev/null || true
+          git add CareerOps/reports/ 2>/dev/null || true
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: career-ops scan $(date +%Y-%m-%d)"
+            git push
+          fi
