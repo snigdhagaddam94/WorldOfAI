@@ -14,6 +14,9 @@ on:
         description: 'Minimum score to include in digest (default: 4.0)'
         default: '4.0'
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 permissions:
   contents: write
   issues: write
@@ -34,17 +37,16 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
           cache: 'npm'
           cache-dependency-path: CareerOps/package.json
 
-      - name: Install dependencies
-        run: npm install
+      - name: Install dependencies (skip Playwright browsers)
+        run: npm install --ignore-scripts
 
       # ── Step 1: Scan job portals (zero Claude tokens) ──────────────
       - name: Scan job portals
         run: node scan.mjs
-        continue-on-error: false
 
       # ── Step 2: Convert pipeline.md → batch-input.tsv ──────────────
       - name: Prepare batch input
@@ -67,6 +69,7 @@ jobs:
           fi
 
           NEW_COUNT=$(tail -n +2 batch/batch-input.tsv | grep -c '[^[:space:]]' || true)
+          NEW_COUNT=${NEW_COUNT:-0}
 
           if [[ "$NEW_COUNT" -eq 0 ]]; then
             echo "No new offers since last scan — skipping evaluation"
@@ -90,6 +93,7 @@ jobs:
           GITHUB_REPOSITORY: ${{ github.repository }}
           MIN_SCORE: ${{ github.event.inputs.min_score || '4.0' }}
         run: node scripts/create-digest.mjs
+        continue-on-error: true
 
       # ── Step 6: Commit updated data files back to repo ─────────────
       - name: Commit scan results
@@ -98,10 +102,12 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git config user.name "github-actions[bot]"
 
-          git add CareerOps/data/ || true
-          git add -f CareerOps/data/applications.md CareerOps/data/pipeline.md CareerOps/data/scan-history.tsv 2>/dev/null || true
-          git add CareerOps/batch/batch-state.tsv 2>/dev/null || true
-          git add CareerOps/reports/ 2>/dev/null || true
+          git add -f CareerOps/data/applications.md 2>/dev/null || true
+          git add -f CareerOps/data/pipeline.md 2>/dev/null || true
+          git add -f CareerOps/data/scan-history.tsv 2>/dev/null || true
+          git add    CareerOps/batch/batch-state.tsv 2>/dev/null || true
+          git add    CareerOps/reports/ 2>/dev/null || true
+          git add    CareerOps/batch/batch-input.tsv 2>/dev/null || true
 
           if git diff --cached --quiet; then
             echo "No changes to commit"
