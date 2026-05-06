@@ -86,3 +86,6 @@
 - [ ] https://jobs.lever.co/spotify/5d36b6f4-e89d-4a01-985c-59a184080440 | Spotify | Data Engineer I - Revenue
 - [ ] https://jobs.lever.co/spotify/48e5f3e3-2a32-4088-bb61-684202899d1c | Spotify | Senior Data Engineer - Cost Platform
 - [ ] https://jobs.lever.co/spotify/6fe64020-9ec1-4aed-a15c-1c32dcda6248 | Spotify | Senior Fullstack Engineer - Data Platform
+
+- [ ] https://www.brex.com/careers/8430182002?gh_jid=8430182002 | Brex | Senior Software Engineer, Product Data Platform
+- [ ] https://www.fivetran.com/careers/job?gh_jid=7549451003 | Fivetran | Staff Software Engineer - ETL Platform
