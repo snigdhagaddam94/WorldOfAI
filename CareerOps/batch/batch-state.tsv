@@ -81,3 +81,4 @@ id	url	status	started_at	completed_at	report_num	score	error	retries
 80	https://jobs.lever.co/spotify/6fe64020-9ec1-4aed-a15c-1c32dcda6248	failed	2026-05-06T16:05:41Z	2026-05-06T16:05:42Z	080	-	Credit balance is too low 	1
 81	https://www.brex.com/careers/8430182002?gh_jid=8430182002	failed	2026-05-06T16:05:43Z	2026-05-06T16:05:44Z	081	-	Credit balance is too low 	1
 82	https://www.fivetran.com/careers/job?gh_jid=7549451003	failed	2026-05-06T16:05:44Z	2026-05-06T16:05:45Z	082	-	Credit balance is too low 	1
+83	https://instacart.careers/job/?gh_jid=7872360	completed	2026-05-07T00:00:00Z	2026-05-07T00:05:00Z	083	4.1		0

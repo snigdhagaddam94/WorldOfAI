@@ -89,3 +89,5 @@
 
 - [ ] https://www.brex.com/careers/8430182002?gh_jid=8430182002 | Brex | Senior Software Engineer, Product Data Platform
 - [ ] https://www.fivetran.com/careers/job?gh_jid=7549451003 | Fivetran | Staff Software Engineer - ETL Platform
+
+- [ ] https://instacart.careers/job/?gh_jid=7872360 | Instacart | Senior Data Engineer II, Finance
