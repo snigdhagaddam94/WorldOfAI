@@ -57,16 +57,32 @@ narrative:
       hero_metric: "Integrated Oracle, Hadoop, and SQL Server into unified Azure data platform with global team coordination"
 
 compensation:
-  target_range: "$170K+"
-  currency: "USD"
-  minimum: "$170K"               # Walk-away number
-  location_flexibility: "Remote preferred, open to on-site"
+  # ── US market ──────────────────────────────────────────────────
+  us:
+    target_range: "$170K+"
+    currency: "USD"
+    minimum: "$170K"             # Walk-away number
+  # ── Canadian market ────────────────────────────────────────────
+  canada:
+    target_range: "$180K+ CAD"
+    currency: "CAD"
+    minimum: "$180K CAD"         # Walk-away number; higher is better
+    note: "PR holder — no sponsorship needed. Prefer remote; open to hybrid or on-site."
+  location_flexibility: "Remote preferred; open to hybrid or on-site for the right role"
 
 location:
-  country: "United States"
-  city: "Detroit"
+  primary_city: "Detroit, MI"
   timezone: "EST"
-  visa_status: "Requires visa sponsorship"
+  markets:
+    - country: "United States"
+      eligible: true
+      authorization: "H1B visa — sponsorship required from employer"
+      preference: "Remote preferred; hybrid and on-site also acceptable"
+    - country: "Canada"
+      eligible: true
+      authorization: "Permanent Resident — no sponsorship required"
+      preference: "Remote preferred; open to hybrid or on-site"
+      provinces_ok: ["Ontario", "Alberta", "British Columbia", "Nova Scotia", "Quebec", "Manitoba", "Saskatchewan", "New Brunswick"]
 
 cv:
   output_format: "html" # "html" (default) or "latex"
