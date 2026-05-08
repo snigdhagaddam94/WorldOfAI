@@ -91,3 +91,5 @@
 - [ ] https://www.fivetran.com/careers/job?gh_jid=7549451003 | Fivetran | Staff Software Engineer - ETL Platform
 
 - [ ] https://instacart.careers/job/?gh_jid=7872360 | Instacart | Senior Data Engineer II, Finance
+
+- [ ] https://instacart.careers/job/?gh_jid=7872362 | Instacart | Senior Data Engineer II, Finance
