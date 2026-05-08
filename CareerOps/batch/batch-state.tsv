@@ -82,4 +82,4 @@ id	url	status	started_at	completed_at	report_num	score	error	retries
 81	https://www.brex.com/careers/8430182002?gh_jid=8430182002	failed	2026-05-07T16:10:57Z	2026-05-07T16:10:58Z	163	-	Credit balance is too low 	2
 82	https://www.fivetran.com/careers/job?gh_jid=7549451003	failed	2026-05-07T16:10:57Z	2026-05-07T16:10:58Z	164	-	Credit balance is too low 	2
 83	https://instacart.careers/job/?gh_jid=7872360	failed	2026-05-08T15:27:53Z	2026-05-08T15:27:55Z	166	-	Credit balance is too low 	2
-84	https://instacart.careers/job/?gh_jid=7872362	completed	2026-05-08T13:00:00Z	2026-05-08T13:15:00Z	167	2.3		0
+84	https://instacart.careers/job/?gh_jid=7872362	completed	2026-05-08T13:00:00Z	2026-05-08T13:15:00Z	167	3.5		0
