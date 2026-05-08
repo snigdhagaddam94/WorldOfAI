@@ -185,11 +185,11 @@ Vinay is open to both US and Canadian markets. Evaluate location separately for 
 | Scenario | Score |
 |----------|-------|
 | Fully remote (US) | **5.0** |
-| Hybrid 1-2 days/week | **4.0** |
-| Hybrid 3-4 days/week, Detroit/Midwest area | **3.0** |
-| On-site only, Detroit area | **2.5** |
-| Relocation required (within US) | **1.5** |
-| On-site only, non-Detroit, no flexibility | **1.0** |
+| Hybrid 1-2 days/week (any US city) | **4.5** |
+| Hybrid 3-4 days/week (any US city) | **4.0** |
+| On-site, Detroit / Midwest (no relocation) | **3.5** |
+| On-site, other US city (relocation required) | **3.0** |
+| On-site only, very limited flexibility | **2.0** |
 
 ### 🇨🇦 Canada — Location Scoring
 | Scenario | Score |

@@ -77,7 +77,7 @@ location:
     - country: "United States"
       eligible: true
       authorization: "H1B visa — sponsorship required from employer"
-      preference: "Remote preferred"
+      preference: "Remote preferred; hybrid and on-site also acceptable"
     - country: "Canada"
       eligible: true
       authorization: "Permanent Resident — no sponsorship required"
