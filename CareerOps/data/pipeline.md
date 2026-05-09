@@ -93,3 +93,6 @@
 - [ ] https://instacart.careers/job/?gh_jid=7872360 | Instacart | Senior Data Engineer II, Finance
 
 - [ ] https://instacart.careers/job/?gh_jid=7872362 | Instacart | Senior Data Engineer II, Finance
+
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/4956672008 | Anthropic | Analytics Data Engineer
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5125387008 | Anthropic | Analytics Data Engineering Manager, Product
