@@ -83,5 +83,5 @@ id	url	status	started_at	completed_at	report_num	score	error	retries
 82	https://www.fivetran.com/careers/job?gh_jid=7549451003	failed	2026-05-07T16:10:57Z	2026-05-07T16:10:58Z	164	-	Credit balance is too low 	2
 83	https://instacart.careers/job/?gh_jid=7872360	failed	2026-05-08T15:27:53Z	2026-05-08T15:27:55Z	166	-	Credit balance is too low 	2
 84	https://instacart.careers/job/?gh_jid=7872362	completed	2026-05-08T13:00:00Z	2026-05-08T13:15:00Z	167	3.5	0	
-85	https://job-boards.greenhouse.io/anthropic/jobs/4956672008	failed	2026-05-09T14:56:52Z	2026-05-09T14:56:53Z	168	-	Credit balance is too low 	1
-86	https://job-boards.greenhouse.io/anthropic/jobs/5125387008	failed	2026-05-09T14:56:52Z	2026-05-09T14:56:54Z	169	-	Credit balance is too low 	1
+85	https://job-boards.greenhouse.io/anthropic/jobs/4956672008	failed	2026-05-10T14:58:09Z	2026-05-10T14:58:10Z	170	-	Credit balance is too low 	2
+86	https://job-boards.greenhouse.io/anthropic/jobs/5125387008	failed	2026-05-10T14:58:09Z	2026-05-10T14:58:10Z	171	-	Credit balance is too low 	2
