@@ -96,3 +96,5 @@
 
 - [ ] https://job-boards.greenhouse.io/anthropic/jobs/4956672008 | Anthropic | Analytics Data Engineer
 - [ ] https://job-boards.greenhouse.io/anthropic/jobs/5125387008 | Anthropic | Analytics Data Engineering Manager, Product
+
+- [ ] https://job-boards.greenhouse.io/sigmacomputing/jobs/7729889003 | Sigma Computing | Director of Strategic Partnerships, Snowflake
