@@ -86,3 +86,4 @@ id	url	status	started_at	completed_at	report_num	score	error	retries
 85	https://job-boards.greenhouse.io/anthropic/jobs/4956672008	failed	2026-05-10T14:58:09Z	2026-05-10T14:58:10Z	170	-	Credit balance is too low 	2
 86	https://job-boards.greenhouse.io/anthropic/jobs/5125387008	failed	2026-05-10T14:58:09Z	2026-05-10T14:58:10Z	171	-	Credit balance is too low 	2
 87	https://job-boards.greenhouse.io/sigmacomputing/jobs/7729889003	failed	2026-05-11T16:35:07Z	2026-05-11T16:35:08Z	172	-	Credit balance is too low 	1
+88	https://job-boards.greenhouse.io/sigmacomputing/jobs/7729888003	completed	2026-05-12T00:00:00Z	2026-05-12T00:05:00Z	173	1.5		0
