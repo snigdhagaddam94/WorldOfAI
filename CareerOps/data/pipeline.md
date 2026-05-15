@@ -102,3 +102,5 @@
 - [ ] https://job-boards.greenhouse.io/sigmacomputing/jobs/7729888003 | Sigma Computing | Director of Strategic Partnerships, Snowflake
 
 - [ ] https://jobs.dropbox.com/listing/7872748?gh_jid=7872748 | Dropbox | Senior Data Engineer, AI and Systems Engineering
+
+- [ ] https://jobs.dropbox.com/listing/7872745?gh_jid=7872745 | Dropbox | Senior Data Engineer, AI and Systems Engineering
