@@ -106,3 +106,10 @@
 - [ ] https://jobs.dropbox.com/listing/7872745?gh_jid=7872745 | Dropbox | Senior Data Engineer, AI and Systems Engineering
 
 - [ ] https://job-boards.greenhouse.io/affirm/jobs/7732706003 | Affirm | Analytics Lead, Full Stack
+
+- [ ] https://boards.greenhouse.io/faire/jobs/8535853002?gh_jid=8535853002 | Faire | Senior Analytics Engineer - GTM
+- [ ] https://boards.greenhouse.io/faire/jobs/8336548002?gh_jid=8336548002 | Faire | Senior Analytics Engineer - Marketplace
+- [ ] https://boards.greenhouse.io/faire/jobs/8440216002?gh_jid=8440216002 | Faire | Senior Staff Data Engineer - Platform Data and Analytics
+- [ ] https://www.konrad.com/careers/job/7704325003?gh_jid=7704325003 | Konrad Group | Data Architect
+- [ ] https://www.konrad.com/careers/job/7530792003?gh_jid=7530792003 | Konrad Group | Data Engineer
+- [ ] https://www.konrad.com/careers/job/7530800003?gh_jid=7530800003 | Konrad Group | Senior Data Engineer

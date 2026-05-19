@@ -100,69 +100,74 @@ title_filter:
 # Customized for Vinay Gundamaneni — Data Engineering roles, US remote, EST
 
 search_queries:
-  # NOTE: All queries scoped to US remote only. EU Greenhouse board (job-boards.eu.greenhouse.io)
-  # is intentionally excluded. Location filter in scan.mjs provides a secondary defense.
+  # PRIMARY: Canada-focused queries (active market)
+  # SECONDARY: US queries kept for companies that post both CA + US roles
 
-  # -- Ashby (US-remote only) --
-  - name: Ashby — Senior Data Engineer
-    query: 'site:jobs.ashbyhq.com "Senior Data Engineer" OR "Lead Data Engineer" OR "Staff Data Engineer" "United States" OR "US Remote" OR "Remote US"'
+  # -- Canada: Greenhouse board --
+  - name: Greenhouse CA — Senior Data Engineer
+    query: 'site:job-boards.greenhouse.io "Senior Data Engineer" OR "Lead Data Engineer" OR "Staff Data Engineer" Canada OR "Remote Canada" OR "Canadian"'
     enabled: true
 
-  - name: Ashby — Data Engineering Manager
-    query: 'site:jobs.ashbyhq.com "Data Engineering Manager" OR "Manager Data Engineering" OR "Director Data" "United States" OR "US Remote"'
+  - name: Greenhouse CA — Analytics Engineer
+    query: 'site:job-boards.greenhouse.io "Analytics Engineer" OR "Analytics Manager" OR "Data Platform Engineer" Canada OR "Remote Canada"'
     enabled: true
 
-  - name: Ashby — Analytics Engineer
-    query: 'site:jobs.ashbyhq.com "Analytics Engineer" OR "Data Analytics Manager" OR "Analytics Manager" "United States" OR "US Remote"'
+  - name: Greenhouse CA — Data Engineering Manager
+    query: 'site:job-boards.greenhouse.io "Data Engineering Manager" OR "Director Data Engineering" OR "Head of Data" Canada OR "Remote Canada"'
     enabled: true
 
-  # -- Greenhouse US board only (explicitly exclude .eu. subdomain) --
-  - name: Greenhouse — Senior Data Engineer
+  # -- Canada: Ashby board --
+  - name: Ashby CA — Data Engineering
+    query: 'site:jobs.ashbyhq.com "Senior Data Engineer" OR "Staff Data Engineer" OR "Analytics Engineer" Canada OR "Remote Canada"'
+    enabled: true
+
+  # -- Canada: Lever board --
+  - name: Lever CA — Data Engineering
+    query: 'site:jobs.lever.co "Senior Data Engineer" OR "Lead Data Engineer" OR "Analytics Engineer" Canada OR "Remote Canada"'
+    enabled: true
+
+  # -- Canada: broad discovery --
+  - name: Canada — Senior/Staff Data Engineer
+    query: '"Senior Data Engineer" OR "Staff Data Engineer" OR "Lead Data Engineer" Canada "Remote" dbt OR Snowflake OR Spark OR Databricks'
+    enabled: true
+
+  - name: Canada — Analytics Engineer
+    query: '"Analytics Engineer" OR "Staff Analytics Engineer" Canada "Remote" dbt OR Snowflake OR SQL'
+    enabled: true
+
+  - name: Canada — Data Engineering Manager/Director
+    query: '"Data Engineering Manager" OR "Director Data" OR "Head of Data Engineering" Canada "Remote"'
+    enabled: true
+
+  - name: LinkedIn Canada — Data Engineering
+    query: 'site:linkedin.com/jobs "Senior Data Engineer" OR "Staff Data Engineer" OR "Analytics Engineer" Canada "Remote"'
+    enabled: true
+
+  # -- Canada: job boards --
+  - name: Himalayas — Data Engineering Canada
+    query: 'site:himalayas.app "Senior Data Engineer" OR "Analytics Engineer" OR "Data Engineering Manager" Canada'
+    enabled: true
+
+  - name: WeWorkRemotely — Data Engineering Canada
+    query: 'site:weworkremotely.com "Data Engineer" OR "Analytics Engineer" Canada senior OR lead OR staff'
+    enabled: true
+
+  # -- US queries (kept — companies like Dropbox/Affirm post both markets) --
+  - name: Greenhouse US — Senior Data Engineer
     query: 'site:job-boards.greenhouse.io "Senior Data Engineer" OR "Lead Data Engineer" OR "Staff Data Engineer" "United States" OR "Remote"'
-    enabled: true
+    enabled: false
 
-  - name: Greenhouse — Data Engineering Manager
-    query: 'site:job-boards.greenhouse.io "Data Engineering Manager" OR "Director Data Engineering" OR "Head of Data Engineering" "United States" OR "Remote"'
-    enabled: true
-
-  - name: Greenhouse — Analytics Engineer
+  - name: Greenhouse US — Analytics Engineer
     query: 'site:job-boards.greenhouse.io "Analytics Engineer" OR "Analytics Manager" OR "Data Platform Engineer" "United States" OR "Remote"'
-    enabled: true
+    enabled: false
 
-  # -- Lever (US-remote only) --
-  - name: Lever — Senior Data Engineer
+  - name: Ashby US — Data Engineering
+    query: 'site:jobs.ashbyhq.com "Senior Data Engineer" OR "Lead Data Engineer" OR "Staff Data Engineer" "United States" OR "US Remote" OR "Remote US"'
+    enabled: false
+
+  - name: Lever US — Data Engineering
     query: 'site:jobs.lever.co "Senior Data Engineer" OR "Lead Data Engineer" OR "Staff Data Engineer" "United States" OR "Remote"'
-    enabled: true
-
-  - name: Lever — Data Engineering Manager
-    query: 'site:jobs.lever.co "Data Engineering Manager" OR "Director Data" OR "Head of Data" "United States" OR "Remote"'
-    enabled: true
-
-  # -- US-specific remote job boards --
-  - name: Remotive — Senior Data Engineer
-    query: 'site:remotive.com "Senior Data Engineer" OR "Lead Data Engineer" OR "Data Engineering Manager"'
-    enabled: true
-
-  - name: WeWorkRemotely — Data Engineering
-    query: 'site:weworkremotely.com "Data Engineer" OR "Analytics Engineer" OR "Data Platform" senior OR lead'
-    enabled: true
-
-  - name: Himalayas — Data Engineering
-    query: 'site:himalayas.app "Senior Data Engineer" OR "Lead Data Engineer" OR "Data Engineering Manager" OR "Analytics Engineer"'
-    enabled: true
-
-  # -- Broad discovery (US anchored) --
-  - name: Senior Data Engineer — US Remote
-    query: '"Senior Data Engineer" OR "Staff Data Engineer" "United States" OR "US Remote" Snowflake OR Databricks OR Spark OR dbt'
-    enabled: true
-
-  - name: Data Engineering Manager — US Remote
-    query: '"Data Engineering Manager" OR "Manager Data Engineering" OR "Director Data Engineering" "United States" OR "US Remote"'
-    enabled: true
-
-  - name: YC Jobs — Data Engineering
-    query: 'site:workatastartup.com "Senior Data Engineer" OR "Data Engineering Manager" OR "Analytics Engineer"'
-    enabled: true
+    enabled: false
 
 # -- Tracked companies --
 # H1B-verified US companies for Vinay Gundamaneni (Detroit, EST, requires sponsorship)
@@ -684,3 +689,175 @@ tracked_companies:
     careers_url: https://jobs.ashbyhq.com/onehouse
     notes: "Remote US. Ashby. H1B sponsor. Managed Apache Hudi platform. Data lakehouse."
     enabled: true
+
+  # ═══════════════════════════════════════════════════════════════════
+  # 🇨🇦 CANADA TIER — Canadian PR, no sponsorship required
+  # Primary market — all roles eligible regardless of H1B status
+  # ═══════════════════════════════════════════════════════════════════
+
+  # -- Canadian Tech Companies --
+
+  - name: Shopify
+    careers_url: https://job-boards.greenhouse.io/shopify
+    api: https://boards-api.greenhouse.io/v1/boards/shopify/jobs
+    notes: "Remote Canada. Greenhouse. Canada's largest tech employer. Strong data engineering org — dbt, Spark, Kafka at scale."
+    enabled: true
+
+  - name: Wealthsimple
+    careers_url: https://job-boards.greenhouse.io/wealthsimple
+    api: https://boards-api.greenhouse.io/v1/boards/wealthsimple/jobs
+    notes: "Remote Canada. Greenhouse. Fintech. Modern data stack (dbt, Snowflake, Airflow). Great data engineering culture."
+    enabled: true
+
+  - name: Clio
+    careers_url: https://job-boards.greenhouse.io/clio
+    api: https://boards-api.greenhouse.io/v1/boards/clio/jobs
+    notes: "Remote Canada. Greenhouse. Legal tech SaaS. Strong data engineering team. Snowflake + dbt stack."
+    enabled: true
+
+  - name: Coveo
+    careers_url: https://job-boards.greenhouse.io/coveo
+    api: https://boards-api.greenhouse.io/v1/boards/coveo/jobs
+    notes: "Remote Canada (Quebec City / Montreal). Greenhouse. AI-powered search. Data platform roles."
+    enabled: true
+
+  - name: Lightspeed Commerce
+    careers_url: https://job-boards.greenhouse.io/lightspeedcommerce
+    api: https://boards-api.greenhouse.io/v1/boards/lightspeedcommerce/jobs
+    notes: "Remote Canada (Montreal HQ). Greenhouse. Commerce platform. Strong analytics data engineering team."
+    enabled: true
+
+  - name: PointClickCare
+    careers_url: https://job-boards.greenhouse.io/pointclickcare
+    api: https://boards-api.greenhouse.io/v1/boards/pointclickcare/jobs
+    notes: "Remote Canada (Mississauga ON). Greenhouse. Healthcare data SaaS. Maps to Prime Healthcare background."
+    enabled: true
+
+  - name: Vidyard
+    careers_url: https://job-boards.greenhouse.io/vidyard
+    api: https://boards-api.greenhouse.io/v1/boards/vidyard/jobs
+    notes: "Remote Canada (Kitchener ON). Greenhouse. Video platform SaaS. Data engineering roles."
+    enabled: true
+
+  - name: D2L (Desire2Learn)
+    careers_url: https://job-boards.greenhouse.io/d2l
+    api: https://boards-api.greenhouse.io/v1/boards/d2l/jobs
+    notes: "Remote Canada (Waterloo ON). Greenhouse. EdTech SaaS. Data platform and analytics roles."
+    enabled: true
+
+  - name: Faire
+    careers_url: https://job-boards.greenhouse.io/faire
+    api: https://boards-api.greenhouse.io/v1/boards/faire/jobs
+    notes: "Remote Canada eligible. Greenhouse. B2B marketplace. Strong data engineering org."
+    enabled: true
+
+  - name: Hootsuite
+    careers_url: https://job-boards.greenhouse.io/hootsuite
+    api: https://boards-api.greenhouse.io/v1/boards/hootsuite/jobs
+    notes: "Remote Canada (Vancouver HQ). Greenhouse. Social media platform. Data engineering team."
+    enabled: true
+
+  - name: Konrad Group
+    careers_url: https://job-boards.greenhouse.io/konradgroup
+    api: https://boards-api.greenhouse.io/v1/boards/konradgroup/jobs
+    notes: "Remote Canada (Toronto). Greenhouse. Digital consulting. Data engineering projects."
+    enabled: true
+
+  - name: League
+    careers_url: https://job-boards.greenhouse.io/league
+    api: https://boards-api.greenhouse.io/v1/boards/league/jobs
+    notes: "Remote Canada (Toronto). Greenhouse. Digital health platform. Healthcare data — maps to Prime Healthcare background."
+    enabled: true
+
+  - name: Miovision
+    careers_url: https://job-boards.greenhouse.io/miovision
+    api: https://boards-api.greenhouse.io/v1/boards/miovision/jobs
+    notes: "Remote Canada (Kitchener ON). Greenhouse. Smart city / traffic data. Data engineering roles."
+    enabled: true
+
+  - name: KOHO Financial
+    careers_url: https://jobs.lever.co/koho
+    notes: "Remote Canada (Toronto). Lever. Fintech neobank. Data engineering and analytics."
+    enabled: true
+
+  - name: Clearco
+    careers_url: https://job-boards.greenhouse.io/clearco
+    api: https://boards-api.greenhouse.io/v1/boards/clearco/jobs
+    notes: "Remote Canada (Toronto). Greenhouse. Fintech revenue-based financing. Financial data engineering."
+    enabled: true
+
+  - name: ApplyBoard
+    careers_url: https://job-boards.greenhouse.io/applyboard
+    api: https://boards-api.greenhouse.io/v1/boards/applyboard/jobs
+    notes: "Remote Canada (Kitchener ON). Greenhouse. EdTech platform. Data engineering team."
+    enabled: true
+
+  - name: Ada
+    careers_url: https://job-boards.greenhouse.io/ada
+    api: https://boards-api.greenhouse.io/v1/boards/ada/jobs
+    notes: "Remote Canada (Toronto). Greenhouse. AI customer service platform. Data engineering."
+    enabled: true
+
+  # -- Canadian Financial Institutions (large data engineering orgs) --
+
+  - name: Wealthsimple Tax (SimpleTax)
+    careers_url: https://job-boards.greenhouse.io/simpletax
+    api: https://boards-api.greenhouse.io/v1/boards/simpletax/jobs
+    notes: "Remote Canada. Greenhouse. Tax platform. Financial data engineering."
+    enabled: true
+
+  - name: EQ Bank (Equitable Bank)
+    careers_url: https://job-boards.greenhouse.io/equitablebank
+    api: https://boards-api.greenhouse.io/v1/boards/equitablebank/jobs
+    notes: "Remote Canada (Toronto). Greenhouse. Digital bank. Financial data engineering."
+    enabled: true
+
+  - name: Manulife
+    careers_url: https://manulife.wd3.myworkdayjobs.com/MFCJH_Jobs
+    scan_method: websearch
+    scan_query: 'site:manulife.com/en/careers "Senior Data Engineer" OR "Data Engineering" OR "Analytics Engineer" Canada remote'
+    notes: "Remote Canada (Toronto). Workday. Major insurance/financial. Large data platform org."
+    enabled: true
+
+  - name: Sun Life Financial
+    careers_url: https://sunlife.wd3.myworkdayjobs.com/Experienced-EN
+    scan_method: websearch
+    scan_query: 'site:sunlife.com/en/careers "Senior Data Engineer" OR "Data Engineering" OR "Analytics Engineer" Canada remote'
+    notes: "Remote Canada (Toronto). Workday. Major insurance. Large data and analytics team."
+    enabled: true
+
+  - name: Intact Financial
+    careers_url: https://careers.intact.ca
+    scan_method: websearch
+    scan_query: 'site:careers.intact.ca "Senior Data Engineer" OR "Data Engineering" OR "Analytics Engineer" remote'
+    notes: "Remote Canada (Montreal/Toronto). Own ATS. Largest P&C insurer in Canada. Large data org."
+    enabled: true
+
+  - name: RBC (Royal Bank of Canada)
+    careers_url: https://jobs.rbc.com
+    scan_method: websearch
+    scan_query: 'site:jobs.rbc.com "Senior Data Engineer" OR "Lead Data Engineer" OR "Data Platform" remote Canada'
+    notes: "Remote Canada (Toronto). Own ATS. Largest Canadian bank. Massive data engineering org."
+    enabled: true
+
+  - name: TD Bank
+    careers_url: https://jobs.td.com
+    scan_method: websearch
+    scan_query: 'site:jobs.td.com "Senior Data Engineer" OR "Data Engineering" OR "Analytics Engineer" remote Canada'
+    notes: "Remote Canada (Toronto). Own ATS. Second-largest Canadian bank. Large data platform team."
+    enabled: true
+
+  - name: Scotiabank
+    careers_url: https://jobs.scotiabank.com
+    scan_method: websearch
+    scan_query: 'site:jobs.scotiabank.com "Senior Data Engineer" OR "Data Engineering" OR "Analytics Engineer" remote Canada'
+    notes: "Remote Canada (Toronto). Own ATS. Third-largest Canadian bank. Data engineering and analytics."
+    enabled: true
+
+  # -- Canadian Branches of US Companies (both CA + US roles) --
+  # These already exist in the US tier above; they also post Canadian-only roles
+  # scanner will pick up both markets from the API
+
+  # Dropbox Canada — already in US tier (posts both US and CA roles)
+  # Affirm Canada  — already in US tier (posts both US and CA roles)
+  # Anthropic Canada — already in US tier (occasionally posts CA roles)
