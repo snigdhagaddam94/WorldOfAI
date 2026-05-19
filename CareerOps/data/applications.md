@@ -2,6 +2,7 @@
 
 | # | Date | Company | Role | Score | Status | PDF | Report | Notes |
 |---|------|---------|------|-------|--------|-----|--------|-------|
+| 179 | 2026-05-19 | Spotify | Senior Data Engineer — Cost Platform | 4.2/5 | Evaluated | ❌ | [179](reports/179-spotify-ca-cost-de-2026-05-19.md) | 🇨🇦 APPLY — Toronto hybrid; financial/cost data exact match; dbt+Spark+Airflow; GCP learnable; verify comp ≥$170K CAD |
 | 178 | 2026-05-19 | Instacart | Ads AI Analytics Lead II | 2.3/5 | Evaluated | ❌ | [178](reports/178-instacart-ca-ads-2026-05-19.md) | 🇨🇦 DO NOT APPLY — 40-148K CAD below 70K floor; ads domain + AI/agent gap |
 | 3 | 2026-05-19 | Anthropic | Engineering Manager, Safeguards Data Infrastructure | 4.2/5 | Evaluated | ❌ | [169](reports/169-anthropic-2026-05-19.md) | STRETCH APPLY — $405-485K, confirmed H1B sponsor, HIPAA expertise matches Safeguards mission |
 | 4 | 2026-05-19 | Twilio | Principal ML & Data Engineer L5 | 3.4/5 | Evaluated | ❌ | [170](reports/170-twilio-2026-05-19.md) | Do not apply — AWS+MLOps gaps structural at Principal level |
