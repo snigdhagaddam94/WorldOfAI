@@ -57,41 +57,62 @@ narrative:
       hero_metric: "Integrated Oracle, Hadoop, and SQL Server into unified Azure data platform with global team coordination"
 
 compensation:
-  # ── US market ──────────────────────────────────────────────────
-  us:
-    target_range: "$170K+"
-    currency: "USD"
-    minimum: "$170K"             # Walk-away number
+  # ── Universal threshold ─────────────────────────────────────────
+  # All markets evaluated against CAD equivalent. Higher pay = higher priority.
+  minimum_cad: "$170K CAD"          # Hard floor — skip anything below this
+  priority: "maximize"              # Always prefer the highest-paying option
   # ── Canadian market ────────────────────────────────────────────
   canada:
-    target_range: "$180K+ CAD"
+    target_range: "$170K+ CAD"
     currency: "CAD"
-    minimum: "$180K CAD"         # Walk-away number; higher is better
-    note: "PR holder — no sponsorship needed. Prefer remote; open to hybrid or on-site."
-  location_flexibility: "Remote preferred; open to hybrid or on-site for the right role"
+    minimum: "$170K CAD"
+    note: "PR holder — no sponsorship needed."
+  # ── US market (Canadian-remote roles from US companies) ─────────
+  us:
+    target_range: "$170K+ CAD equivalent"
+    currency: "USD"
+    minimum: "$125K USD"            # ≈ $170K CAD — only for Canada-remote roles from US companies
+    note: "US companies offering Canadian remote roles are eligible. H1B sponsorship required for US-based roles."
+  location_flexibility: "Remote preferred; hybrid and on-site are also acceptable — apply regardless of work model"
 
 search_focus:
-  # ACTIVE: Canada only. US search is paused.
-  active_markets: ["Canada"]
-  paused_markets: ["United States"]
-  pause_reason: "No visa restriction in Canada (PR). Focusing exclusively on Canadian market until further notice."
-  tooling_gaps_policy: "Any modern DE tool (Snowflake, dbt, Airflow, Hex, Databricks SQL, etc.) is a learnable gap — NOT a blocker. A 12-year engineer ramps on syntax in days. Do not penalize tooling gaps in scoring for IC or manager roles."
+  # Active markets — US companies with Canadian remote roles AND Canadian companies
+  active_markets: ["Canada", "US companies with Canadian remote postings"]
+  paused_markets: []                # US-only roles (no Canadian remote option) remain paused
+  market_rule: |
+    INCLUDE: Canadian companies (any province), Canadian remote roles posted by US companies.
+    INCLUDE: Roles paying 170K+ CAD (or USD equivalent). Higher pay = higher priority score.
+    EXCLUDE: US-only roles that require relocation or offer no Canadian remote option.
+    EXCLUDE: Roles below $170K CAD equivalent regardless of market.
+  tooling_gaps_policy: |
+    Any tech stack is acceptable — Snowflake, dbt, Airflow, BigQuery, Redshift, Databricks,
+    Kafka, Spark, Iceberg, Flink, etc. A 12-year engineer ramps on any tool in days.
+    NEVER skip or downgrade a role solely because of tool gaps.
+    ONLY evaluate domain fit: data engineering, analytics engineering, data platform,
+    data management, lead/manager/director roles in the data space.
+  role_scope: |
+    INCLUDE: Data Engineer (any level), Analytics Engineer, Data Platform Engineer,
+    Data Engineering Manager, Analytics Manager, Director of Data, Head of Data,
+    Data Architect, Lead Data Engineer, Principal Data Engineer, Staff Data Engineer,
+    Data Infrastructure, BI Engineer (senior+), Data Lead.
+    EXCLUDE: Pure software engineering with no data component, data science/ML only,
+    junior/intern/associate roles, non-data management roles.
 
 location:
   primary_city: "Detroit, MI"
   timezone: "EST"
+  work_model_preference: "Remote preferred — hybrid and on-site acceptable for the right role"
   markets:
-    - country: "United States"
-      eligible: true
-      active: false           # PAUSED — not searching US market currently
-      authorization: "H1B visa — sponsorship required from employer"
-      preference: "Remote preferred; hybrid and on-site also acceptable"
     - country: "Canada"
       eligible: true
-      active: true            # PRIMARY MARKET — Canadian PR, no restrictions
+      active: true
       authorization: "Permanent Resident — no sponsorship required"
-      preference: "Remote preferred; open to hybrid or on-site"
       provinces_ok: ["Ontario", "Alberta", "British Columbia", "Nova Scotia", "Quebec", "Manitoba", "Saskatchewan", "New Brunswick"]
+    - country: "United States"
+      eligible: true
+      active: true
+      scope: "Only roles explicitly offering Canadian remote option"
+      authorization: "H1B visa required for US-based roles; no restriction for Canadian remote"
 
 cv:
   output_format: "html" # "html" (default) or "latex"

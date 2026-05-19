@@ -114,31 +114,54 @@
 
 ---
 
-## Search Focus — ACTIVE MARKET: Canada Only
+## Search Focus — Active Markets
 
-**Effective 2026-05-19: US job search is PAUSED. Focus exclusively on Canadian opportunities.**
+**ACTIVE:** Canadian companies + US companies that post roles with Canadian remote option.
+**PAUSED:** US-only roles (no Canadian remote) remain excluded.
 
-- **DO** evaluate and pursue all Canadian roles (any province, any DE stack)
-- **DO NOT** evaluate new US roles unless explicitly asked by Vinay
-- For US roles already in the tracker/pipeline, leave them as-is but do not add new US roles
-- When scanning portals, skip US-only postings; flag Canada postings
-- This policy stays in effect until Vinay explicitly says to resume US search
+### Market Rules
+
+| Market | Include? | Condition |
+|--------|----------|-----------|
+| Canadian companies (any province) | ✅ YES | Always include |
+| US companies — Canadian remote role | ✅ YES | Must explicitly offer Canadian remote option |
+| US companies — US-only role | ❌ NO | Skip; no Canadian remote |
+| Any market — role below $170K CAD equivalent | ❌ NO | Hard floor, skip |
+
+**Priority:** Higher pay = higher priority score. Always prefer the highest-paying eligible option.
+
+### Comp Threshold (Universal)
+
+- **Hard minimum:** $170K CAD (or $125K USD ≈ $170K CAD, for Canadian-remote roles from US companies)
+- **Priority:** Maximize compensation — no upper ceiling
+- Skip any role that cannot meet the CAD equivalent floor
+
+### Work Model Policy
+
+Remote preferred, but **hybrid and on-site are both acceptable** — never skip a role solely because of work model. Apply regardless of remote/hybrid/in-office designation.
 
 ---
 
 ## Tooling Gaps Policy — Any Modern DE Stack Is Fine
 
-Vinay is explicitly open to all modern data engineering tools. Do NOT penalize or lower scores for any of the following gaps:
+**NEVER skip or downgrade a role because of a tech stack gap.** Vinay has 12 years of data engineering depth — he ramps on any tool in days. Score based on domain fit, not tool checklist.
 
-| Tool | Status |
-|------|--------|
-| dbt | Learnable gap — ELT modeling depth fully transfers from ADF/PySpark |
-| Snowflake | Learnable gap — Synapse/Databricks SQL patterns transfer directly |
-| Airflow | Learnable gap — ADF is a DAG orchestrator; Airflow syntax ramps in a sprint |
-| Hex | Learnable gap — BI tool fluency transfers from Power BI |
-| BigQuery | Learnable gap — SQL + cloud DE patterns fully applicable |
-| Databricks SQL | Already close to current stack |
-| Any cloud (AWS/GCP) | Learnable gap — architecture patterns transfer; syntax ramps quickly |
+Acceptable stacks include (but are not limited to): Snowflake, dbt, Airflow, BigQuery, Redshift, Databricks, Kafka, Spark, Iceberg, Flink, dlt, Dagster, Prefect, Trino, DuckDB, AWS Glue, GCP Dataflow, Azure ADF, Synapse — all learnable.
+
+**Role scope — INCLUDE:**
+- Data Engineer (any level: Senior, Staff, Principal, Lead)
+- Analytics Engineer
+- Data Platform Engineer
+- Data Engineering Manager / Analytics Manager / Engineering Manager (data)
+- Director of Data / Head of Data / VP Data
+- Data Architect / Lead Data Engineer / Principal Data Engineer
+- BI Engineer (Senior+) / Data Lead / Data Infrastructure
+
+**Role scope — EXCLUDE:**
+- Pure software engineering with no data component
+- Data science / ML-only roles (no data platform or DE component)
+- Junior / Intern / Associate roles
+- Non-data management roles
 
 **Rule:** If Vinay has the architectural depth + 12 years of DE experience, tool-specific syntax is never a hard blocker. Score based on depth of applicable experience, not checklist of specific tool names.
 
@@ -169,17 +192,67 @@ Vinay is eligible to work in **both the United States and Canada** under differe
 
 ## Your Comp Targets
 
-### 🇺🇸 United States (USD)
-- **Target:** $170K+ USD total comp
-- **Minimum / walk-away:** $170K USD
-- **Comp score (1-5):** 5=top quartile (>$220K), 4=above target ($190-220K), 3=at target ($170K), 2=slightly below ($140-170K), 1=well below (<$140K)
+**Universal floor: $170K CAD equivalent.** Skip anything below this regardless of market. Higher pay = higher priority — always prefer the highest-paying eligible option.
 
 ### 🇨🇦 Canada (CAD)
-- **Target:** $180K+ CAD total comp — higher is better
-- **Minimum / walk-away:** $180K CAD
-- **Preferred ceiling:** No ceiling — maximize; $220K+ CAD is excellent
-- **Comp score (1-5):** 5=top (>$220K CAD), 4=above target ($200-220K CAD), 3=at target ($180K CAD), 2=slightly below ($160-180K CAD), 1=well below (<$160K CAD)
-- **Note:** Do NOT convert CAD to USD for scoring — evaluate against the CAD target independently
+- **Target:** $170K+ CAD — higher is always better; no ceiling
+- **Hard minimum / walk-away:** $170K CAD
+- **Comp score (1-5):** 5=top (>$220K CAD), 4=strong ($190-220K CAD), 3=at floor ($170K CAD), 2=below ($140-170K CAD → skip), 1=well below (<$140K CAD → skip)
+- **Note:** Do NOT convert CAD to USD for scoring — evaluate in CAD directly
+
+### 🇺🇸 United States — Canadian Remote Only (USD)
+- **Eligibility:** Only for roles that explicitly offer Canadian remote option
+- **Target:** $125K+ USD (≈ $170K CAD equivalent) — higher is always better
+- **Hard minimum / walk-away:** $125K USD
+- **Comp score (1-5):** 5=top (>$175K USD), 4=strong ($150-175K USD), 3=at floor ($125K USD), 2=below floor (<$125K USD → skip)
+
+---
+
+## Resume & Cover Letter Generation Standards (MANDATORY)
+
+These rules apply to EVERY resume and cover letter generated. No exceptions.
+
+### 1. No Current Location — Ever
+- **NEVER** include Vinay's current city (Detroit, MI) in any resume, cover letter, or application document
+- Remove any location line, EST timezone reference, or current-city framing
+- The Canadian PR badge is fine and should be kept — it signals eligibility, not location
+
+### 2. Professional Job Titles — Clean and Honest
+- Use clean, industry-standard titles only: "Senior Data Engineer", "Lead Data Engineer", "Staff Data Engineer", etc.
+- **NEVER** use verbatim company-specific titles that look JD-copied (e.g., "Senior Data Engineer II" → write "Senior Data Engineer")
+- **NEVER** append role-specific framing to the title (e.g., "Senior Data Engineer — Financial Data Pipelines" is wrong)
+
+### 3. Tagline / Subtitle — Skills-Based, Not JD-Specific
+- The header tagline must list actual skills, years, and technologies — NOT role-specific framing
+- ✅ Good: `Senior Data Engineer · 12+ Years · Python · Spark · dbt · Snowflake · Airflow`
+- ❌ Bad: `Senior Data Engineer II · Financial Data Pipelines · Data Reliability & Auditability`
+- ❌ Bad: `Staff Analytics Engineer · Subledger Platform · SOX Compliance`
+- The tagline must look natural to any recruiter, not tailored to one JD
+
+### 4. JD-Matched Content — Required
+- Read the full JD before writing any resume content
+- Write bullets that directly mirror the language and priorities in the JD
+- Insert skills and tools from the JD into bullets for roles where those skills logically apply
+- Frame each role's bullets around what the target company cares about most
+- Every bullet should pass the "would this recruiter care about this?" test
+
+### 5. Professional Grade — Seek-After Resume Creator Standard
+- Approach every resume as if you are a top-tier executive resume writer
+- Quantify impact wherever possible (percentages, scale, latency, team size, data volume)
+- Trim weak or generic bullets ruthlessly — quality over quantity
+- Each job should have 4-7 bullets max; prioritize the most impressive, most relevant
+- The resume should read like Vinay is the obvious hire, not a candidate to screen
+
+### 6. Visual Design
+- Each resume must have a distinctive, visually appealing design
+- No two resumes should look identical — vary color, layout, header style
+- Must print cleanly to PDF (tested via WeasyPrint); avoid Playwright/Chromium (unavailable)
+- Use the existing HTML/CSS pattern from prior CVs as a reference baseline
+
+### 7. Execution Rule — Claude Code Only
+- Generate all resumes and cover letters using Claude Code directly
+- **NEVER** use `claude -p` subprocess or any external API call for resume generation
+- PDF generation: use WeasyPrint (`python3 -c "from weasyprint import HTML; HTML(filename='...').write_pdf('...')"`)
 
 ---
 
@@ -197,13 +270,13 @@ Vinay is eligible to work in **both the United States and Canada** under differe
 
 ### For Canadian roles
 **Salary expectations:**
-> "Based on market data for Senior/Lead Data Engineering roles in Canada, I'm targeting $180K CAD and above. I'm open on structure — base, bonus, and equity split — what matters is the total package."
+> "Based on market data for Senior/Lead Data Engineering roles in Canada, I'm targeting $170K CAD and above — and strongly prefer the higher end of market. I'm open on structure — base, bonus, and equity split — what matters is the total package."
 
 **On work authorization (Canada):**
 > "I'm a Canadian Permanent Resident — no sponsorship needed, and there's no timeline pressure on my authorization."
 
 **When offered below target (Canada):**
-> "I'm looking at opportunities in the $180K+ CAD range. I'm genuinely interested in [company] because of [reason] — can we explore getting closer to that level?"
+> "I'm looking at opportunities in the $170K+ CAD range. I'm genuinely interested in [company] because of [reason] — can we explore getting closer to that level?"
 
 ---
 
