@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  @page { size: letter; margin: 0.6in 0.65in; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 10.2pt;
+    line-height: 1.65;
+    color: #1c1c1c;
+    background: #fff;
+  }
+
+  .header {
+    border-bottom: 2px solid #1a7a45;
+    padding-bottom: 12px;
+    margin-bottom: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .name {
+    font-size: 19pt;
+    font-weight: 800;
+    color: #111;
+    letter-spacing: -0.5px;
+    line-height: 1;
+  }
+
+  .sub {
+    font-size: 8.4pt;
+    color: #1a7a45;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 5px;
+  }
+
+  .contact-right {
+    text-align: right;
+    font-size: 8.5pt;
+    color: #555;
+    line-height: 1.8;
+  }
+  .contact-right a { color: #555; text-decoration: none; }
+
+  .date-line {
+    font-size: 9.5pt;
+    color: #555;
+    margin-bottom: 18px;
+  }
+
+  .addressee {
+    font-size: 10pt;
+    color: #222;
+    margin-bottom: 22px;
+    line-height: 1.55;
+  }
+
+  .body p {
+    margin-bottom: 16px;
+    font-size: 10.2pt;
+    line-height: 1.67;
+    color: #1c1c1c;
+  }
+
+  .body p.opener { font-size: 10.5pt; }
+
+  .highlight {
+    font-weight: 700;
+    color: #111;
+  }
+
+  .sign-off {
+    margin-top: 30px;
+    font-size: 10.2pt;
+  }
+
+  .sig-name {
+    font-size: 12pt;
+    font-weight: 800;
+    color: #111;
+    margin-top: 8px;
+    letter-spacing: -0.3px;
+  }
+
+  .sig-detail {
+    font-size: 8.5pt;
+    color: #1a7a45;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-top: 3px;
+  }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+  <div>
+    <div class="name">Vinay Gundamaneni</div>
+    <div class="sub">Senior Data Engineer &nbsp;·&nbsp; Python &nbsp;·&nbsp; dbt &nbsp;·&nbsp; Spark &nbsp;·&nbsp; GCP &nbsp;·&nbsp; Azure</div>
+  </div>
+  <div class="contact-right">
+    Vinay.g0228@gmail.com &nbsp;|&nbsp; 952-681-0361<br>
+    <a href="https://linkedin.com/in/vinay-gundamaneni">linkedin.com/in/vinay-gundamaneni</a><br>
+    Canadian Permanent Resident &mdash; Ontario Eligible
+  </div>
+</div>
+
+<div class="date-line">May 19, 2026</div>
+
+<div class="addressee">
+  Hiring Manager, Cost Engineering Data Team<br>
+  Spotify Technology S.A.<br>
+  Toronto, Ontario, Canada
+</div>
+
+<div class="body">
+
+  <p class="opener">
+    I'm applying for the <span class="highlight">Senior Data Engineer — Cost Platform</span> role at Spotify. Building reliable infrastructure for billing, cost-center, and usage analytics is the work I've been doing for twelve years — and this is one of the clearest fits I've come across.
+  </p>
+
+  <p>
+    At Total Quality Logistics I own pipelines for revenue, billing, and cost-center reporting across multiple business units. I designed the Medallion architecture (Bronze→Silver→Gold) in Delta Lake with enforced immutability, built the dbt transformation layer on Snowflake with full contract testing and SCD Type 2 tracking, and engineered Airflow DAG orchestration to replace brittle cron jobs with observable, dependency-aware workflows. The outputs power daily self-serve reporting for Operations and executive stakeholders — they trust the numbers without needing to involve engineering. That's the outcome Spotify's Cost Platform is built to produce, and it's what I've been accountable for delivering.
+  </p>
+
+  <p>
+    At Prime Healthcare I owned the auditability framework for billing and cost-per-department data under HIPAA — same correctness and traceability standards that cost and emissions reporting demands. At Cargill I built on <span class="highlight">GCP</span> (BigQuery, Dataflow, Pub/Sub) and Azure in parallel, integrating Oracle ERP, Hadoop, and SQL Server into a platform used by Procurement and Operations teams globally. I move comfortably between GCP and Azure and default to cloud-agnostic designs that don't create lock-in for the team inheriting them.
+  </p>
+
+  <p>
+    What draws me to Spotify specifically is the ownership model. I don't hand off pipelines — I own them end-to-end: reliability, observability, evolution, and the relationships with the Engineering and Business partners who depend on them. I've led org-wide migrations, set standards the whole data team adopted, and mentored engineers to build systems with genuine pride. That's how I work naturally, and it's what I understand Spotify expects from a senior engineer on this team.
+  </p>
+
+  <p>
+    I'd welcome the conversation. Happy to speak in depth about the Cost Platform's data architecture challenges and where I can contribute from day one.
+  </p>
+
+</div>
+
+<div class="sign-off">
+  Sincerely,
+  <div class="sig-name">Vinay Gundamaneni</div>
+  <div class="sig-detail">Senior Data Engineer &nbsp;·&nbsp; Canadian Permanent Resident</div>
+</div>
+
+</body>
+</html>

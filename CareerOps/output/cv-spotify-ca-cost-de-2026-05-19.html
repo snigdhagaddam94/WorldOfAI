@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  @page { size: letter; margin: 0; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 9.3pt;
+    line-height: 1.45;
+    color: #1a1a1a;
+    background: #fff;
+    display: flex;
+    min-height: 100vh;
+  }
+
+  /* ── LEFT SIDEBAR ──────────────────────────────── */
+  .sidebar {
+    width: 208px;
+    min-width: 208px;
+    background: #1b2330;
+    color: #d8dde8;
+    padding: 28px 18px 28px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+  }
+
+  .sb-name {
+    font-size: 19pt;
+    font-weight: 800;
+    color: #fff;
+    letter-spacing: -0.6px;
+    line-height: 1.1;
+  }
+
+  .sb-role {
+    font-size: 7.5pt;
+    font-weight: 700;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    color: #4ecb85;
+    margin-top: 6px;
+  }
+
+  .sb-divider {
+    height: 1px;
+    background: #2e3d54;
+    margin: 0;
+  }
+
+  .sb-section-label {
+    font-size: 6.8pt;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #4ecb85;
+    margin-bottom: 8px;
+  }
+
+  .sb-contact-item {
+    font-size: 8.2pt;
+    color: #b0bac9;
+    line-height: 1.85;
+  }
+  .sb-contact-item a { color: #b0bac9; text-decoration: none; }
+
+  .sb-skill-group { margin-bottom: 9px; }
+  .sb-skill-title {
+    font-size: 7.8pt;
+    font-weight: 700;
+    color: #d8dde8;
+    margin-bottom: 3px;
+  }
+  .sb-skill-list {
+    font-size: 7.9pt;
+    color: #96a3b5;
+    line-height: 1.7;
+  }
+
+  .sb-edu-deg {
+    font-size: 8.1pt;
+    font-weight: 700;
+    color: #d8dde8;
+    line-height: 1.4;
+  }
+  .sb-edu-school {
+    font-size: 7.7pt;
+    color: #96a3b5;
+    margin-top: 2px;
+  }
+  .sb-edu-year {
+    font-size: 7.5pt;
+    color: #6b7a90;
+    margin-top: 2px;
+  }
+
+  /* ── MAIN CONTENT ──────────────────────────────── */
+  .main {
+    flex: 1;
+    padding: 28px 26px 28px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .section-label {
+    font-size: 6.8pt;
+    font-weight: 800;
+    letter-spacing: 2.2px;
+    text-transform: uppercase;
+    color: #1b2330;
+    padding-bottom: 4px;
+    border-bottom: 1.5px solid #d0d7e2;
+    margin-bottom: 10px;
+  }
+
+  /* ── SUMMARY ──────────────────────────────────── */
+  .summary {
+    font-size: 9.4pt;
+    line-height: 1.58;
+    color: #2a2a2a;
+  }
+
+  /* ── JOB ──────────────────────────────────────── */
+  .job { margin-bottom: 12px; }
+  .job:last-child { margin-bottom: 0; }
+
+  .job-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 0px;
+  }
+
+  .job-title {
+    font-size: 9.8pt;
+    font-weight: 700;
+    color: #0f1923;
+  }
+
+  .job-date {
+    font-size: 8pt;
+    color: #7a8899;
+    font-style: italic;
+    white-space: nowrap;
+    margin-left: 8px;
+  }
+
+  .job-company {
+    font-size: 8.6pt;
+    font-weight: 600;
+    color: #2d7a52;
+    margin-bottom: 5px;
+    margin-top: 1px;
+  }
+
+  ul { margin-left: 12px; }
+  li {
+    font-size: 9.1pt;
+    margin-bottom: 2.5px;
+    line-height: 1.44;
+    color: #222;
+  }
+  li::marker { color: #4ecb85; }
+
+  .tech {
+    margin-top: 4px;
+    font-size: 7.9pt;
+    color: #7a8899;
+    font-style: italic;
+  }
+</style>
+</head>
+<body>
+
+<!-- SIDEBAR -->
+<div class="sidebar">
+
+  <div>
+    <div class="sb-name">Vinay<br>Gundamaneni</div>
+    <div class="sb-role">Senior Data Engineer</div>
+  </div>
+
+  <div class="sb-divider"></div>
+
+  <div>
+    <div class="sb-section-label">Contact</div>
+    <div class="sb-contact-item">
+      Vinay.g0228@gmail.com<br>
+      952-681-0361<br>
+      <a href="https://linkedin.com/in/vinay-gundamaneni">linkedin.com/in/<br>vinay-gundamaneni</a>
+    </div>
+  </div>
+
+  <div class="sb-divider"></div>
+
+  <div>
+    <div class="sb-section-label">Core Skills</div>
+
+    <div class="sb-skill-group">
+      <div class="sb-skill-title">Languages</div>
+      <div class="sb-skill-list">Python &nbsp;·&nbsp; SQL &nbsp;·&nbsp; PySpark &nbsp;·&nbsp; Bash</div>
+    </div>
+
+    <div class="sb-skill-group">
+      <div class="sb-skill-title">Data Stack</div>
+      <div class="sb-skill-list">dbt &nbsp;·&nbsp; Apache Spark &nbsp;·&nbsp; Delta Lake &nbsp;·&nbsp; Snowflake &nbsp;·&nbsp; Iceberg &nbsp;·&nbsp; BigQuery</div>
+    </div>
+
+    <div class="sb-skill-group">
+      <div class="sb-skill-title">Orchestration</div>
+      <div class="sb-skill-list">Airflow &nbsp;·&nbsp; GCP Cloud Composer &nbsp;·&nbsp; Azure Data Factory</div>
+    </div>
+
+    <div class="sb-skill-group">
+      <div class="sb-skill-title">Cloud</div>
+      <div class="sb-skill-list">GCP (BigQuery, Dataflow, Pub/Sub, Composer) &nbsp;·&nbsp; Azure (Databricks, Synapse, ADLS, ADF)</div>
+    </div>
+
+    <div class="sb-skill-group">
+      <div class="sb-skill-title">Streaming</div>
+      <div class="sb-skill-list">Spark Streaming &nbsp;·&nbsp; GCP Dataflow &nbsp;·&nbsp; Kafka &nbsp;·&nbsp; Pub/Sub</div>
+    </div>
+
+    <div class="sb-skill-group">
+      <div class="sb-skill-title">Reliability</div>
+      <div class="sb-skill-list">Data contracts &nbsp;·&nbsp; SLOs &nbsp;·&nbsp; Lineage tracking &nbsp;·&nbsp; Observability &nbsp;·&nbsp; CI/CD</div>
+    </div>
+
+    <div class="sb-skill-group">
+      <div class="sb-skill-title">Modeling</div>
+      <div class="sb-skill-list">Medallion architecture &nbsp;·&nbsp; SCD Type 2 &nbsp;·&nbsp; Dimensional modeling</div>
+    </div>
+  </div>
+
+  <div class="sb-divider"></div>
+
+  <div>
+    <div class="sb-section-label">Education</div>
+    <div class="sb-edu-deg">MBA — Information Technology Services &amp; Management</div>
+    <div class="sb-edu-school">Concordia University, MN</div>
+    <div class="sb-edu-year">2018</div>
+  </div>
+
+</div>
+
+<!-- MAIN -->
+<div class="main">
+
+  <!-- SUMMARY -->
+  <div>
+    <div class="section-label">Professional Summary</div>
+    <div class="summary">
+      Senior Data Engineer with 12+ years building production-critical data infrastructure at enterprise scale — specializing in billing, cost-center, and usage analytics pipelines that drive executive reporting and operational self-serve. Expert in Python, dbt, and Apache Spark across both GCP and Azure, with a cloud-agnostic approach that prioritizes reliability, full observability, and end-to-end ownership. Known for setting engineering standards, mentoring teams, and translating complex reporting requirements into scalable, well-governed data systems.
+    </div>
+  </div>
+
+  <!-- EXPERIENCE -->
+  <div>
+    <div class="section-label">Experience</div>
+
+    <!-- TQL -->
+    <div class="job">
+      <div class="job-top">
+        <div class="job-title">Senior Data Engineer</div>
+        <div class="job-date">Sep 2022 – Present &nbsp;|&nbsp; Remote</div>
+      </div>
+      <div class="job-company">Total Quality Logistics (TQL)</div>
+      <ul>
+        <li>Own end-to-end pipelines for revenue, billing, and cost-center analytics — delivering gold-layer datasets that Operations and executive teams use daily for trusted self-serve reporting.</li>
+        <li>Designed Medallion architecture (Bronze&rarr;Silver&rarr;Gold) in Delta Lake with enforced immutability — enabling point-in-time queries, full lineage, and audit-trail compliance across all production datasets.</li>
+        <li>Built dbt transformation layer on Snowflake for cost-center and revenue reporting: SCD Type 2 tracking, referential integrity tests, custom quality macros, and freshness monitoring.</li>
+        <li>Engineered Airflow DAG orchestration to replace brittle cron scheduling — introduced observable, retry-capable workflows with dependency management and full execution history.</li>
+        <li>Defined data engineering standards for the org: CI/CD via Azure DevOps, dbt Cloud CI, and automated quality gates that block breaking changes before they reach any downstream consumer.</li>
+        <li>Spearheaded org-wide migration to Apache Spark on Azure Databricks — built the proof-of-concept, secured leadership buy-in, and rolled out to production as the team's new engineering baseline.</li>
+        <li>Mentored engineers on modeling, pipeline reliability, and observability — raising technical quality across all analytical workloads.</li>
+      </ul>
+      <div class="tech">Python · PySpark · Spark · Snowflake · dbt · Airflow · Delta Lake · Azure Databricks · Azure DevOps · SQL</div>
+    </div>
+
+    <!-- Prime Healthcare -->
+    <div class="job">
+      <div class="job-top">
+        <div class="job-title">Data Engineering Lead</div>
+        <div class="job-date">Apr 2021 – Sep 2022 &nbsp;|&nbsp; Remote</div>
+      </div>
+      <div class="job-company">Prime Healthcare</div>
+      <ul>
+        <li>Designed and owned the data auditability framework for billing, accounts receivable, and cost-per-department analytics — serving Accounting and executive stakeholders under HIPAA-governed controls with full row-level traceability.</li>
+        <li>Built dbt models with SCD Type 2 for billing history and cost hierarchies — enabling period-over-period variance analysis with contract validation enforced before any dataset reached a reporting consumer.</li>
+        <li>Led a cross-departmental initiative across billing, clinical cost, and operations — owned data contract definitions, delivery milestones, and alignment across four business units.</li>
+        <li>Migrated legacy SQL Server/SSIS pipelines to Apache Spark on Azure Databricks, shifting from overnight batch to near real-time processing and enabling intraday visibility for the first time.</li>
+        <li>Built a self-serve analytics layer on GCP BigQuery and Azure Synapse with governed access controls — allowing Accounting and Operations to query trusted data independently.</li>
+      </ul>
+      <div class="tech">Python · Spark · PySpark · dbt · Azure Databricks · Delta Lake · Airflow · GCP BigQuery · Azure Synapse · SSIS · SQL Server</div>
+    </div>
+
+    <!-- Cargill -->
+    <div class="job">
+      <div class="job-top">
+        <div class="job-title">Senior Data Engineer — Supply Chain &amp; Analytics</div>
+        <div class="job-date">Apr 2019 – Apr 2021 &nbsp;|&nbsp; Minneapolis, MN</div>
+      </div>
+      <div class="job-company">Cognizant Technology Solutions &mdash; Client: Cargill Inc.</div>
+      <ul>
+        <li>Built pipelines on GCP (BigQuery, Dataflow, Pub/Sub) and Azure integrating Oracle ERP, Hadoop, and SQL Server into a unified analytics platform — serving Procurement and Operations globally with cost-center, purchase order, and vendor payment data.</li>
+        <li>Designed a dimensional data warehouse with SCD Type 2 for vendor hierarchies, cost center histories, and PO lifecycle — enabling accurate period-over-period comparisons across global markets.</li>
+        <li>Built Airflow DAG orchestration for multi-step workflows spanning global source systems, with dependency management, retry logic, alerting, and full execution audit logs.</li>
+        <li>Mentored engineering teams across NA and APAC on modeling and pipeline reliability — driving consistent data quality across Oracle, Hadoop, and GCP-sourced datasets.</li>
+      </ul>
+      <div class="tech">GCP BigQuery · GCP Dataflow · Pub/Sub · Python · Spark · Airflow · dbt · Oracle ERP · Hadoop · Azure Data Factory · SCD Type 2</div>
+    </div>
+
+    <!-- Primera -->
+    <div class="job">
+      <div class="job-top">
+        <div class="job-title">Data Engineer</div>
+        <div class="job-date">Mar 2016 – Dec 2017 &nbsp;|&nbsp; Hyderabad, India</div>
+      </div>
+      <div class="job-company">Primera Medical Technologies</div>
+      <ul>
+        <li>Built ELT pipelines for EHR data extraction (billing, revenue cycle) from Meditech and Epic Clarity, feeding auditable reporting systems with HIPAA-compliant access controls.</li>
+        <li>Designed a self-serve Power BI layer with row-level security, enabling clinical and operations teams to access trusted datasets independently.</li>
+      </ul>
+      <div class="tech">SQL Server · Python · SSIS · Power BI · Meditech · Epic Clarity</div>
+    </div>
+
+    <!-- Porvus -->
+    <div class="job">
+      <div class="job-top">
+        <div class="job-title">Business Intelligence &amp; Data Engineer</div>
+        <div class="job-date">Aug 2012 – Feb 2016 &nbsp;|&nbsp; Hyderabad, India</div>
+      </div>
+      <div class="job-company">Porvus Tech Solutions</div>
+      <ul>
+        <li>Developed SSIS ETL pipelines, SSRS reports, and SSAS dimensional models for healthcare and enterprise clients — data warehouse design, performance tuning, and stakeholder BI delivery.</li>
+      </ul>
+      <div class="tech">SQL Server · SSIS · SSRS · SSAS · dimensional modeling</div>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
