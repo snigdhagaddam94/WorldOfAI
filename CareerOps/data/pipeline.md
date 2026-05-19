@@ -113,3 +113,7 @@
 - [ ] https://www.konrad.com/careers/job/7704325003?gh_jid=7704325003 | Konrad Group | Data Architect
 - [ ] https://www.konrad.com/careers/job/7530792003?gh_jid=7530792003 | Konrad Group | Data Engineer
 - [ ] https://www.konrad.com/careers/job/7530800003?gh_jid=7530800003 | Konrad Group | Senior Data Engineer
+
+- [ ] https://instacart.careers/job/?gh_jid=7658241 | Instacart | Ads AI Analytics Lead II
+- [ ] https://www.konrad.com/careers/job/6607609003?gh_jid=6607609003 | Konrad Group | Data Engineer
+- [ ] https://www.konrad.com/careers/job/6607599003?gh_jid=6607599003 | Konrad Group | Senior Data Engineer

@@ -219,14 +219,16 @@ tracked_companies:
     enabled: true
 
   - name: Netflix
-    careers_url: https://job-boards.greenhouse.io/netflix
-    api: https://boards-api.greenhouse.io/v1/boards/netflix/jobs
+    careers_url: https://jobs.netflix.com
+    scan_method: websearch
+    scan_query: 'site:jobs.netflix.com "Senior Data Engineer" OR "Data Engineering Manager" OR "Staff Data Engineer" remote'
     notes: "Remote US. Greenhouse. Strong H1B sponsor. World-class data culture (Spark, Iceberg)."
     enabled: true
 
   - name: Uber
-    careers_url: https://job-boards.greenhouse.io/uber
-    api: https://boards-api.greenhouse.io/v1/boards/uber/jobs
+    careers_url: https://www.uber.com/us/en/careers
+    scan_method: websearch
+    scan_query: 'site:uber.com "Senior Data Engineer" OR "Data Engineering Manager" OR "Staff Data Engineer" remote'
     notes: "Remote US. Greenhouse. Strong H1B sponsor. Presto, Flink, data platform at scale."
     enabled: true
 
@@ -305,8 +307,9 @@ tracked_companies:
     enabled: true
 
   - name: Capital One
-    careers_url: https://job-boards.greenhouse.io/capitalone
-    api: https://boards-api.greenhouse.io/v1/boards/capitalone/jobs
+    careers_url: https://www.capitalonecareers.com
+    scan_method: websearch
+    scan_query: 'site:capitalonecareers.com "Senior Data Engineer" OR "Data Engineering Manager" OR "Data Platform" remote'
     notes: "Remote US. Greenhouse. Top H1B sponsor. Tech-first bank with huge data platform."
     enabled: true
 
@@ -401,8 +404,9 @@ tracked_companies:
     enabled: true
 
   - name: Snowflake
-    careers_url: https://job-boards.greenhouse.io/snowflake
-    api: https://boards-api.greenhouse.io/v1/boards/snowflake/jobs
+    careers_url: https://careers.snowflake.com
+    scan_method: websearch
+    scan_query: 'site:careers.snowflake.com "Senior Data Engineer" OR "Data Engineering Manager" OR "Principal Data Engineer" remote'
     notes: "Remote US. Greenhouse. Strong H1B sponsor. Cloud data warehouse."
     enabled: true
 
@@ -423,8 +427,9 @@ tracked_companies:
     enabled: true
 
   - name: DoorDash
-    careers_url: https://job-boards.greenhouse.io/doordash
-    api: https://boards-api.greenhouse.io/v1/boards/doordash/jobs
+    careers_url: https://careers.doordash.com
+    scan_method: websearch
+    scan_query: 'site:careers.doordash.com "Senior Data Engineer" OR "Data Engineering Manager" OR "Data Platform" remote'
     notes: "Remote US. Greenhouse. Strong H1B sponsor. Large data engineering org."
     enabled: true
 
@@ -441,8 +446,9 @@ tracked_companies:
     enabled: true
 
   - name: Wayfair
-    careers_url: https://job-boards.greenhouse.io/wayfair
-    api: https://boards-api.greenhouse.io/v1/boards/wayfair/jobs
+    careers_url: https://www.aboutwayfair.com/careers
+    scan_method: websearch
+    scan_query: 'site:aboutwayfair.com "Senior Data Engineer" OR "Data Engineering Manager" OR "Data Platform" remote'
     notes: "Boston / Remote US. Greenhouse. Strong H1B sponsor. Large data platform team."
     enabled: true
 
@@ -453,8 +459,9 @@ tracked_companies:
     enabled: true
 
   - name: Robinhood
-    careers_url: https://job-boards.greenhouse.io/robinhoodmarkets
-    api: https://boards-api.greenhouse.io/v1/boards/robinhoodmarkets/jobs
+    careers_url: https://careers.robinhood.com
+    scan_method: websearch
+    scan_query: 'site:careers.robinhood.com "Senior Data Engineer" OR "Data Engineering" OR "Analytics Engineer" remote'
     notes: "Remote US. Greenhouse. H1B sponsor. Fintech data platform."
     enabled: true
 
@@ -465,8 +472,9 @@ tracked_companies:
     enabled: true
 
   - name: Plaid
-    careers_url: https://job-boards.greenhouse.io/plaid
-    api: https://boards-api.greenhouse.io/v1/boards/plaid/jobs
+    careers_url: https://plaid.com/careers
+    scan_method: websearch
+    scan_query: 'site:plaid.com/careers "Senior Data Engineer" OR "Data Engineering" OR "Analytics Engineer" remote'
     notes: "Remote US. Greenhouse. H1B sponsor. Fintech data infrastructure."
     enabled: true
 
@@ -507,26 +515,30 @@ tracked_companies:
     enabled: true
 
   - name: Confluent
-    careers_url: https://job-boards.greenhouse.io/confluent
-    api: https://boards-api.greenhouse.io/v1/boards/confluent/jobs
+    careers_url: https://careers.confluent.io
+    scan_method: websearch
+    scan_query: 'site:careers.confluent.io "Senior Data Engineer" OR "Data Engineering" OR "Streaming Data" remote'
     notes: "Remote US. Greenhouse. H1B sponsor. Managed Kafka. Streaming data platform."
     enabled: true
 
   - name: Veeva Systems
-    careers_url: https://job-boards.greenhouse.io/veeva
-    api: https://boards-api.greenhouse.io/v1/boards/veeva/jobs
+    careers_url: https://careers.veeva.com
+    scan_method: websearch
+    scan_query: 'site:careers.veeva.com "Senior Data Engineer" OR "Data Engineering" OR "Analytics Engineer" remote'
     notes: "Remote US. Greenhouse. H1B sponsor. Life sciences cloud. Healthcare data."
     enabled: true
 
   - name: Informatica
-    careers_url: https://job-boards.greenhouse.io/informatica
-    api: https://boards-api.greenhouse.io/v1/boards/informatica/jobs
+    careers_url: https://www.informatica.com/about-us/careers.html
+    scan_method: websearch
+    scan_query: 'site:informatica.com "Senior Data Engineer" OR "Data Engineering Manager" OR "Data Architect" remote'
     notes: "Redwood City CA / Remote. Greenhouse. Strong H1B sponsor. Enterprise data management."
     enabled: true
 
   - name: ThoughtSpot
-    careers_url: https://job-boards.greenhouse.io/thoughtspot
-    api: https://boards-api.greenhouse.io/v1/boards/thoughtspot/jobs
+    careers_url: https://www.thoughtspot.com/careers
+    scan_method: websearch
+    scan_query: 'site:thoughtspot.com "Senior Data Engineer" OR "Data Engineering" OR "Analytics Engineer" remote'
     notes: "Remote US. Greenhouse. H1B sponsor. AI-powered analytics."
     enabled: true
 
@@ -541,8 +553,9 @@ tracked_companies:
     enabled: true
 
   - name: dbt Labs
-    careers_url: https://job-boards.greenhouse.io/dbtlabs
-    api: https://boards-api.greenhouse.io/v1/boards/dbtlabs/jobs
+    careers_url: https://www.getdbt.com/dbt-labs/jobs
+    scan_method: websearch
+    scan_query: 'site:getdbt.com "Data Engineer" OR "Analytics Engineer" OR "Data Platform" remote'
     notes: "Remote US. Greenhouse. H1B sponsor. dbt — the analytics engineering standard."
     enabled: true
 
@@ -552,8 +565,9 @@ tracked_companies:
     enabled: true
 
   - name: Monte Carlo
-    careers_url: https://job-boards.greenhouse.io/montecarlodata
-    api: https://boards-api.greenhouse.io/v1/boards/montecarlodata/jobs
+    careers_url: https://www.montecarlodata.com/careers
+    scan_method: websearch
+    scan_query: 'site:montecarlodata.com "Senior Data Engineer" OR "Data Engineering" OR "Analytics Engineer" remote'
     notes: "Remote US. Greenhouse. H1B sponsor. Data observability and reliability."
     enabled: true
 
@@ -564,14 +578,16 @@ tracked_companies:
     enabled: true
 
   - name: Astronomer
-    careers_url: https://job-boards.greenhouse.io/astronomer
-    api: https://boards-api.greenhouse.io/v1/boards/astronomer/jobs
+    careers_url: https://www.astronomer.io/careers
+    scan_method: websearch
+    scan_query: 'site:astronomer.io "Senior Data Engineer" OR "Data Engineering" OR "Airflow" remote'
     notes: "Remote US. Greenhouse. H1B sponsor. Managed Apache Airflow platform."
     enabled: true
 
   - name: Talend
-    careers_url: https://job-boards.greenhouse.io/talend
-    api: https://boards-api.greenhouse.io/v1/boards/talend/jobs
+    careers_url: https://www.talend.com/company/careers
+    scan_method: websearch
+    scan_query: 'site:talend.com "Senior Data Engineer" OR "Data Engineering" OR "Data Integration" remote'
     notes: "Remote US. Greenhouse. H1B sponsor. Data integration and integrity."
     enabled: true
 
@@ -582,8 +598,9 @@ tracked_companies:
     enabled: true
 
   - name: Dagster
-    careers_url: https://job-boards.greenhouse.io/dagster
-    api: https://boards-api.greenhouse.io/v1/boards/dagster/jobs
+    careers_url: https://dagster.io/careers
+    scan_method: websearch
+    scan_query: 'site:dagster.io "Senior Data Engineer" OR "Data Engineering" OR "Data Platform" remote'
     notes: "SF / Remote US. Greenhouse. H1B sponsor. Data orchestration platform."
     enabled: true
 
@@ -605,8 +622,9 @@ tracked_companies:
     enabled: true
 
   - name: Anomalo
-    careers_url: https://job-boards.greenhouse.io/anomalo
-    api: https://boards-api.greenhouse.io/v1/boards/anomalo/jobs
+    careers_url: https://www.anomalo.com/about/careers
+    scan_method: websearch
+    scan_query: 'site:anomalo.com "Senior Data Engineer" OR "Data Engineering" OR "Analytics Engineer" remote'
     notes: "Remote US. Greenhouse. H1B sponsor. Data quality monitoring."
     enabled: true
 
@@ -617,8 +635,9 @@ tracked_companies:
     enabled: true
 
   - name: OpenAI
-    careers_url: https://job-boards.greenhouse.io/openai
-    api: https://boards-api.greenhouse.io/v1/boards/openai/jobs
+    careers_url: https://openai.com/careers
+    scan_method: websearch
+    scan_query: 'site:openai.com/careers "Senior Data Engineer" OR "Data Engineering" OR "Data Infrastructure" remote'
     notes: "SF / Remote US. Greenhouse. H1B sponsor. Data engineering and infrastructure."
     enabled: true
 
@@ -669,8 +688,9 @@ tracked_companies:
     enabled: true
 
   - name: Cohere
-    careers_url: https://job-boards.greenhouse.io/cohere
-    api: https://boards-api.greenhouse.io/v1/boards/cohere/jobs
+    careers_url: https://cohere.com/careers
+    scan_method: websearch
+    scan_query: 'site:cohere.com/careers "Senior Data Engineer" OR "Data Engineering" OR "Data Infrastructure" Canada OR remote'
     notes: "Remote US. Greenhouse. H1B sponsor. Enterprise LLM. Data infrastructure roles."
     enabled: true
 
@@ -698,44 +718,51 @@ tracked_companies:
   # -- Canadian Tech Companies --
 
   - name: Shopify
-    careers_url: https://job-boards.greenhouse.io/shopify
-    api: https://boards-api.greenhouse.io/v1/boards/shopify/jobs
+    careers_url: https://www.shopify.com/careers
+    scan_method: websearch
+    scan_query: 'site:shopify.com/careers "Senior Data Engineer" OR "Data Engineering" OR "Analytics Engineer" remote Canada'
     notes: "Remote Canada. Greenhouse. Canada's largest tech employer. Strong data engineering org — dbt, Spark, Kafka at scale."
     enabled: true
 
   - name: Wealthsimple
-    careers_url: https://job-boards.greenhouse.io/wealthsimple
-    api: https://boards-api.greenhouse.io/v1/boards/wealthsimple/jobs
+    careers_url: https://jobs.lever.co/wealthsimple
+    scan_method: websearch
+    scan_query: 'site:jobs.lever.co/wealthsimple "Data Engineer" OR "Analytics Engineer" OR "Data Platform"'
     notes: "Remote Canada. Greenhouse. Fintech. Modern data stack (dbt, Snowflake, Airflow). Great data engineering culture."
     enabled: true
 
   - name: Clio
-    careers_url: https://job-boards.greenhouse.io/clio
-    api: https://boards-api.greenhouse.io/v1/boards/clio/jobs
+    careers_url: https://jobs.lever.co/cliolaw
+    scan_method: websearch
+    scan_query: 'site:jobs.lever.co/cliolaw "Data Engineer" OR "Analytics Engineer" OR "Data Platform"'
     notes: "Remote Canada. Greenhouse. Legal tech SaaS. Strong data engineering team. Snowflake + dbt stack."
     enabled: true
 
   - name: Coveo
-    careers_url: https://job-boards.greenhouse.io/coveo
-    api: https://boards-api.greenhouse.io/v1/boards/coveo/jobs
+    careers_url: https://www.coveo.com/en/company/careers
+    scan_method: websearch
+    scan_query: 'site:coveo.com "Data Engineer" OR "Analytics Engineer" OR "Data Platform" careers'
     notes: "Remote Canada (Quebec City / Montreal). Greenhouse. AI-powered search. Data platform roles."
     enabled: true
 
   - name: Lightspeed Commerce
-    careers_url: https://job-boards.greenhouse.io/lightspeedcommerce
-    api: https://boards-api.greenhouse.io/v1/boards/lightspeedcommerce/jobs
+    careers_url: https://www.lightspeedhq.com/careers
+    scan_method: websearch
+    scan_query: 'site:lightspeedhq.com "Data Engineer" OR "Analytics Engineer" OR "Data Platform" Canada remote'
     notes: "Remote Canada (Montreal HQ). Greenhouse. Commerce platform. Strong analytics data engineering team."
     enabled: true
 
   - name: PointClickCare
-    careers_url: https://job-boards.greenhouse.io/pointclickcare
-    api: https://boards-api.greenhouse.io/v1/boards/pointclickcare/jobs
+    careers_url: https://pointclickcare.com/about/careers
+    scan_method: websearch
+    scan_query: 'site:pointclickcare.com "Senior Data Engineer" OR "Data Engineering" OR "Analytics Engineer" careers remote'
     notes: "Remote Canada (Mississauga ON). Greenhouse. Healthcare data SaaS. Maps to Prime Healthcare background."
     enabled: true
 
   - name: Vidyard
-    careers_url: https://job-boards.greenhouse.io/vidyard
-    api: https://boards-api.greenhouse.io/v1/boards/vidyard/jobs
+    careers_url: https://www.vidyard.com/careers
+    scan_method: websearch
+    scan_query: 'site:vidyard.com/careers "Data Engineer" OR "Analytics Engineer" OR "Data Platform"'
     notes: "Remote Canada (Kitchener ON). Greenhouse. Video platform SaaS. Data engineering roles."
     enabled: true
 
@@ -764,14 +791,16 @@ tracked_companies:
     enabled: true
 
   - name: League
-    careers_url: https://job-boards.greenhouse.io/league
-    api: https://boards-api.greenhouse.io/v1/boards/league/jobs
+    careers_url: https://league.com/careers
+    scan_method: websearch
+    scan_query: 'site:league.com/careers "Data Engineer" OR "Analytics Engineer" OR "Data Platform" remote Canada'
     notes: "Remote Canada (Toronto). Greenhouse. Digital health platform. Healthcare data — maps to Prime Healthcare background."
     enabled: true
 
   - name: Miovision
-    careers_url: https://job-boards.greenhouse.io/miovision
-    api: https://boards-api.greenhouse.io/v1/boards/miovision/jobs
+    careers_url: https://miovision.com/company/careers
+    scan_method: websearch
+    scan_query: 'site:miovision.com "Data Engineer" OR "Analytics Engineer" OR "Data Platform" careers'
     notes: "Remote Canada (Kitchener ON). Greenhouse. Smart city / traffic data. Data engineering roles."
     enabled: true
 
@@ -781,34 +810,40 @@ tracked_companies:
     enabled: true
 
   - name: Clearco
-    careers_url: https://job-boards.greenhouse.io/clearco
-    api: https://boards-api.greenhouse.io/v1/boards/clearco/jobs
+    careers_url: https://clearco.com/careers
+    scan_method: websearch
+    scan_query: 'site:clearco.com "Data Engineer" OR "Analytics Engineer" OR "Data Platform" careers'
     notes: "Remote Canada (Toronto). Greenhouse. Fintech revenue-based financing. Financial data engineering."
     enabled: true
 
   - name: ApplyBoard
-    careers_url: https://job-boards.greenhouse.io/applyboard
-    api: https://boards-api.greenhouse.io/v1/boards/applyboard/jobs
+    careers_url: https://www.applyboard.com/careers
+    scan_method: websearch
+    scan_query: 'site:applyboard.com/careers "Data Engineer" OR "Analytics Engineer" OR "Data Platform"'
     notes: "Remote Canada (Kitchener ON). Greenhouse. EdTech platform. Data engineering team."
     enabled: true
 
   - name: Ada
-    careers_url: https://job-boards.greenhouse.io/ada
-    api: https://boards-api.greenhouse.io/v1/boards/ada/jobs
+    careers_url: https://jobs.lever.co/ada
+    scan_method: websearch
+    scan_query: 'site:jobs.lever.co/ada "Data Engineer" OR "Analytics Engineer" OR "Data Platform"'
     notes: "Remote Canada (Toronto). Greenhouse. AI customer service platform. Data engineering."
     enabled: true
 
   # -- Canadian Financial Institutions (large data engineering orgs) --
 
   - name: Wealthsimple Tax (SimpleTax)
-    careers_url: https://job-boards.greenhouse.io/simpletax
-    api: https://boards-api.greenhouse.io/v1/boards/simpletax/jobs
+    careers_url: https://jobs.lever.co/wealthsimple
+    scan_method: websearch
+    scan_query: 'site:jobs.lever.co/wealthsimple "Data Engineer" OR "Analytics Engineer" tax'
+    enabled: false
     notes: "Remote Canada. Greenhouse. Tax platform. Financial data engineering."
     enabled: true
 
   - name: EQ Bank (Equitable Bank)
-    careers_url: https://job-boards.greenhouse.io/equitablebank
-    api: https://boards-api.greenhouse.io/v1/boards/equitablebank/jobs
+    careers_url: https://equitablebank.com/about-us/careers
+    scan_method: websearch
+    scan_query: 'site:equitablebank.com "Data Engineer" OR "Analytics Engineer" OR "Data Platform" careers'
     notes: "Remote Canada (Toronto). Greenhouse. Digital bank. Financial data engineering."
     enabled: true
 

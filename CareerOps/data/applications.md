@@ -2,6 +2,7 @@
 
 | # | Date | Company | Role | Score | Status | PDF | Report | Notes |
 |---|------|---------|------|-------|--------|-----|--------|-------|
+| 178 | 2026-05-19 | Instacart | Ads AI Analytics Lead II | 2.3/5 | Evaluated | ❌ | [178](reports/178-instacart-ca-ads-2026-05-19.md) | 🇨🇦 DO NOT APPLY — 40-148K CAD below 70K floor; ads domain + AI/agent gap |
 | 3 | 2026-05-19 | Anthropic | Engineering Manager, Safeguards Data Infrastructure | 4.2/5 | Evaluated | ❌ | [169](reports/169-anthropic-2026-05-19.md) | STRETCH APPLY — $405-485K, confirmed H1B sponsor, HIPAA expertise matches Safeguards mission |
 | 4 | 2026-05-19 | Twilio | Principal ML & Data Engineer L5 | 3.4/5 | Evaluated | ❌ | [170](reports/170-twilio-2026-05-19.md) | Do not apply — AWS+MLOps gaps structural at Principal level |
 | 5 | 2026-05-19 | Affirm | Analytics Manager Consumer Analytics | 3.2/5 | Evaluated | ❌ | [171](reports/171-affirm-2026-05-19.md) | Do not apply — consumer analytics domain + mgmt exp gaps despite excellent comp |
