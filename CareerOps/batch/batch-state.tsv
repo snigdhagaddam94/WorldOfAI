@@ -29,8 +29,8 @@ id	url	status	started_at	completed_at	report_num	score	error	retries
 28	https://job-boards.greenhouse.io/affirm/jobs/7713579003	completed	2026-05-07T16:09:36Z	2026-05-07T16:09:37Z	171	3.2	Credit balance is too low 	2
 29	https://job-boards.greenhouse.io/affirm/jobs/7704631003	skipped	2026-05-07T16:09:38Z	2026-05-07T16:09:40Z	111	-	credit-risk-domain-mismatch-2.8	2
 30	https://job-boards.greenhouse.io/affirm/jobs/7532268003	skipped	2026-05-07T16:09:39Z	2026-05-07T16:09:40Z	112	-	geography-UK	2
-31	https://job-boards.greenhouse.io/affirm/jobs/7715407003	skipped	2026-05-07T16:09:41Z	2026-05-07T16:09:43Z	114	-	dbt-snowflake-finance-hard-gaps-2.8-CA	2
-32	https://job-boards.greenhouse.io/affirm/jobs/7715405003	skipped	2026-05-07T16:09:41Z	2026-05-07T16:09:43Z	113	-	dbt-snowflake-finance-hard-gaps-2.8-US	2
+31	https://job-boards.greenhouse.io/affirm/jobs/7715407003	completed	2026-05-07T16:09:41Z	2026-05-07T16:09:43Z	172	3.5		2
+32	https://job-boards.greenhouse.io/affirm/jobs/7715405003	completed	2026-05-07T16:09:41Z	2026-05-07T16:09:43Z	173	3.6		2
 33	https://app.careerpuck.com/job-board/lyft/job/8477563002?gh_jid=8477563002	skipped	2026-05-07T16:09:44Z	2026-05-07T16:09:46Z	115	-	analytics-IC-not-DE-2.5	2
 34	https://app.careerpuck.com/job-board/lyft/job/8367674002?gh_jid=8367674002	skipped	2026-05-07T16:09:44Z	2026-05-07T16:09:46Z	116	-	analytics-IC-not-DE-2.5	2
 35	https://app.careerpuck.com/job-board/lyft/job/8503985002?gh_jid=8503985002	skipped	2026-05-07T16:09:47Z	2026-05-07T16:09:49Z	118	-	analytics-IC-not-DE-2.5	2
@@ -53,40 +53,40 @@ id	url	status	started_at	completed_at	report_num	score	error	retries
 52	https://jobs.dropbox.com/listing/7739553?gh_jid=7739553	skipped	2026-05-07T16:10:11Z	2026-05-07T16:10:13Z	134	-	geography-Mexico	2
 53	https://jobs.dropbox.com/listing/7739574?gh_jid=7739574	skipped	2026-05-07T16:10:14Z	2026-05-07T16:10:16Z	135	-	job-404-closed	2
 54	https://jobs.dropbox.com/listing/7739568?gh_jid=7739568	skipped	2026-05-07T16:10:14Z	2026-05-07T16:10:16Z	136	-	geography-Mexico	2
-55	https://jobs.dropbox.com/listing/7595183?gh_jid=7595183	failed	2026-05-07T16:10:17Z	2026-05-07T16:10:19Z	138	-	Credit balance is too low 	2
-56	https://jobs.dropbox.com/listing/7739571?gh_jid=7739571	failed	2026-05-07T16:10:17Z	2026-05-07T16:10:19Z	137	-	Credit balance is too low 	2
-57	https://jobs.dropbox.com/listing/7595186?gh_jid=7595186	failed	2026-05-07T16:10:20Z	2026-05-07T16:10:22Z	140	-	Credit balance is too low 	2
-58	https://www.okta.com/company/careers/opportunity/6856431?gh_jid=6856431	failed	2026-05-07T16:10:20Z	2026-05-07T16:10:22Z	139	-	Credit balance is too low 	2
-59	https://www.okta.com/company/careers/opportunity/7615384?gh_jid=7615384	failed	2026-05-07T16:10:24Z	2026-05-07T16:10:25Z	141	-	Credit balance is too low 	2
-60	https://www.okta.com/company/careers/opportunity/7818510?gh_jid=7818510	failed	2026-05-07T16:10:24Z	2026-05-07T16:10:25Z	142	-	Credit balance is too low 	2
-61	https://www.okta.com/company/careers/opportunity/7572029?gh_jid=7572029	failed	2026-05-07T16:10:27Z	2026-05-07T16:10:28Z	144	-	Credit balance is too low 	2
-62	https://www.okta.com/company/careers/opportunity/7874907?gh_jid=7874907	failed	2026-05-07T16:10:27Z	2026-05-07T16:10:28Z	143	-	Credit balance is too low 	2
-63	https://www.okta.com/company/careers/opportunity/7633454?gh_jid=7633454	failed	2026-05-07T16:10:30Z	2026-05-07T16:10:31Z	145	-	Credit balance is too low 	2
-64	https://www.okta.com/company/careers/opportunity/7674814?gh_jid=7674814	failed	2026-05-07T16:10:30Z	2026-05-07T16:10:31Z	146	-	Credit balance is too low 	2
-65	https://www.okta.com/company/careers/opportunity/7572037?gh_jid=7572037	failed	2026-05-07T16:10:33Z	2026-05-07T16:10:34Z	147	-	Credit balance is too low 	2
-66	https://www.fivetran.com/careers/job?gh_jid=6666499003	failed	2026-05-07T16:10:33Z	2026-05-07T16:10:34Z	148	-	Credit balance is too low 	2
-67	https://www.fivetran.com/careers/job?gh_jid=7644168003	failed	2026-05-07T16:10:36Z	2026-05-07T16:10:37Z	150	-	Credit balance is too low 	2
-68	https://www.fivetran.com/careers/job?gh_jid=7694977003	failed	2026-05-07T16:10:36Z	2026-05-07T16:10:37Z	149	-	Credit balance is too low 	2
-69	https://www.fivetran.com/careers/job?gh_jid=6648720003	failed	2026-05-07T16:10:39Z	2026-05-07T16:10:40Z	151	-	Credit balance is too low 	2
-70	https://www.fivetran.com/careers/job?gh_jid=7487101003	failed	2026-05-07T16:10:39Z	2026-05-07T16:10:40Z	152	-	Credit balance is too low 	2
-71	https://job-boards.greenhouse.io/project44/jobs/7681532	failed	2026-05-07T16:10:42Z	2026-05-07T16:10:43Z	154	-	Credit balance is too low 	2
-72	https://job-boards.greenhouse.io/project44/jobs/7758046	failed	2026-05-07T16:10:42Z	2026-05-07T16:10:43Z	153	-	Credit balance is too low 	2
-73	https://jobs.lever.co/spotify/66492688-d5b0-4cf8-b1a4-4a715157edd9	failed	2026-05-07T16:10:45Z	2026-05-07T16:10:46Z	155	-	Credit balance is too low 	2
-74	https://jobs.lever.co/spotify/db6450c7-5017-4aa5-8a64-52e39f1ed525	failed	2026-05-07T16:10:45Z	2026-05-07T16:10:46Z	156	-	Credit balance is too low 	2
-75	https://jobs.lever.co/spotify/baa87498-b0a3-4ac5-b197-a224e93c8a07	failed	2026-05-07T16:10:48Z	2026-05-07T16:10:49Z	158	-	Credit balance is too low 	2
-76	https://jobs.lever.co/spotify/87ac8be9-799d-414f-b855-70a1cf2729b4	failed	2026-05-07T16:10:48Z	2026-05-07T16:10:49Z	157	-	Credit balance is too low 	2
-77	https://jobs.lever.co/spotify/4303f795-d0a5-41ed-8c78-0941780b6e54	failed	2026-05-07T16:10:51Z	2026-05-07T16:10:52Z	159	-	Credit balance is too low 	2
-78	https://jobs.lever.co/spotify/5d36b6f4-e89d-4a01-985c-59a184080440	failed	2026-05-07T16:10:51Z	2026-05-07T16:10:52Z	160	-	Credit balance is too low 	2
-79	https://jobs.lever.co/spotify/48e5f3e3-2a32-4088-bb61-684202899d1c	failed	2026-05-07T16:10:54Z	2026-05-07T16:10:55Z	162	-	Credit balance is too low 	2
-80	https://jobs.lever.co/spotify/6fe64020-9ec1-4aed-a15c-1c32dcda6248	failed	2026-05-07T16:10:54Z	2026-05-07T16:10:55Z	161	-	Credit balance is too low 	2
-81	https://www.brex.com/careers/8430182002?gh_jid=8430182002	failed	2026-05-07T16:10:57Z	2026-05-07T16:10:58Z	163	-	Credit balance is too low 	2
-82	https://www.fivetran.com/careers/job?gh_jid=7549451003	failed	2026-05-07T16:10:57Z	2026-05-07T16:10:58Z	164	-	Credit balance is too low 	2
-83	https://instacart.careers/job/?gh_jid=7872360	failed	2026-05-08T15:27:53Z	2026-05-08T15:27:55Z	166	-	Credit balance is too low 	2
+55	https://jobs.dropbox.com/listing/7595183?gh_jid=7595183	completed	2026-05-07T16:10:17Z	2026-05-07T16:10:19Z	174	4.1		2
+56	https://jobs.dropbox.com/listing/7739571?gh_jid=7739571	skipped	2026-05-07T16:10:17Z	2026-05-07T16:10:19Z	137	-	job-404-closed	2
+57	https://jobs.dropbox.com/listing/7595186?gh_jid=7595186	completed	2026-05-07T16:10:20Z	2026-05-07T16:10:22Z	175	4.4		2
+58	https://www.okta.com/company/careers/opportunity/6856431?gh_jid=6856431	skipped	2026-05-07T16:10:20Z	2026-05-07T16:10:22Z	139	-	geography-India	2
+59	https://www.okta.com/company/careers/opportunity/7615384?gh_jid=7615384	skipped	2026-05-07T16:10:24Z	2026-05-07T16:10:25Z	141	-	sponsorship-blocker-FedRAMP-US-person-required	2
+60	https://www.okta.com/company/careers/opportunity/7818510?gh_jid=7818510	skipped	2026-05-07T16:10:24Z	2026-05-07T16:10:25Z	142	-	comp-too-low-118-182K-plus-dbt-snowflake-gaps	2
+61	https://www.okta.com/company/careers/opportunity/7572029?gh_jid=7572029	skipped	2026-05-07T16:10:27Z	2026-05-07T16:10:28Z	144	-	geography-India	2
+62	https://www.okta.com/company/careers/opportunity/7874907?gh_jid=7874907	skipped	2026-05-07T16:10:27Z	2026-05-07T16:10:28Z	143	-	sponsorship-blocker-citizen-GC-required	2
+63	https://www.okta.com/company/careers/opportunity/7633454?gh_jid=7633454	skipped	2026-05-07T16:10:30Z	2026-05-07T16:10:31Z	145	-	geography-India	2
+64	https://www.okta.com/company/careers/opportunity/7674814?gh_jid=7674814	skipped	2026-05-07T16:10:30Z	2026-05-07T16:10:31Z	146	-	sponsorship-blocker-US-person-FedRAMP	2
+65	https://www.okta.com/company/careers/opportunity/7572037?gh_jid=7572037	skipped	2026-05-07T16:10:33Z	2026-05-07T16:10:34Z	147	-	geography-India	2
+66	https://www.fivetran.com/careers/job?gh_jid=6666499003	skipped	2026-05-07T16:10:33Z	2026-05-07T16:10:34Z	148	-	page-unavailable-JS-template	2
+67	https://www.fivetran.com/careers/job?gh_jid=7644168003	skipped	2026-05-07T16:10:36Z	2026-05-07T16:10:37Z	150	-	page-unavailable-JS-template	2
+68	https://www.fivetran.com/careers/job?gh_jid=7694977003	skipped	2026-05-07T16:10:36Z	2026-05-07T16:10:37Z	149	-	page-unavailable-JS-template	2
+69	https://www.fivetran.com/careers/job?gh_jid=6648720003	skipped	2026-05-07T16:10:39Z	2026-05-07T16:10:40Z	151	-	page-unavailable-JS-template	2
+70	https://www.fivetran.com/careers/job?gh_jid=7487101003	skipped	2026-05-07T16:10:39Z	2026-05-07T16:10:40Z	152	-	page-unavailable-fivetran-JS-template	2
+71	https://job-boards.greenhouse.io/project44/jobs/7681532	skipped	2026-05-07T16:10:42Z	2026-05-07T16:10:43Z	154	-	geography-India	2
+72	https://job-boards.greenhouse.io/project44/jobs/7758046	skipped	2026-05-07T16:10:42Z	2026-05-07T16:10:43Z	153	-	page-unavailable-generic-listing	2
+73	https://jobs.lever.co/spotify/66492688-d5b0-4cf8-b1a4-4a715157edd9	skipped	2026-05-07T16:10:45Z	2026-05-07T16:10:46Z	155	-	fetch-blocked-403-spotify	2
+74	https://jobs.lever.co/spotify/db6450c7-5017-4aa5-8a64-52e39f1ed525	skipped	2026-05-07T16:10:45Z	2026-05-07T16:10:46Z	156	-	fetch-blocked-403-spotify	2
+75	https://jobs.lever.co/spotify/baa87498-b0a3-4ac5-b197-a224e93c8a07	skipped	2026-05-07T16:10:48Z	2026-05-07T16:10:49Z	158	-	fetch-blocked-403-spotify	2
+76	https://jobs.lever.co/spotify/87ac8be9-799d-414f-b855-70a1cf2729b4	skipped	2026-05-07T16:10:48Z	2026-05-07T16:10:49Z	157	-	fetch-blocked-403-spotify	2
+77	https://jobs.lever.co/spotify/4303f795-d0a5-41ed-8c78-0941780b6e54	skipped	2026-05-07T16:10:51Z	2026-05-07T16:10:52Z	159	-	fetch-blocked-403-spotify	2
+78	https://jobs.lever.co/spotify/5d36b6f4-e89d-4a01-985c-59a184080440	skipped	2026-05-07T16:10:51Z	2026-05-07T16:10:52Z	160	-	fetch-blocked-403-spotify	2
+79	https://jobs.lever.co/spotify/48e5f3e3-2a32-4088-bb61-684202899d1c	skipped	2026-05-07T16:10:54Z	2026-05-07T16:10:55Z	162	-	fetch-blocked-403-spotify	2
+80	https://jobs.lever.co/spotify/6fe64020-9ec1-4aed-a15c-1c32dcda6248	skipped	2026-05-07T16:10:54Z	2026-05-07T16:10:55Z	161	-	fetch-blocked-403-spotify	2
+81	https://www.brex.com/careers/8430182002?gh_jid=8430182002	skipped	2026-05-07T16:10:57Z	2026-05-07T16:10:58Z	163	-	wrong-archetype-SWE-onsite-SF-brex	2
+82	https://www.fivetran.com/careers/job?gh_jid=7549451003	skipped	2026-05-07T16:10:57Z	2026-05-07T16:10:58Z	164	-	page-unavailable-fivetran-JS-template	2
+83	https://instacart.careers/job/?gh_jid=7872360	skipped	2026-05-08T15:27:53Z	2026-05-08T15:27:55Z	166	-	similar-to-id84-instacart-3.5-below-threshold	2
 84	https://instacart.careers/job/?gh_jid=7872362	completed	2026-05-08T13:00:00Z	2026-05-08T13:15:00Z	167	3.5	0	
-85	https://job-boards.greenhouse.io/anthropic/jobs/4956672008	failed	2026-05-10T14:58:09Z	2026-05-10T14:58:10Z	170	-	Credit balance is too low 	2
-86	https://job-boards.greenhouse.io/anthropic/jobs/5125387008	failed	2026-05-10T14:58:09Z	2026-05-10T14:58:10Z	171	-	Credit balance is too low 	2
-87	https://job-boards.greenhouse.io/sigmacomputing/jobs/7729889003	failed	2026-05-12T16:24:01Z	2026-05-12T16:24:02Z	173	-	Credit balance is too low 	2
-88	https://job-boards.greenhouse.io/sigmacomputing/jobs/7729888003	failed	2026-05-13T16:24:06Z	2026-05-13T16:24:08Z	175	-	Credit balance is too low 	2
-89	https://jobs.dropbox.com/listing/7872748?gh_jid=7872748	failed	2026-05-15T16:05:31Z	2026-05-15T16:05:33Z	177	-	Credit balance is too low 	2
-90	https://jobs.dropbox.com/listing/7872745?gh_jid=7872745	failed	2026-05-16T15:00:55Z	2026-05-16T15:00:56Z	179	-	Credit balance is too low 	2
+85	https://job-boards.greenhouse.io/anthropic/jobs/4956672008	completed	2026-05-10T14:58:09Z	2026-05-10T14:58:10Z	176	4.2		2
+86	https://job-boards.greenhouse.io/anthropic/jobs/5125387008	completed	2026-05-10T14:58:09Z	2026-05-10T14:58:10Z	177	4.0		2
+87	https://job-boards.greenhouse.io/sigmacomputing/jobs/7729889003	skipped	2026-05-12T16:24:01Z	2026-05-12T16:24:02Z	173	-	wrong-archetype-BD-partnerships-not-DE	2
+88	https://job-boards.greenhouse.io/sigmacomputing/jobs/7729888003	skipped	2026-05-13T16:24:06Z	2026-05-13T16:24:08Z	175	-	wrong-archetype-BD-partnerships-not-DE	2
+89	https://jobs.dropbox.com/listing/7872748?gh_jid=7872748	skipped	2026-05-15T16:05:31Z	2026-05-15T16:05:33Z	177	-	geography-Mexico	2
+90	https://jobs.dropbox.com/listing/7872745?gh_jid=7872745	skipped	2026-05-16T15:00:55Z	2026-05-16T15:00:56Z	179	-	geography-Poland	2
 91	https://job-boards.greenhouse.io/affirm/jobs/7732706003	completed	2026-05-19T00:00:00Z	2026-05-19T00:01:00Z	168	2.6		0
