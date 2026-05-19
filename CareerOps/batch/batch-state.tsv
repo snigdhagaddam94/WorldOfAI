@@ -1,58 +1,58 @@
 id	url	status	started_at	completed_at	report_num	score	error	retries
-2	https://job-boards.greenhouse.io/anthropic/jobs/5103078008	failed	2026-05-07T16:08:56Z	2026-05-07T16:08:58Z	084	-	Credit balance is too low 	2
-1	https://job-boards.greenhouse.io/anthropic/jobs/5156057008	failed	2026-05-07T16:08:56Z	2026-05-07T16:08:59Z	083	-	Credit balance is too low 	2
-4	https://job-boards.greenhouse.io/anthropic/jobs/5191226008	failed	2026-05-07T16:09:00Z	2026-05-07T16:09:01Z	086	-	Credit balance is too low 	2
-3	https://job-boards.greenhouse.io/anthropic/jobs/5195866008	failed	2026-05-07T16:08:59Z	2026-05-07T16:09:00Z	085	-	Credit balance is too low 	2
-6	https://job-boards.greenhouse.io/airtable/jobs/8434287002	failed	2026-05-07T16:09:03Z	2026-05-07T16:09:04Z	088	-	Credit balance is too low 	2
-5	https://job-boards.greenhouse.io/intercom/jobs/7807847	failed	2026-05-07T16:09:02Z	2026-05-07T16:09:03Z	087	-	Credit balance is too low 	2
-8	https://job-boards.greenhouse.io/airtable/jobs/8434307002	failed	2026-05-07T16:09:06Z	2026-05-07T16:09:07Z	090	-	Credit balance is too low 	2
-7	https://job-boards.greenhouse.io/airtable/jobs/8470036002	failed	2026-05-07T16:09:05Z	2026-05-07T16:09:06Z	089	-	Credit balance is too low 	2
-10	https://jobs.ashbyhq.com/elevenlabs/4d12e97f-e637-49f1-a39c-7f32d6d364bb	failed	2026-05-07T16:09:09Z	2026-05-07T16:09:10Z	092	-	Credit balance is too low 	2
-9	https://jobs.ashbyhq.com/lindy/e56a424d-5a40-450b-8978-cd5e7c86deed	failed	2026-05-07T16:09:08Z	2026-05-07T16:09:10Z	091	-	Credit balance is too low 	2
-12	https://jobs.ashbyhq.com/cohere/9baccd88-c051-474f-bfe8-6867fca54cee	failed	2026-05-07T16:09:12Z	2026-05-07T16:09:13Z	094	-	Credit balance is too low 	2
-11	https://jobs.ashbyhq.com/decagon/522cc0c1-67ce-4eaa-93cc-16a1a21a2566	failed	2026-05-07T16:09:11Z	2026-05-07T16:09:12Z	093	-	Credit balance is too low 	2
-13	https://jobs.ashbyhq.com/sierra/422cb7bb-ab03-447b-808c-6d72f59bbd2f	failed	2026-05-07T16:09:14Z	2026-05-07T16:09:15Z	095	-	Credit balance is too low 	2
-14	https://jobs.ashbyhq.com/sierra/0c892d11-9f19-4b8d-9c2b-409346c52b7a	failed	2026-05-07T16:09:15Z	2026-05-07T16:09:16Z	096	-	Credit balance is too low 	2
-16	https://jobs.ashbyhq.com/perplexity/fed8d2c4-9c82-43ad-a168-434146c759ff	failed	2026-05-07T16:09:18Z	2026-05-07T16:09:20Z	098	-	Credit balance is too low 	2
-15	https://job-boards.greenhouse.io/blackforestlabs/jobs/5019171008	failed	2026-05-07T16:09:17Z	2026-05-07T16:09:18Z	097	-	Credit balance is too low 	2
-18	https://careers.airbnb.com/positions/7256787?gh_jid=7256787	failed	2026-05-07T16:09:21Z	2026-05-07T16:09:22Z	100	-	Credit balance is too low 	2
-17	https://careers.airbnb.com/positions/7640881?gh_jid=7640881	failed	2026-05-07T16:09:20Z	2026-05-07T16:09:21Z	099	-	Credit balance is too low 	2
-20	https://careers.airbnb.com/positions/7463663?gh_jid=7463663	failed	2026-05-07T16:09:24Z	2026-05-07T16:09:26Z	102	-	Credit balance is too low 	2
-19	https://careers.airbnb.com/positions/7683174?gh_jid=7683174	failed	2026-05-07T16:09:23Z	2026-05-07T16:09:25Z	101	-	Credit balance is too low 	2
-22	https://careers.airbnb.com/positions/7095225?gh_jid=7095225	failed	2026-05-07T16:09:27Z	2026-05-07T16:09:29Z	104	-	Credit balance is too low 	2
-21	https://careers.airbnb.com/positions/7733495?gh_jid=7733495	failed	2026-05-07T16:09:26Z	2026-05-07T16:09:28Z	103	-	Credit balance is too low 	2
-23	https://instacart.careers/job/?gh_jid=7754354	failed	2026-05-07T16:09:29Z	2026-05-07T16:09:30Z	105	-	Credit balance is too low 	2
-24	https://instacart.careers/job/?gh_jid=7728839	failed	2026-05-07T16:09:30Z	2026-05-07T16:09:31Z	106	-	Credit balance is too low 	2
-25	https://job-boards.greenhouse.io/twilio/jobs/7155492	failed	2026-05-07T16:09:32Z	2026-05-07T16:09:33Z	107	-	Credit balance is too low 	2
-26	https://job-boards.greenhouse.io/twilio/jobs/7551660	failed	2026-05-07T16:09:33Z	2026-05-07T16:09:35Z	108	-	Credit balance is too low 	2
-27	https://job-boards.greenhouse.io/twilio/jobs/7782805	failed	2026-05-07T16:09:35Z	2026-05-07T16:09:37Z	109	-	Credit balance is too low 	2
-28	https://job-boards.greenhouse.io/affirm/jobs/7713579003	failed	2026-05-07T16:09:36Z	2026-05-07T16:09:37Z	110	-	Credit balance is too low 	2
-29	https://job-boards.greenhouse.io/affirm/jobs/7704631003	failed	2026-05-07T16:09:38Z	2026-05-07T16:09:40Z	111	-	Credit balance is too low 	2
-30	https://job-boards.greenhouse.io/affirm/jobs/7532268003	failed	2026-05-07T16:09:39Z	2026-05-07T16:09:40Z	112	-	Credit balance is too low 	2
-31	https://job-boards.greenhouse.io/affirm/jobs/7715407003	failed	2026-05-07T16:09:41Z	2026-05-07T16:09:43Z	114	-	Credit balance is too low 	2
-32	https://job-boards.greenhouse.io/affirm/jobs/7715405003	failed	2026-05-07T16:09:41Z	2026-05-07T16:09:43Z	113	-	Credit balance is too low 	2
-33	https://app.careerpuck.com/job-board/lyft/job/8477563002?gh_jid=8477563002	failed	2026-05-07T16:09:44Z	2026-05-07T16:09:46Z	115	-	Credit balance is too low 	2
-34	https://app.careerpuck.com/job-board/lyft/job/8367674002?gh_jid=8367674002	failed	2026-05-07T16:09:44Z	2026-05-07T16:09:46Z	116	-	Credit balance is too low 	2
-35	https://app.careerpuck.com/job-board/lyft/job/8503985002?gh_jid=8503985002	failed	2026-05-07T16:09:47Z	2026-05-07T16:09:49Z	118	-	Credit balance is too low 	2
-36	https://app.careerpuck.com/job-board/lyft/job/8427742002?gh_jid=8427742002	failed	2026-05-07T16:09:47Z	2026-05-07T16:09:49Z	117	-	Credit balance is too low 	2
-37	https://app.careerpuck.com/job-board/lyft/job/8474660002?gh_jid=8474660002	failed	2026-05-07T16:09:50Z	2026-05-07T16:09:52Z	119	-	Credit balance is too low 	2
-38	https://app.careerpuck.com/job-board/lyft/job/8503982002?gh_jid=8503982002	failed	2026-05-07T16:09:50Z	2026-05-07T16:09:52Z	120	-	Credit balance is too low 	2
-39	https://app.careerpuck.com/job-board/lyft/job/7888101002?gh_jid=7888101002	failed	2026-05-07T16:09:53Z	2026-05-07T16:09:55Z	122	-	Credit balance is too low 	2
-40	https://app.careerpuck.com/job-board/lyft/job/8479543002?gh_jid=8479543002	failed	2026-05-07T16:09:53Z	2026-05-07T16:09:55Z	121	-	Credit balance is too low 	2
-41	https://app.careerpuck.com/job-board/lyft/job/8397196002?gh_jid=8397196002	failed	2026-05-07T16:09:56Z	2026-05-07T16:09:58Z	123	-	Credit balance is too low 	2
-42	https://app.careerpuck.com/job-board/lyft/job/8474709002?gh_jid=8474709002	failed	2026-05-07T16:09:56Z	2026-05-07T16:09:58Z	124	-	Credit balance is too low 	2
-43	https://app.careerpuck.com/job-board/lyft/job/8461103002?gh_jid=8461103002	failed	2026-05-07T16:09:59Z	2026-05-07T16:10:01Z	126	-	Credit balance is too low 	2
-44	https://www.brex.com/careers/8523806002?gh_jid=8523806002	failed	2026-05-07T16:09:59Z	2026-05-07T16:10:01Z	125	-	Credit balance is too low 	2
-45	https://www.brex.com/careers/8430196002?gh_jid=8430196002	failed	2026-05-07T16:10:02Z	2026-05-07T16:10:04Z	127	-	Credit balance is too low 	2
-46	https://www.brex.com/careers/8366850002?gh_jid=8366850002	failed	2026-05-07T16:10:02Z	2026-05-07T16:10:04Z	128	-	Credit balance is too low 	2
-47	https://www.brex.com/careers/8430197002?gh_jid=8430197002	failed	2026-05-07T16:10:05Z	2026-05-07T16:10:07Z	129	-	Credit balance is too low 	2
-48	https://boards.greenhouse.io/chime/jobs/8477424002?gh_jid=8477424002	failed	2026-05-07T16:10:05Z	2026-05-07T16:10:07Z	130	-	Credit balance is too low 	2
-49	https://boards.greenhouse.io/chime/jobs/8382253002?gh_jid=8382253002	failed	2026-05-07T16:10:08Z	2026-05-07T16:10:10Z	132	-	Credit balance is too low 	2
-50	https://boards.greenhouse.io/chime/jobs/8505462002?gh_jid=8505462002	failed	2026-05-07T16:10:08Z	2026-05-07T16:10:10Z	131	-	Credit balance is too low 	2
-51	https://boards.greenhouse.io/chime/jobs/8457140002?gh_jid=8457140002	failed	2026-05-07T16:10:11Z	2026-05-07T16:10:13Z	133	-	Credit balance is too low 	2
-52	https://jobs.dropbox.com/listing/7739553?gh_jid=7739553	failed	2026-05-07T16:10:11Z	2026-05-07T16:10:13Z	134	-	Credit balance is too low 	2
-53	https://jobs.dropbox.com/listing/7739574?gh_jid=7739574	failed	2026-05-07T16:10:14Z	2026-05-07T16:10:16Z	135	-	Credit balance is too low 	2
-54	https://jobs.dropbox.com/listing/7739568?gh_jid=7739568	failed	2026-05-07T16:10:14Z	2026-05-07T16:10:16Z	136	-	Credit balance is too low 	2
+2	https://job-boards.greenhouse.io/anthropic/jobs/5103078008	completed	2026-05-07T16:08:56Z	2026-05-07T16:08:58Z	169	4.2	Credit balance is too low 	2
+1	https://job-boards.greenhouse.io/anthropic/jobs/5156057008	skipped	2026-05-07T16:08:56Z	2026-05-07T16:08:59Z	083	-	geography-UK-only	2
+4	https://job-boards.greenhouse.io/anthropic/jobs/5191226008	skipped	2026-05-07T16:09:00Z	2026-05-07T16:09:01Z	086	-	wrong-archetype-SWE-onsite-SF-NYC	2
+3	https://job-boards.greenhouse.io/anthropic/jobs/5195866008	skipped	2026-05-07T16:08:59Z	2026-05-07T16:09:00Z	085	-	wrong-archetype-PM	2
+6	https://job-boards.greenhouse.io/airtable/jobs/8434287002	skipped	2026-05-07T16:09:03Z	2026-05-07T16:09:04Z	088	-	airtable-onsite-SF-generic-listing	2
+5	https://job-boards.greenhouse.io/intercom/jobs/7807847	skipped	2026-05-07T16:09:02Z	2026-05-07T16:09:03Z	087	-	geography-Dublin-Ireland	2
+8	https://job-boards.greenhouse.io/airtable/jobs/8434307002	skipped	2026-05-07T16:09:06Z	2026-05-07T16:09:07Z	090	-	airtable-onsite-SF-generic-listing	2
+7	https://job-boards.greenhouse.io/airtable/jobs/8470036002	skipped	2026-05-07T16:09:05Z	2026-05-07T16:09:06Z	089	-	airtable-onsite-SF-generic-listing	2
+10	https://jobs.ashbyhq.com/elevenlabs/4d12e97f-e637-49f1-a39c-7f32d6d364bb	skipped	2026-05-07T16:09:09Z	2026-05-07T16:09:10Z	092	-	page-unavailable-ashby-JS-required	2
+9	https://jobs.ashbyhq.com/lindy/e56a424d-5a40-450b-8978-cd5e7c86deed	skipped	2026-05-07T16:09:08Z	2026-05-07T16:09:10Z	091	-	page-unavailable-ashby-JS-required	2
+12	https://jobs.ashbyhq.com/cohere/9baccd88-c051-474f-bfe8-6867fca54cee	skipped	2026-05-07T16:09:12Z	2026-05-07T16:09:13Z	094	-	page-unavailable-ashby-JS-required	2
+11	https://jobs.ashbyhq.com/decagon/522cc0c1-67ce-4eaa-93cc-16a1a21a2566	skipped	2026-05-07T16:09:11Z	2026-05-07T16:09:12Z	093	-	page-unavailable-ashby-JS-required	2
+13	https://jobs.ashbyhq.com/sierra/422cb7bb-ab03-447b-808c-6d72f59bbd2f	skipped	2026-05-07T16:09:14Z	2026-05-07T16:09:15Z	095	-	wrong-archetype-PM	2
+14	https://jobs.ashbyhq.com/sierra/0c892d11-9f19-4b8d-9c2b-409346c52b7a	skipped	2026-05-07T16:09:15Z	2026-05-07T16:09:16Z	096	-	wrong-archetype-SWE	2
+16	https://jobs.ashbyhq.com/perplexity/fed8d2c4-9c82-43ad-a168-434146c759ff	skipped	2026-05-07T16:09:18Z	2026-05-07T16:09:20Z	098	-	page-unavailable-ashby-JS-required	2
+15	https://job-boards.greenhouse.io/blackforestlabs/jobs/5019171008	skipped	2026-05-07T16:09:17Z	2026-05-07T16:09:18Z	097	-	geography-Germany-SF-onsite	2
+18	https://careers.airbnb.com/positions/7256787?gh_jid=7256787	skipped	2026-05-07T16:09:21Z	2026-05-07T16:09:22Z	100	-	fetch-blocked-403-airbnb	2
+17	https://careers.airbnb.com/positions/7640881?gh_jid=7640881	skipped	2026-05-07T16:09:20Z	2026-05-07T16:09:21Z	099	-	fetch-blocked-403-airbnb	2
+20	https://careers.airbnb.com/positions/7463663?gh_jid=7463663	skipped	2026-05-07T16:09:24Z	2026-05-07T16:09:26Z	102	-	fetch-blocked-403-airbnb	2
+19	https://careers.airbnb.com/positions/7683174?gh_jid=7683174	skipped	2026-05-07T16:09:23Z	2026-05-07T16:09:25Z	101	-	fetch-blocked-403-airbnb	2
+22	https://careers.airbnb.com/positions/7095225?gh_jid=7095225	skipped	2026-05-07T16:09:27Z	2026-05-07T16:09:29Z	104	-	fetch-blocked-403-airbnb	2
+21	https://careers.airbnb.com/positions/7733495?gh_jid=7733495	skipped	2026-05-07T16:09:26Z	2026-05-07T16:09:28Z	103	-	fetch-blocked-403-airbnb	2
+23	https://instacart.careers/job/?gh_jid=7754354	skipped	2026-05-07T16:09:29Z	2026-05-07T16:09:30Z	105	-	analytics-marketing-domain-not-DE	2
+24	https://instacart.careers/job/?gh_jid=7728839	skipped	2026-05-07T16:09:30Z	2026-05-07T16:09:31Z	106	-	wrong-archetype-SWE	2
+25	https://job-boards.greenhouse.io/twilio/jobs/7155492	completed	2026-05-07T16:09:32Z	2026-05-07T16:09:33Z	170	3.4	Credit balance is too low 	2
+26	https://job-boards.greenhouse.io/twilio/jobs/7551660	skipped	2026-05-07T16:09:33Z	2026-05-07T16:09:35Z	108	-	analytics-eng-borderline-2.8-below-threshold	2
+27	https://job-boards.greenhouse.io/twilio/jobs/7782805	skipped	2026-05-07T16:09:35Z	2026-05-07T16:09:37Z	109	-	sponsorship-blocker-confirm-auth-language	2
+28	https://job-boards.greenhouse.io/affirm/jobs/7713579003	completed	2026-05-07T16:09:36Z	2026-05-07T16:09:37Z	171	3.2	Credit balance is too low 	2
+29	https://job-boards.greenhouse.io/affirm/jobs/7704631003	skipped	2026-05-07T16:09:38Z	2026-05-07T16:09:40Z	111	-	credit-risk-domain-mismatch-2.8	2
+30	https://job-boards.greenhouse.io/affirm/jobs/7532268003	skipped	2026-05-07T16:09:39Z	2026-05-07T16:09:40Z	112	-	geography-UK	2
+31	https://job-boards.greenhouse.io/affirm/jobs/7715407003	skipped	2026-05-07T16:09:41Z	2026-05-07T16:09:43Z	114	-	dbt-snowflake-finance-hard-gaps-2.8-CA	2
+32	https://job-boards.greenhouse.io/affirm/jobs/7715405003	skipped	2026-05-07T16:09:41Z	2026-05-07T16:09:43Z	113	-	dbt-snowflake-finance-hard-gaps-2.8-US	2
+33	https://app.careerpuck.com/job-board/lyft/job/8477563002?gh_jid=8477563002	skipped	2026-05-07T16:09:44Z	2026-05-07T16:09:46Z	115	-	analytics-IC-not-DE-2.5	2
+34	https://app.careerpuck.com/job-board/lyft/job/8367674002?gh_jid=8367674002	skipped	2026-05-07T16:09:44Z	2026-05-07T16:09:46Z	116	-	analytics-IC-not-DE-2.5	2
+35	https://app.careerpuck.com/job-board/lyft/job/8503985002?gh_jid=8503985002	skipped	2026-05-07T16:09:47Z	2026-05-07T16:09:49Z	118	-	analytics-IC-not-DE-2.5	2
+36	https://app.careerpuck.com/job-board/lyft/job/8427742002?gh_jid=8427742002	skipped	2026-05-07T16:09:47Z	2026-05-07T16:09:49Z	117	-	analytics-IC-not-DE-2.5	2
+37	https://app.careerpuck.com/job-board/lyft/job/8474660002?gh_jid=8474660002	skipped	2026-05-07T16:09:50Z	2026-05-07T16:09:52Z	119	-	analytics-IC-not-DE-2.5	2
+38	https://app.careerpuck.com/job-board/lyft/job/8503982002?gh_jid=8503982002	skipped	2026-05-07T16:09:50Z	2026-05-07T16:09:52Z	120	-	page-unavailable-careerpuck	2
+39	https://app.careerpuck.com/job-board/lyft/job/7888101002?gh_jid=7888101002	skipped	2026-05-07T16:09:53Z	2026-05-07T16:09:55Z	122	-	page-unavailable-careerpuck	2
+40	https://app.careerpuck.com/job-board/lyft/job/8479543002?gh_jid=8479543002	skipped	2026-05-07T16:09:53Z	2026-05-07T16:09:55Z	121	-	page-unavailable-careerpuck	2
+41	https://app.careerpuck.com/job-board/lyft/job/8397196002?gh_jid=8397196002	skipped	2026-05-07T16:09:56Z	2026-05-07T16:09:58Z	123	-	page-unavailable-careerpuck	2
+42	https://app.careerpuck.com/job-board/lyft/job/8474709002?gh_jid=8474709002	skipped	2026-05-07T16:09:56Z	2026-05-07T16:09:58Z	124	-	analytics-IC-not-DE-2.5	2
+43	https://app.careerpuck.com/job-board/lyft/job/8461103002?gh_jid=8461103002	skipped	2026-05-07T16:09:59Z	2026-05-07T16:10:01Z	126	-	page-unavailable-careerpuck	2
+44	https://www.brex.com/careers/8523806002?gh_jid=8523806002	skipped	2026-05-07T16:09:59Z	2026-05-07T16:10:01Z	125	-	geography-Brazil	2
+45	https://www.brex.com/careers/8430196002?gh_jid=8430196002	skipped	2026-05-07T16:10:02Z	2026-05-07T16:10:04Z	127	-	wrong-archetype-SWE-onsite-Vancouver	2
+46	https://www.brex.com/careers/8366850002?gh_jid=8366850002	skipped	2026-05-07T16:10:02Z	2026-05-07T16:10:04Z	128	-	comp-blocker-120-151K-below-170K-onsite-SF	2
+47	https://www.brex.com/careers/8430197002?gh_jid=8430197002	skipped	2026-05-07T16:10:05Z	2026-05-07T16:10:07Z	129	-	wrong-archetype-SWE-onsite-Seattle	2
+48	https://boards.greenhouse.io/chime/jobs/8477424002?gh_jid=8477424002	skipped	2026-05-07T16:10:05Z	2026-05-07T16:10:07Z	130	-	chime-EM-onsite-SF-4days-location-blocker-3.8	2
+49	https://boards.greenhouse.io/chime/jobs/8382253002?gh_jid=8382253002	skipped	2026-05-07T16:10:08Z	2026-05-07T16:10:10Z	132	-	wrong-archetype-PM	2
+50	https://boards.greenhouse.io/chime/jobs/8505462002?gh_jid=8505462002	skipped	2026-05-07T16:10:08Z	2026-05-07T16:10:10Z	131	-	sponsorship-blocker-explicit-no-visa	2
+51	https://boards.greenhouse.io/chime/jobs/8457140002?gh_jid=8457140002	skipped	2026-05-07T16:10:11Z	2026-05-07T16:10:13Z	133	-	wrong-archetype-SWE-onsite-SF-3.0	2
+52	https://jobs.dropbox.com/listing/7739553?gh_jid=7739553	skipped	2026-05-07T16:10:11Z	2026-05-07T16:10:13Z	134	-	geography-Mexico	2
+53	https://jobs.dropbox.com/listing/7739574?gh_jid=7739574	skipped	2026-05-07T16:10:14Z	2026-05-07T16:10:16Z	135	-	job-404-closed	2
+54	https://jobs.dropbox.com/listing/7739568?gh_jid=7739568	skipped	2026-05-07T16:10:14Z	2026-05-07T16:10:16Z	136	-	geography-Mexico	2
 55	https://jobs.dropbox.com/listing/7595183?gh_jid=7595183	failed	2026-05-07T16:10:17Z	2026-05-07T16:10:19Z	138	-	Credit balance is too low 	2
 56	https://jobs.dropbox.com/listing/7739571?gh_jid=7739571	failed	2026-05-07T16:10:17Z	2026-05-07T16:10:19Z	137	-	Credit balance is too low 	2
 57	https://jobs.dropbox.com/listing/7595186?gh_jid=7595186	failed	2026-05-07T16:10:20Z	2026-05-07T16:10:22Z	140	-	Credit balance is too low 	2
