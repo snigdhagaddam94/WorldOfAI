@@ -6,30 +6,28 @@
   @page { size: letter; margin: 0; }
   * { margin: 0; padding: 0; box-sizing: border-box; }
 
-  html {
-    background: linear-gradient(to right, #1b2330 208px, #fff 208px);
-  }
-
   body {
     font-family: 'Helvetica Neue', Arial, sans-serif;
     font-size: 9.3pt;
     line-height: 1.45;
     color: #1a1a1a;
-    background: transparent;
-    display: flex;
-    min-height: 100vh;
+    background: #fff;
+  }
+
+  /* ── TABLE LAYOUT ──────────────────────────────── */
+  .page-table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
   }
 
   /* ── LEFT SIDEBAR ──────────────────────────────── */
   .sidebar {
     width: 208px;
-    min-width: 208px;
     background: #1b2330;
     color: #d8dde8;
     padding: 28px 18px 28px 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 22px;
+    vertical-align: top;
   }
 
   .sb-name {
@@ -52,7 +50,7 @@
   .sb-divider {
     height: 1px;
     background: #2e3d54;
-    margin: 0;
+    margin: 18px 0;
   }
 
   .sb-section-label {
@@ -103,8 +101,12 @@
 
   /* ── MAIN CONTENT ──────────────────────────────── */
   .main {
-    flex: 1;
+    background: #fff;
     padding: 28px 26px 28px 24px;
+    vertical-align: top;
+  }
+
+  .main-inner {
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -180,79 +182,75 @@
 </head>
 <body>
 
+<table class="page-table">
+<tr>
+
 <!-- SIDEBAR -->
-<div class="sidebar">
+<td class="sidebar">
 
-  <div>
-    <div class="sb-name">Vinay<br>Gundamaneni</div>
-    <div class="sb-role">Senior Data Engineer</div>
+  <div class="sb-name">Vinay<br>Gundamaneni</div>
+  <div class="sb-role">Senior Data Engineer</div>
+
+  <div class="sb-divider"></div>
+
+  <div class="sb-section-label">Contact</div>
+  <div class="sb-contact-item">
+    Vinay.g0228@gmail.com<br>
+    952-681-0361<br>
+    <a href="https://linkedin.com/in/vinay-gundamaneni">linkedin.com/in/<br>vinay-gundamaneni</a>
   </div>
 
   <div class="sb-divider"></div>
 
-  <div>
-    <div class="sb-section-label">Contact</div>
-    <div class="sb-contact-item">
-      Vinay.g0228@gmail.com<br>
-      952-681-0361<br>
-      <a href="https://linkedin.com/in/vinay-gundamaneni">linkedin.com/in/<br>vinay-gundamaneni</a>
-    </div>
+  <div class="sb-section-label">Core Skills</div>
+
+  <div class="sb-skill-group">
+    <div class="sb-skill-title">Languages</div>
+    <div class="sb-skill-list">Python &nbsp;·&nbsp; SQL &nbsp;·&nbsp; PySpark &nbsp;·&nbsp; Bash</div>
+  </div>
+
+  <div class="sb-skill-group">
+    <div class="sb-skill-title">Data Stack</div>
+    <div class="sb-skill-list">dbt &nbsp;·&nbsp; Apache Spark &nbsp;·&nbsp; Delta Lake &nbsp;·&nbsp; Snowflake &nbsp;·&nbsp; Iceberg &nbsp;·&nbsp; BigQuery</div>
+  </div>
+
+  <div class="sb-skill-group">
+    <div class="sb-skill-title">Orchestration</div>
+    <div class="sb-skill-list">Airflow &nbsp;·&nbsp; GCP Cloud Composer &nbsp;·&nbsp; Azure Data Factory</div>
+  </div>
+
+  <div class="sb-skill-group">
+    <div class="sb-skill-title">Cloud</div>
+    <div class="sb-skill-list">GCP (BigQuery, Dataflow, Pub/Sub, Composer) &nbsp;·&nbsp; Azure (Databricks, Synapse, ADLS, ADF)</div>
+  </div>
+
+  <div class="sb-skill-group">
+    <div class="sb-skill-title">Streaming</div>
+    <div class="sb-skill-list">Spark Streaming &nbsp;·&nbsp; GCP Dataflow &nbsp;·&nbsp; Kafka &nbsp;·&nbsp; Pub/Sub</div>
+  </div>
+
+  <div class="sb-skill-group">
+    <div class="sb-skill-title">Reliability</div>
+    <div class="sb-skill-list">Data contracts &nbsp;·&nbsp; SLOs &nbsp;·&nbsp; Lineage tracking &nbsp;·&nbsp; Observability &nbsp;·&nbsp; CI/CD</div>
+  </div>
+
+  <div class="sb-skill-group">
+    <div class="sb-skill-title">Modeling</div>
+    <div class="sb-skill-list">Medallion architecture &nbsp;·&nbsp; SCD Type 2 &nbsp;·&nbsp; Dimensional modeling</div>
   </div>
 
   <div class="sb-divider"></div>
 
-  <div>
-    <div class="sb-section-label">Core Skills</div>
+  <div class="sb-section-label">Education</div>
+  <div class="sb-edu-deg">MBA — Information Technology Services &amp; Management</div>
+  <div class="sb-edu-school">Concordia University, MN</div>
+  <div class="sb-edu-year">2018</div>
 
-    <div class="sb-skill-group">
-      <div class="sb-skill-title">Languages</div>
-      <div class="sb-skill-list">Python &nbsp;·&nbsp; SQL &nbsp;·&nbsp; PySpark &nbsp;·&nbsp; Bash</div>
-    </div>
-
-    <div class="sb-skill-group">
-      <div class="sb-skill-title">Data Stack</div>
-      <div class="sb-skill-list">dbt &nbsp;·&nbsp; Apache Spark &nbsp;·&nbsp; Delta Lake &nbsp;·&nbsp; Snowflake &nbsp;·&nbsp; Iceberg &nbsp;·&nbsp; BigQuery</div>
-    </div>
-
-    <div class="sb-skill-group">
-      <div class="sb-skill-title">Orchestration</div>
-      <div class="sb-skill-list">Airflow &nbsp;·&nbsp; GCP Cloud Composer &nbsp;·&nbsp; Azure Data Factory</div>
-    </div>
-
-    <div class="sb-skill-group">
-      <div class="sb-skill-title">Cloud</div>
-      <div class="sb-skill-list">GCP (BigQuery, Dataflow, Pub/Sub, Composer) &nbsp;·&nbsp; Azure (Databricks, Synapse, ADLS, ADF)</div>
-    </div>
-
-    <div class="sb-skill-group">
-      <div class="sb-skill-title">Streaming</div>
-      <div class="sb-skill-list">Spark Streaming &nbsp;·&nbsp; GCP Dataflow &nbsp;·&nbsp; Kafka &nbsp;·&nbsp; Pub/Sub</div>
-    </div>
-
-    <div class="sb-skill-group">
-      <div class="sb-skill-title">Reliability</div>
-      <div class="sb-skill-list">Data contracts &nbsp;·&nbsp; SLOs &nbsp;·&nbsp; Lineage tracking &nbsp;·&nbsp; Observability &nbsp;·&nbsp; CI/CD</div>
-    </div>
-
-    <div class="sb-skill-group">
-      <div class="sb-skill-title">Modeling</div>
-      <div class="sb-skill-list">Medallion architecture &nbsp;·&nbsp; SCD Type 2 &nbsp;·&nbsp; Dimensional modeling</div>
-    </div>
-  </div>
-
-  <div class="sb-divider"></div>
-
-  <div>
-    <div class="sb-section-label">Education</div>
-    <div class="sb-edu-deg">MBA — Information Technology Services &amp; Management</div>
-    <div class="sb-edu-school">Concordia University, MN</div>
-    <div class="sb-edu-year">2018</div>
-  </div>
-
-</div>
+</td>
 
 <!-- MAIN -->
-<div class="main">
+<td class="main">
+<div class="main-inner">
 
   <!-- SUMMARY -->
   <div>
@@ -347,6 +345,10 @@
 
   </div>
 </div>
+</td>
+
+</tr>
+</table>
 
 </body>
 </html>
