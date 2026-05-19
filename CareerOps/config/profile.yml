@@ -70,16 +70,25 @@ compensation:
     note: "PR holder — no sponsorship needed. Prefer remote; open to hybrid or on-site."
   location_flexibility: "Remote preferred; open to hybrid or on-site for the right role"
 
+search_focus:
+  # ACTIVE: Canada only. US search is paused.
+  active_markets: ["Canada"]
+  paused_markets: ["United States"]
+  pause_reason: "No visa restriction in Canada (PR). Focusing exclusively on Canadian market until further notice."
+  tooling_gaps_policy: "Any modern DE tool (Snowflake, dbt, Airflow, Hex, Databricks SQL, etc.) is a learnable gap — NOT a blocker. A 12-year engineer ramps on syntax in days. Do not penalize tooling gaps in scoring for IC or manager roles."
+
 location:
   primary_city: "Detroit, MI"
   timezone: "EST"
   markets:
     - country: "United States"
       eligible: true
+      active: false           # PAUSED — not searching US market currently
       authorization: "H1B visa — sponsorship required from employer"
       preference: "Remote preferred; hybrid and on-site also acceptable"
     - country: "Canada"
       eligible: true
+      active: true            # PRIMARY MARKET — Canadian PR, no restrictions
       authorization: "Permanent Resident — no sponsorship required"
       preference: "Remote preferred; open to hybrid or on-site"
       provinces_ok: ["Ontario", "Alberta", "British Columbia", "Nova Scotia", "Quebec", "Manitoba", "Saskatchewan", "New Brunswick"]

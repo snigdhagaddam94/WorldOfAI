@@ -114,6 +114,36 @@
 
 ---
 
+## Search Focus — ACTIVE MARKET: Canada Only
+
+**Effective 2026-05-19: US job search is PAUSED. Focus exclusively on Canadian opportunities.**
+
+- **DO** evaluate and pursue all Canadian roles (any province, any DE stack)
+- **DO NOT** evaluate new US roles unless explicitly asked by Vinay
+- For US roles already in the tracker/pipeline, leave them as-is but do not add new US roles
+- When scanning portals, skip US-only postings; flag Canada postings
+- This policy stays in effect until Vinay explicitly says to resume US search
+
+---
+
+## Tooling Gaps Policy — Any Modern DE Stack Is Fine
+
+Vinay is explicitly open to all modern data engineering tools. Do NOT penalize or lower scores for any of the following gaps:
+
+| Tool | Status |
+|------|--------|
+| dbt | Learnable gap — ELT modeling depth fully transfers from ADF/PySpark |
+| Snowflake | Learnable gap — Synapse/Databricks SQL patterns transfer directly |
+| Airflow | Learnable gap — ADF is a DAG orchestrator; Airflow syntax ramps in a sprint |
+| Hex | Learnable gap — BI tool fluency transfers from Power BI |
+| BigQuery | Learnable gap — SQL + cloud DE patterns fully applicable |
+| Databricks SQL | Already close to current stack |
+| Any cloud (AWS/GCP) | Learnable gap — architecture patterns transfer; syntax ramps quickly |
+
+**Rule:** If Vinay has the architectural depth + 12 years of DE experience, tool-specific syntax is never a hard blocker. Score based on depth of applicable experience, not checklist of specific tool names.
+
+---
+
 ## Work Authorization & Sponsorship Filter
 
 Vinay is eligible to work in **both the United States and Canada** under different authorization:
