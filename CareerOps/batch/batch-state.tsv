@@ -90,3 +90,4 @@ id	url	status	started_at	completed_at	report_num	score	error	retries
 89	https://jobs.dropbox.com/listing/7872748?gh_jid=7872748	failed	2026-05-15T16:05:31Z	2026-05-15T16:05:33Z	177	-	Credit balance is too low 	2
 90	https://jobs.dropbox.com/listing/7872745?gh_jid=7872745	failed	2026-05-16T15:00:55Z	2026-05-16T15:00:56Z	179	-	Credit balance is too low 	2
 91	https://job-boards.greenhouse.io/affirm/jobs/7732706003	failed	2026-05-19T16:51:26Z	2026-05-19T16:51:27Z	180	-	Credit balance is too low 	1
+92	https://instacart.careers/job/?gh_jid=7658241	completed	2026-05-20T00:00:00Z	2026-05-20T00:00:00Z	181	2.3		0

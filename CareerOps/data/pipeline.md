@@ -106,3 +106,5 @@
 - [ ] https://jobs.dropbox.com/listing/7872745?gh_jid=7872745 | Dropbox | Senior Data Engineer, AI and Systems Engineering
 
 - [ ] https://job-boards.greenhouse.io/affirm/jobs/7732706003 | Affirm | Analytics Lead, Full Stack
+
+- [ ] https://instacart.careers/job/?gh_jid=7658241 | Instacart | Ads AI Analytics Lead II
