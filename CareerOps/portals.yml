@@ -214,15 +214,17 @@ tracked_companies:
     enabled: true
 
   - name: Netflix
-    careers_url: https://job-boards.greenhouse.io/netflix
-    api: https://boards-api.greenhouse.io/v1/boards/netflix/jobs
-    notes: "Remote US. Greenhouse. Strong H1B sponsor. World-class data culture (Spark, Iceberg)."
+    careers_url: https://jobs.netflix.com
+    scan_method: websearch
+    scan_query: 'site:jobs.netflix.com "Senior Data Engineer" OR "Data Engineering Manager" OR "Data Platform" remote'
+    notes: "Remote US. Workday (migrated from Greenhouse). Strong H1B sponsor. World-class data culture (Spark, Iceberg)."
     enabled: true
 
   - name: Uber
-    careers_url: https://job-boards.greenhouse.io/uber
-    api: https://boards-api.greenhouse.io/v1/boards/uber/jobs
-    notes: "Remote US. Greenhouse. Strong H1B sponsor. Presto, Flink, data platform at scale."
+    careers_url: https://www.uber.com/us/en/careers/list/
+    scan_method: websearch
+    scan_query: 'site:uber.com/careers "Senior Data Engineer" OR "Data Engineering Manager" OR "Data Platform" remote'
+    notes: "Remote US. Custom ATS (iCIMS). Strong H1B sponsor. Presto, Flink, data platform at scale."
     enabled: true
 
   # -- Enterprise Software Large --
@@ -300,9 +302,10 @@ tracked_companies:
     enabled: true
 
   - name: Capital One
-    careers_url: https://job-boards.greenhouse.io/capitalone
-    api: https://boards-api.greenhouse.io/v1/boards/capitalone/jobs
-    notes: "Remote US. Greenhouse. Top H1B sponsor. Tech-first bank with huge data platform."
+    careers_url: https://www.capitalonecareers.com
+    scan_method: websearch
+    scan_query: 'site:capitalonecareers.com "Senior Data Engineer" OR "Data Engineering Manager" OR "Data Platform" remote'
+    notes: "Remote US. Workday (migrated from Greenhouse). Top H1B sponsor. Tech-first bank with huge data platform."
     enabled: true
 
   - name: American Express
@@ -391,19 +394,22 @@ tracked_companies:
   # ═══════════════════════════════════════════════════════════════════
 
   - name: Databricks
-    careers_url: https://jobs.ashbyhq.com/databricks
-    notes: "SF/Remote US. Ashby. ~385 H1B LCAs FY2025, 100% approval rate. Data lakehouse leader."
+    careers_url: https://job-boards.greenhouse.io/databricks
+    api: https://boards-api.greenhouse.io/v1/boards/databricks/jobs
+    notes: "SF/Remote US. Greenhouse (migrated from Ashby). ~385 H1B LCAs FY2025, 100% approval rate. Data lakehouse leader."
     enabled: true
 
   - name: Snowflake
-    careers_url: https://job-boards.greenhouse.io/snowflake
-    api: https://boards-api.greenhouse.io/v1/boards/snowflake/jobs
-    notes: "Remote US. Greenhouse. Strong H1B sponsor. Cloud data warehouse."
+    careers_url: https://careers.snowflake.com
+    scan_method: websearch
+    scan_query: 'site:careers.snowflake.com "Senior Data Engineer" OR "Data Engineering Manager" OR "Data Platform" remote'
+    notes: "Remote US. Phenom (custom ATS, migrated from Greenhouse). Strong H1B sponsor. Cloud data warehouse."
     enabled: true
 
   - name: Stripe
-    careers_url: https://jobs.ashbyhq.com/stripe
-    notes: "Remote US. Ashby. ~219 H1B apps 2025, 100% approval. Large data engineering team."
+    careers_url: https://job-boards.greenhouse.io/stripe
+    api: https://boards-api.greenhouse.io/v1/boards/stripe/jobs
+    notes: "Remote US. Greenhouse (was incorrectly set to Ashby). ~219 H1B apps 2025, 100% approval. Large data engineering team."
     enabled: true
 
   - name: Palantir
@@ -418,9 +424,9 @@ tracked_companies:
     enabled: true
 
   - name: DoorDash
-    careers_url: https://job-boards.greenhouse.io/doordash
-    api: https://boards-api.greenhouse.io/v1/boards/doordash/jobs
-    notes: "Remote US. Greenhouse. Strong H1B sponsor. Large data engineering org."
+    careers_url: https://job-boards.greenhouse.io/doordashusa
+    api: https://boards-api.greenhouse.io/v1/boards/doordashusa/jobs
+    notes: "Remote US. Greenhouse (slug renamed doordash→doordashusa). Strong H1B sponsor. Large data engineering org."
     enabled: true
 
   - name: Lyft
@@ -436,9 +442,10 @@ tracked_companies:
     enabled: true
 
   - name: Wayfair
-    careers_url: https://job-boards.greenhouse.io/wayfair
-    api: https://boards-api.greenhouse.io/v1/boards/wayfair/jobs
-    notes: "Boston / Remote US. Greenhouse. Strong H1B sponsor. Large data platform team."
+    careers_url: https://www.wayfaircareers.com
+    scan_method: websearch
+    scan_query: 'site:wayfaircareers.com "Senior Data Engineer" OR "Data Engineering Manager" OR "Data Platform" remote'
+    notes: "Boston / Remote US. SmartRecruiters (migrated from Greenhouse). Strong H1B sponsor. Large data platform team."
     enabled: true
 
   - name: Instacart
@@ -448,9 +455,9 @@ tracked_companies:
     enabled: true
 
   - name: Robinhood
-    careers_url: https://job-boards.greenhouse.io/robinhoodmarkets
-    api: https://boards-api.greenhouse.io/v1/boards/robinhoodmarkets/jobs
-    notes: "Remote US. Greenhouse. H1B sponsor. Fintech data platform."
+    careers_url: https://job-boards.greenhouse.io/robinhood
+    api: https://boards-api.greenhouse.io/v1/boards/robinhood/jobs
+    notes: "Remote US. Greenhouse (slug renamed robinhoodmarkets→robinhood). H1B sponsor. Fintech data platform."
     enabled: true
 
   - name: Affirm
@@ -460,9 +467,8 @@ tracked_companies:
     enabled: true
 
   - name: Plaid
-    careers_url: https://job-boards.greenhouse.io/plaid
-    api: https://boards-api.greenhouse.io/v1/boards/plaid/jobs
-    notes: "Remote US. Greenhouse. H1B sponsor. Fintech data infrastructure."
+    careers_url: https://jobs.lever.co/plaid
+    notes: "Remote US. Lever (migrated from Greenhouse). H1B sponsor. Fintech data infrastructure."
     enabled: true
 
   - name: Brex
@@ -502,27 +508,27 @@ tracked_companies:
     enabled: true
 
   - name: Confluent
-    careers_url: https://job-boards.greenhouse.io/confluent
-    api: https://boards-api.greenhouse.io/v1/boards/confluent/jobs
-    notes: "Remote US. Greenhouse. H1B sponsor. Managed Kafka. Streaming data platform."
+    careers_url: https://jobs.ashbyhq.com/confluent
+    notes: "Remote US. Ashby (migrated from Greenhouse). H1B sponsor. Managed Kafka. Streaming data platform."
     enabled: true
 
   - name: Veeva Systems
-    careers_url: https://job-boards.greenhouse.io/veeva
-    api: https://boards-api.greenhouse.io/v1/boards/veeva/jobs
-    notes: "Remote US. Greenhouse. H1B sponsor. Life sciences cloud. Healthcare data."
+    careers_url: https://jobs.lever.co/veeva
+    notes: "Remote US. Lever (migrated from Greenhouse). H1B sponsor. Life sciences cloud. Healthcare data."
     enabled: true
 
   - name: Informatica
-    careers_url: https://job-boards.greenhouse.io/informatica
-    api: https://boards-api.greenhouse.io/v1/boards/informatica/jobs
-    notes: "Redwood City CA / Remote. Greenhouse. Strong H1B sponsor. Enterprise data management."
-    enabled: true
+    careers_url: https://www.salesforce.com/company/careers/
+    scan_method: websearch
+    scan_query: 'site:salesforce.com/careers "Informatica" "Data Engineer" OR "Data Engineering" remote'
+    notes: "Acquired by Salesforce Nov 2025 — careers redirect to Salesforce. Salesforce already tracked separately above."
+    enabled: false
 
   - name: ThoughtSpot
-    careers_url: https://job-boards.greenhouse.io/thoughtspot
-    api: https://boards-api.greenhouse.io/v1/boards/thoughtspot/jobs
-    notes: "Remote US. Greenhouse. H1B sponsor. AI-powered analytics."
+    careers_url: https://www.thoughtspot.com/careers
+    scan_method: websearch
+    scan_query: 'site:thoughtspot.com/careers "Senior Data Engineer" OR "Data Engineering Manager" remote'
+    notes: "Remote US. Workday (migrated from Greenhouse). H1B sponsor. AI-powered analytics."
     enabled: true
 
   # ═══════════════════════════════════════════════════════════════════
@@ -536,9 +542,9 @@ tracked_companies:
     enabled: true
 
   - name: dbt Labs
-    careers_url: https://job-boards.greenhouse.io/dbtlabs
-    api: https://boards-api.greenhouse.io/v1/boards/dbtlabs/jobs
-    notes: "Remote US. Greenhouse. H1B sponsor. dbt — the analytics engineering standard."
+    careers_url: https://job-boards.greenhouse.io/dbtlabsinc
+    api: https://boards-api.greenhouse.io/v1/boards/dbtlabsinc/jobs
+    notes: "Remote US. Greenhouse (slug renamed dbtlabs→dbtlabsinc). H1B sponsor. dbt — the analytics engineering standard."
     enabled: true
 
   - name: Airbyte
@@ -547,9 +553,8 @@ tracked_companies:
     enabled: true
 
   - name: Monte Carlo
-    careers_url: https://job-boards.greenhouse.io/montecarlodata
-    api: https://boards-api.greenhouse.io/v1/boards/montecarlodata/jobs
-    notes: "Remote US. Greenhouse. H1B sponsor. Data observability and reliability."
+    careers_url: https://jobs.ashbyhq.com/montecarlodata
+    notes: "Remote US. Ashby (migrated from Greenhouse, same slug). H1B sponsor. Data observability and reliability."
     enabled: true
 
   - name: Starburst
@@ -559,27 +564,26 @@ tracked_companies:
     enabled: true
 
   - name: Astronomer
-    careers_url: https://job-boards.greenhouse.io/astronomer
-    api: https://boards-api.greenhouse.io/v1/boards/astronomer/jobs
-    notes: "Remote US. Greenhouse. H1B sponsor. Managed Apache Airflow platform."
+    careers_url: https://jobs.ashbyhq.com/astronomer
+    notes: "Remote US. Ashby (migrated from Greenhouse). H1B sponsor. Managed Apache Airflow platform."
     enabled: true
 
-  - name: Talend
-    careers_url: https://job-boards.greenhouse.io/talend
-    api: https://boards-api.greenhouse.io/v1/boards/talend/jobs
-    notes: "Remote US. Greenhouse. H1B sponsor. Data integration and integrity."
+  - name: Talend (Qlik Talend)
+    careers_url: https://jobs.jobvite.com/qlik
+    scan_method: websearch
+    scan_query: 'site:jobs.jobvite.com/qlik "Data Engineer" OR "Data Engineering" OR "Analytics Engineer" remote'
+    notes: "Remote US. Jobvite via Qlik acquisition (Talend acquired by Qlik). H1B sponsor. Data integration platform."
     enabled: true
 
   - name: Prefect
-    careers_url: https://job-boards.greenhouse.io/prefect
-    api: https://boards-api.greenhouse.io/v1/boards/prefect/jobs
-    notes: "Remote US. Greenhouse. H1B sponsor. Modern data workflow orchestration."
+    careers_url: https://jobs.ashbyhq.com/prefect
+    notes: "Remote US. Ashby (migrated from Greenhouse). H1B sponsor. Modern data workflow orchestration."
     enabled: true
 
   - name: Dagster
-    careers_url: https://job-boards.greenhouse.io/dagster
-    api: https://boards-api.greenhouse.io/v1/boards/dagster/jobs
-    notes: "SF / Remote US. Greenhouse. H1B sponsor. Data orchestration platform."
+    careers_url: https://job-boards.greenhouse.io/dagsterlabs
+    api: https://boards-api.greenhouse.io/v1/boards/dagsterlabs/jobs
+    notes: "SF / Remote US. Greenhouse (slug renamed dagster→dagsterlabs). H1B sponsor. Data orchestration platform."
     enabled: true
 
   - name: Hightouch
@@ -600,9 +604,8 @@ tracked_companies:
     enabled: true
 
   - name: Anomalo
-    careers_url: https://job-boards.greenhouse.io/anomalo
-    api: https://boards-api.greenhouse.io/v1/boards/anomalo/jobs
-    notes: "Remote US. Greenhouse. H1B sponsor. Data quality monitoring."
+    careers_url: https://jobs.ashbyhq.com/anomalo
+    notes: "Remote US. Ashby (migrated from Greenhouse). H1B sponsor. Data quality monitoring."
     enabled: true
 
   - name: Anthropic
@@ -612,9 +615,8 @@ tracked_companies:
     enabled: true
 
   - name: OpenAI
-    careers_url: https://job-boards.greenhouse.io/openai
-    api: https://boards-api.greenhouse.io/v1/boards/openai/jobs
-    notes: "SF / Remote US. Greenhouse. H1B sponsor. Data engineering and infrastructure."
+    careers_url: https://jobs.ashbyhq.com/openai
+    notes: "SF / Remote US. Ashby (migrated from Greenhouse). H1B sponsor. Data engineering and infrastructure."
     enabled: true
 
   - name: Glean
@@ -629,9 +631,10 @@ tracked_companies:
     notes: "Remote US. Greenhouse. H1B sponsor. No-code + AI platform. Analytics engineering."
     enabled: true
 
-  - name: Weights & Biases
-    careers_url: https://jobs.lever.co/wandb
-    notes: "Remote US. Lever. H1B sponsor. MLOps / experiment tracking."
+  - name: Weights & Biases (CoreWeave)
+    careers_url: https://job-boards.greenhouse.io/coreweave
+    api: https://boards-api.greenhouse.io/v1/boards/coreweave/jobs
+    notes: "Remote US. Greenhouse via CoreWeave (W&B acquired by CoreWeave May 2025). H1B sponsor. MLOps / experiment tracking roles appear on CoreWeave board."
     enabled: true
 
   - name: Flexport
@@ -664,9 +667,8 @@ tracked_companies:
     enabled: true
 
   - name: Cohere
-    careers_url: https://job-boards.greenhouse.io/cohere
-    api: https://boards-api.greenhouse.io/v1/boards/cohere/jobs
-    notes: "Remote US. Greenhouse. H1B sponsor. Enterprise LLM. Data infrastructure roles."
+    careers_url: https://jobs.ashbyhq.com/cohere
+    notes: "Remote US. Ashby (migrated from Greenhouse). H1B sponsor. Enterprise LLM. Data infrastructure roles."
     enabled: true
 
   - name: Hex Technologies
@@ -676,11 +678,12 @@ tracked_companies:
     enabled: true
 
   - name: Materialize
-    careers_url: https://jobs.lever.co/materialize
-    notes: "Remote US. Lever. H1B sponsor. Real-time SQL / streaming data warehouse."
+    careers_url: https://job-boards.greenhouse.io/materialize
+    api: https://boards-api.greenhouse.io/v1/boards/materialize/jobs
+    notes: "Remote US. Greenhouse (migrated from Lever; both Greenhouse and Ashby slugs are live). H1B sponsor. Real-time SQL / streaming data warehouse."
     enabled: true
 
   - name: Onehouse
-    careers_url: https://jobs.ashbyhq.com/onehouse
-    notes: "Remote US. Ashby. H1B sponsor. Managed Apache Hudi platform. Data lakehouse."
+    careers_url: https://jobs.lever.co/Onehouse
+    notes: "Remote US. Lever (migrated from Ashby; slug is case-sensitive 'Onehouse'). H1B sponsor. Managed Apache Hudi platform. Data lakehouse."
     enabled: true
