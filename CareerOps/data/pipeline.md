@@ -108,3 +108,5 @@
 - [ ] https://job-boards.greenhouse.io/affirm/jobs/7732706003 | Affirm | Analytics Lead, Full Stack
 
 - [ ] https://instacart.careers/job/?gh_jid=7658241 | Instacart | Ads AI Analytics Lead II
+
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5071132008 | Anthropic | Research Engineer, Economic Research Data Platform
