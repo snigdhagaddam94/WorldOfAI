@@ -110,3 +110,5 @@
 - [ ] https://instacart.careers/job/?gh_jid=7658241 | Instacart | Ads AI Analytics Lead II
 
 - [ ] https://job-boards.greenhouse.io/anthropic/jobs/5071132008 | Anthropic | Research Engineer, Economic Research Data Platform
+
+- [ ] https://instacart.careers/job/?gh_jid=7951046 | Instacart | Media Analytics Manager, Measurement & Attribution
