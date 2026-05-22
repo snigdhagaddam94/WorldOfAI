@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{{NAME}} — CV</title>
+<title>{{NAME}} -- CV</title>
 <style>
   @font-face {
     font-family: 'Space Grotesk';
@@ -71,12 +71,12 @@
 
   /* === HEADER === */
   .header {
-    margin-bottom: 20px;
+    margin-bottom: 18px;
   }
 
   .header h1 {
     font-family: 'Space Grotesk', sans-serif;
-    font-size: 28px;
+    font-size: 26px;
     font-weight: 700;
     color: #1a1a2e;
     letter-spacing: -0.02em;
@@ -94,7 +94,7 @@
   .contact-row {
     display: flex;
     flex-wrap: wrap;
-    gap: 8px 14px;
+    gap: 6px 12px;
     font-family: 'DM Sans', sans-serif;
     font-size: 10.5px;
     line-height: 1.4;
@@ -107,31 +107,31 @@
   }
 
   .contact-row .separator {
-    color: #ccc;
+    color: #bbb;
   }
 
   /* === SECTIONS === */
   .section {
-    margin-bottom: 18px;
+    margin-bottom: 13px;
   }
 
   .section-title {
     font-family: 'Space Grotesk', sans-serif;
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.07em;
     color: hsl(187, 74%, 32%);
     border-bottom: 1.5px solid #e2e2e2;
-    padding-bottom: 4px;
-    margin-bottom: 10px;
+    padding-bottom: 3px;
+    margin-bottom: 8px;
     line-height: 1.2;
   }
 
   /* === PROFESSIONAL SUMMARY === */
   .summary-text {
-    font-size: 11px;
-    line-height: 1.7;
+    font-size: 10px;
+    line-height: 1.65;
     color: #2f2f2f;
   }
 
@@ -144,66 +144,67 @@
   .competencies-grid {
     display: flex;
     flex-wrap: wrap;
-    gap: 8px;
+    gap: 7px;
   }
 
   .competency-tag {
     font-family: 'DM Sans', sans-serif;
-    font-size: 10px;
+    font-size: 9.5px;
     font-weight: 500;
     color: hsl(187, 74%, 28%);
     background: hsl(187, 40%, 95%);
-    padding: 4px 10px;
+    padding: 3px 9px;
     border-radius: 3px;
     border: 1px solid hsl(187, 40%, 88%);
   }
 
   /* === WORK EXPERIENCE === */
   .job {
-    margin-bottom: 14px;
+    margin-bottom: 11px;
   }
 
   .job-header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    gap: 12px;
-    margin-bottom: 4px;
+    gap: 10px;
+    margin-bottom: 1px;
   }
 
   .job-company {
     font-family: 'Space Grotesk', sans-serif;
-    font-size: 12.5px;
+    font-size: 11.5px;
     font-weight: 600;
     color: hsl(270, 70%, 45%);
   }
 
   .job-period {
-    font-size: 10.5px;
+    font-size: 9.5px;
     color: #777;
     white-space: nowrap;
+    flex-shrink: 0;
   }
 
   .job-role {
-    font-size: 11px;
+    font-size: 10px;
     font-weight: 600;
     color: #333;
-    margin-bottom: 6px;
+    margin-bottom: 5px;
   }
 
   .job-location {
-    font-size: 10px;
+    font-size: 9.5px;
     color: #888;
   }
 
   .job ul {
-    padding-left: 18px;
-    margin-top: 6px;
+    padding-left: 15px;
+    margin-top: 3px;
   }
 
   .job li {
-    font-size: 10.5px;
-    line-height: 1.6;
+    font-size: 9.6px;
+    line-height: 1.58;
     color: #333;
     margin-bottom: 4px;
   }
@@ -212,14 +213,21 @@
     font-weight: 600;
   }
 
+  .job-stack {
+    font-size: 9px;
+    color: #777;
+    margin-top: 5px;
+    font-style: italic;
+  }
+
   /* === PROJECTS === */
   .project {
-    margin-bottom: 12px;
+    margin-bottom: 10px;
   }
 
   .project-title {
     font-family: 'Space Grotesk', sans-serif;
-    font-size: 11.5px;
+    font-size: 11px;
     font-weight: 600;
     color: hsl(270, 70%, 45%);
   }
@@ -235,49 +243,52 @@
   }
 
   .project-desc {
-    font-size: 10.5px;
+    font-size: 9.6px;
     color: #444;
     margin-top: 3px;
     line-height: 1.55;
   }
 
   .project-tech {
-    font-size: 9.5px;
+    font-size: 9px;
     color: #888;
     margin-top: 3px;
   }
 
   /* === EDUCATION === */
   .edu-item {
-    margin-bottom: 8px;
+    margin-bottom: 6px;
   }
 
   .edu-header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    gap: 12px;
+    gap: 10px;
   }
 
   .edu-title {
     font-weight: 600;
-    font-size: 11px;
+    font-size: 10.5px;
     color: #333;
   }
 
   .edu-org {
     color: hsl(270, 70%, 45%);
     font-weight: 500;
+    font-size: 10px;
+    margin-top: 1px;
   }
 
   .edu-year {
-    font-size: 10px;
+    font-size: 9.5px;
     color: #777;
     white-space: nowrap;
+    flex-shrink: 0;
   }
 
   .edu-desc {
-    font-size: 10px;
+    font-size: 9.5px;
     color: #666;
     margin-top: 2px;
     line-height: 1.5;
@@ -288,12 +299,12 @@
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    gap: 12px;
-    margin-bottom: 6px;
+    gap: 10px;
+    margin-bottom: 5px;
   }
 
   .cert-title {
-    font-size: 10.5px;
+    font-size: 9.6px;
     font-weight: 500;
     color: #333;
   }
@@ -303,27 +314,31 @@
   }
 
   .cert-year {
-    font-size: 10px;
+    font-size: 9.5px;
     color: #777;
     white-space: nowrap;
   }
 
   /* === SKILLS === */
-  .skills-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6px 14px;
+  .skills-table {
+    width: 100%;
+    border-collapse: collapse;
   }
 
-  .skill-item {
-    font-size: 10.5px;
+  .skills-table tr td {
+    font-size: 9.6px;
     color: #444;
+    padding: 2.5px 8px 2.5px 0;
+    vertical-align: top;
+    line-height: 1.55;
   }
 
-  .skill-category {
+  .skills-table tr td:first-child {
     font-weight: 600;
     color: #333;
-    font-size: 10.5px;
+    white-space: nowrap;
+    padding-right: 14px;
+    width: 155px;
   }
 
   /* === PRINT === */
@@ -362,10 +377,6 @@
       <span>{{EMAIL}}</span>
       <span class="separator">|</span>
       <a href="{{LINKEDIN_URL}}">{{LINKEDIN_DISPLAY}}</a>
-      <span class="separator">|</span>
-      <a href="{{PORTFOLIO_URL}}">{{PORTFOLIO_DISPLAY}}</a>
-      <span class="separator">|</span>
-      <span>{{LOCATION}}</span>
     </div>
   </div>
 
@@ -389,11 +400,8 @@
     {{EXPERIENCE}}
   </div>
 
-  <!-- PROJECTS -->
-  <div class="section avoid-break">
-    <div class="section-title">{{SECTION_PROJECTS}}</div>
-    {{PROJECTS}}
-  </div>
+  <!-- PROJECTS (omit section if {{PROJECTS}} is empty) -->
+  {{PROJECTS_SECTION}}
 
   <!-- EDUCATION -->
   <div class="section avoid-break">
@@ -401,11 +409,8 @@
     {{EDUCATION}}
   </div>
 
-  <!-- CERTIFICATIONS -->
-  <div class="section avoid-break">
-    <div class="section-title">{{SECTION_CERTIFICATIONS}}</div>
-    {{CERTIFICATIONS}}
-  </div>
+  <!-- CERTIFICATIONS (omit section if {{CERTIFICATIONS}} is empty) -->
+  {{CERTIFICATIONS_SECTION}}
 
   <!-- SKILLS -->
   <div class="section avoid-break">

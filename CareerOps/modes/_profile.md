@@ -204,3 +204,56 @@ Vinay is open to both US and Canadian markets. Evaluate location separately for 
 
 ### How to label Canadian roles in reports
 Add a `🇨🇦 CANADA MARKET` badge in the report header and a note: "Vinay holds Canadian PR — no sponsorship required. Comp evaluated in CAD against $180K+ target."
+
+---
+
+## Resume & Cover Letter Format Preferences
+
+These are the canonical format standards for all resume and cover letter generation. Do not deviate unless the user explicitly requests a change.
+
+### Design System
+
+| Element | Value |
+|---------|-------|
+| Fonts | Space Grotesk (headings, 600–700) + DM Sans (body, 400–500) |
+| Header accent | `linear-gradient(to right, hsl(187,74%,32%), hsl(270,70%,45%))` — 2px bar below name |
+| Section titles | Space Grotesk, 11px, uppercase, `hsl(187,74%,32%)`, border-bottom `#e2e2e2` |
+| Company names | Space Grotesk, 11.5px, 600, `hsl(270,70%,45%)` |
+| Bullet text | DM Sans, 9.6px, line-height 1.58, color `#333` |
+| Stack line | DM Sans, 9px, italic, color `#777` — after bullets in each role |
+| Background | White |
+| Paper format | US Letter (`8.5in`) |
+| PDF margins | 0.45in top/bottom · 0.5in left/right |
+| Templates | `templates/cv-template.html` · `templates/cover-letter-template.html` |
+
+### Header Rules (PERMANENT)
+
+- **No location** — never include city, state, or country in the contact row
+- **No portfolio** — omit unless Vinay explicitly provides a URL
+- Contact row: Phone · Email · LinkedIn only
+
+### Resume Content Rules
+
+- Bullets are elaborate and narrative — they show the engineering thinking and decision-making behind the work, not just what was built
+- Each bullet: problem or context → approach or decision → outcome or impact
+- Stack line after each role's bullets: `<div class="job-stack">Stack: ...</div>`
+- No periods at end of bullets
+- Sections to always include: Professional Summary, Core Competencies, Professional Experience, Education, Technical Skills
+- Sections to include only if content exists: Projects, Certifications
+- Target page count: 2 pages
+
+### Cover Letter Rules
+
+- Short — 4 paragraphs maximum
+- Human voice — no corporate-speak, no "I am writing to express my interest"
+- Structure: hook (why this role/company specifically) → evidence (relevant experience) → mission fit → close
+- Salutation: "Dear Hiring Team," unless a specific name is known
+- Closing: "Sincerely,"
+- Page count: always 1 page
+
+### How to generate a PDF
+
+1. Build the HTML from `templates/cv-template.html` or `templates/cover-letter-template.html`
+2. Fill all `{{PLACEHOLDER}}` values
+3. Write HTML to `/tmp/cv-{company-slug}.html` or `/tmp/cover-letter-{company-slug}.html`
+4. Run: `node generate-pdf.mjs /tmp/{file}.html output/{file}-{YYYY-MM-DD}.pdf --format=letter`
