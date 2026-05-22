@@ -3,6 +3,21 @@
 <!-- URLs added by scan.mjs are appended here automatically. -->
 <!-- Paste job URLs manually below to queue them for evaluation. -->
 
+<!-- 🇨🇦 CANADA $200K+ MANUAL SCAN — 2026-05-22 -->
+- [ ] https://job-boards.greenhouse.io/life360/jobs/8446529002 | Life360 | Staff Data Engineer ($220-260K CAD, Canada remote)
+- [ ] https://jobs.lever.co/wealthsimple/881f7bab-41bb-4dcc-9d41-02c99d697ea6 | Wealthsimple | Senior Software Developer, Data Platform
+- [ ] https://jobs.lever.co/wealthsimple/92b8d4b9-8cd6-44ef-ac71-2db128d9cd21 | Wealthsimple | Sr Manager Software Development, Delivery & AI Platform
+- [ ] https://jobs.lever.co/wealthsimple/94e24d6e-4ac5-4f7b-b365-43259c3f5d5d | Wealthsimple | Senior Analytics Developer, Brokerage & Ledger
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5806327004 | Grafana Labs | Staff AI Engineer (Canada Remote)
+- [ ] https://job-boards.greenhouse.io/grafanalabs/jobs/5810656004 | Grafana Labs | Senior Data Engineer (Canada Remote)
+- [ ] https://job-boards.greenhouse.io/samsara/jobs/7532262 | Samsara | Senior Marketing AI Data Engineer (Canada Remote)
+- [ ] https://job-boards.greenhouse.io/lithic/jobs/5977140004 | Lithic | Senior Software Engineer, Data Platform (Canada eligible)
+- [ ] https://jobs.ashbyhq.com/kraken.com/ef0e826c-5639-4e2c-8bd7-5b9b679bc7da | Kraken | Data Engineer, Data Platform (remote, Canada eligible)
+- [ ] https://job-boards.greenhouse.io/discord/jobs/8373431002 | Discord | Senior Data Engineer, Analytics
+- [ ] https://jobs.ashbyhq.com/chainalysis-careers/bb4e2bf4-8e2b-4db7-b4e5-8c495df0b235 | Chainalysis | Staff Data Engineer, Enterprise Data Analytics
+- [ ] https://jobs.lever.co/plaid/022278b3-0943-44b3-a54b-1de421017589 | Plaid | Senior Data Engineer ($180-270K USD — verify Canada eligibility)
+- [ ] https://job-boards.greenhouse.io/recharge/jobs/8510444002 | Recharge | Senior Data Engineer
+
 
 ## Pendientes
 
