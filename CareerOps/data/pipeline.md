@@ -112,3 +112,6 @@
 - [ ] https://job-boards.greenhouse.io/anthropic/jobs/5071132008 | Anthropic | Research Engineer, Economic Research Data Platform
 
 - [ ] https://instacart.careers/job/?gh_jid=7951046 | Instacart | Media Analytics Manager, Measurement & Attribution
+
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7740918003 | Affirm | Analytics Lead, Full Stack
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7732927003 | Affirm | Analytics Manager, Full Stack
