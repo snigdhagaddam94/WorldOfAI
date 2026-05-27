@@ -115,3 +115,5 @@
 
 - [ ] https://job-boards.greenhouse.io/affirm/jobs/7740918003 | Affirm | Analytics Lead, Full Stack
 - [ ] https://job-boards.greenhouse.io/affirm/jobs/7732927003 | Affirm | Analytics Manager, Full Stack
+
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5229976008 | Anthropic | Data Engineering Manager, GTM & Marketing
