@@ -117,3 +117,6 @@
 - [ ] https://job-boards.greenhouse.io/affirm/jobs/7732927003 | Affirm | Analytics Manager, Full Stack
 
 - [ ] https://job-boards.greenhouse.io/anthropic/jobs/5229976008 | Anthropic | Data Engineering Manager, GTM & Marketing
+
+- [ ] https://instacart.careers/job/?gh_jid=7778620 | Instacart | Staff Software Engineer,  Data Infrastructure
+- [ ] https://instacart.careers/job/?gh_jid=7778618 | Instacart | Staff Software Engineer, Data Infrastructure
