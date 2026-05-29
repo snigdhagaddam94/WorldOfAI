@@ -120,3 +120,5 @@
 
 - [ ] https://instacart.careers/job/?gh_jid=7778620 | Instacart | Staff Software Engineer,  Data Infrastructure
 - [ ] https://instacart.careers/job/?gh_jid=7778618 | Instacart | Staff Software Engineer, Data Infrastructure
+
+- [ ] https://job-boards.greenhouse.io/airtable/jobs/8565121002 | Airtable | Manager, Data Engineering
