@@ -98,4 +98,4 @@ id	url	status	started_at	completed_at	report_num	score	error	retries
 97	https://job-boards.greenhouse.io/anthropic/jobs/5229976008	failed	2026-05-28T17:36:14Z	2026-05-28T17:36:16Z	193	-	Credit balance is too low 	2
 98	https://instacart.careers/job/?gh_jid=7778620	failed	2026-05-29T17:36:27Z	2026-05-29T17:36:28Z	196	-	Credit balance is too low 	2
 99	https://instacart.careers/job/?gh_jid=7778618	failed	2026-05-29T17:36:27Z	2026-05-29T17:36:28Z	197	-	Credit balance is too low 	2
-100	https://job-boards.greenhouse.io/airtable/jobs/8565121002	failed	2026-05-29T17:36:30Z	2026-05-29T17:36:31Z	198	-	Credit balance is too low 	1
+100	https://job-boards.greenhouse.io/airtable/jobs/8565121002	failed	2026-05-30T15:13:15Z	2026-05-30T15:13:16Z	199	-	Credit balance is too low 	2
