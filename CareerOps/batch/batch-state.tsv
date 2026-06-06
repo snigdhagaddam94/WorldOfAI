@@ -101,3 +101,4 @@ id	url	status	started_at	completed_at	report_num	score	error	retries
 100	https://job-boards.greenhouse.io/airtable/jobs/8565121002	failed	2026-05-30T15:13:15Z	2026-05-30T15:13:16Z	199	-	Credit balance is too low 	2
 101	https://job-boards.greenhouse.io/anthropic/jobs/5238460008	failed	2026-06-04T16:56:06Z	2026-06-04T16:56:07Z	202	-	Credit balance is too low 	2
 102	https://jobs.ashbyhq.com/perplexity/2e73bc78-684c-47c5-95df-e9973a10e0b6	failed	2026-06-04T16:56:06Z	2026-06-04T16:56:07Z	203	-	Credit balance is too low 	2
+103	https://job-boards.greenhouse.io/anthropic/jobs/5247156008	failed	2026-06-06T15:19:38Z	2026-06-06T15:19:40Z	204	-	Credit balance is too low 	1

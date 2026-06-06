@@ -125,3 +125,5 @@
 
 - [ ] https://job-boards.greenhouse.io/anthropic/jobs/5238460008 | Anthropic | Data Operations Manager, Human Data
 - [ ] https://jobs.ashbyhq.com/perplexity/2e73bc78-684c-47c5-95df-e9973a10e0b6 | Perplexity | Member of Technical Staff (Software Engineer, Data Platform)
+
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5247156008 | Anthropic | Engineering Manager, Safeguards Data Infrastructure
