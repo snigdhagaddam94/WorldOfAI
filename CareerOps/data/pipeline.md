@@ -129,3 +129,5 @@
 - [ ] https://job-boards.greenhouse.io/anthropic/jobs/5247156008 | Anthropic | Engineering Manager, Safeguards Data Infrastructure
 
 - [ ] https://careers.airbnb.com/positions/7988010?gh_jid=7988010 | Airbnb | Senior Data Engineer, People Analytics
+
+- [ ] https://instacart.careers/job/?gh_jid=7495338 | Instacart | Ads AI Analytics Lead II
