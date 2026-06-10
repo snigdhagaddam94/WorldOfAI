@@ -103,4 +103,6 @@ id	url	status	started_at	completed_at	report_num	score	error	retries
 102	https://jobs.ashbyhq.com/perplexity/2e73bc78-684c-47c5-95df-e9973a10e0b6	failed	2026-06-04T16:56:06Z	2026-06-04T16:56:07Z	203	-	Credit balance is too low 	2
 103	https://job-boards.greenhouse.io/anthropic/jobs/5247156008	failed	2026-06-07T15:26:24Z	2026-06-07T15:26:25Z	205	-	Credit balance is too low 	2
 104	https://careers.airbnb.com/positions/7988010?gh_jid=7988010	failed	2026-06-09T16:33:03Z	2026-06-09T16:33:04Z	207	-	Credit balance is too low 	2
-105	https://instacart.careers/job/?gh_jid=7495338	failed	2026-06-09T16:33:03Z	2026-06-09T16:33:04Z	208	-	Credit balance is too low 	1
+105	https://instacart.careers/job/?gh_jid=7495338	failed	2026-06-10T17:24:33Z	2026-06-10T17:24:34Z	209	-	Credit balance is too low 	2
+106	https://job-boards.greenhouse.io/sigmacomputing/jobs/7767609003	failed	2026-06-10T17:24:33Z	2026-06-10T17:24:34Z	210	-	Credit balance is too low 	1
+107	https://job-boards.greenhouse.io/sigmacomputing/jobs/7767896003	failed	2026-06-10T17:24:36Z	2026-06-10T17:24:37Z	211	-	Credit balance is too low 	1

@@ -131,3 +131,6 @@
 - [ ] https://careers.airbnb.com/positions/7988010?gh_jid=7988010 | Airbnb | Senior Data Engineer, People Analytics
 
 - [ ] https://instacart.careers/job/?gh_jid=7495338 | Instacart | Ads AI Analytics Lead II
+
+- [ ] https://job-boards.greenhouse.io/sigmacomputing/jobs/7767609003 | Sigma Computing | Director of Strategic Partnerships, Snowflake
+- [ ] https://job-boards.greenhouse.io/sigmacomputing/jobs/7767896003 | Sigma Computing | Senior Partner Engineer, Databricks Alliance
