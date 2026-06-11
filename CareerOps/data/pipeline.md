@@ -134,3 +134,6 @@
 
 - [ ] https://job-boards.greenhouse.io/sigmacomputing/jobs/7767609003 | Sigma Computing | Director of Strategic Partnerships, Snowflake
 - [ ] https://job-boards.greenhouse.io/sigmacomputing/jobs/7767896003 | Sigma Computing | Senior Partner Engineer, Databricks Alliance
+
+- [ ] https://careers.airbnb.com/positions/7998356?gh_jid=7998356 | Airbnb | Senior Staff Data Engineer - Data Stewardship
+- [ ] https://job-boards.greenhouse.io/sigmacomputing/jobs/7767611003 | Sigma Computing | Director of Strategic Partnerships, Snowflake
