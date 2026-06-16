@@ -137,3 +137,5 @@
 
 - [ ] https://careers.airbnb.com/positions/7998356?gh_jid=7998356 | Airbnb | Senior Staff Data Engineer - Data Stewardship
 - [ ] https://job-boards.greenhouse.io/sigmacomputing/jobs/7767611003 | Sigma Computing | Director of Strategic Partnerships, Snowflake
+
+- [ ] https://www.fivetran.com/careers/job?gh_jid=7771684003 | Fivetran | Principal Software Engineer - Data Lakes
