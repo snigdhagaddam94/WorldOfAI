@@ -108,4 +108,6 @@ id	url	status	started_at	completed_at	report_num	score	error	retries
 107	https://job-boards.greenhouse.io/sigmacomputing/jobs/7767896003	failed	2026-06-11T17:38:17Z	2026-06-11T17:38:18Z	212	-	Credit balance is too low 	2
 109	https://job-boards.greenhouse.io/sigmacomputing/jobs/7767611003	failed	2026-06-12T16:46:50Z	2026-06-12T16:46:52Z	217	-	Credit balance is too low 	2
 108	https://careers.airbnb.com/positions/7998356?gh_jid=7998356	failed	2026-06-12T16:46:50Z	2026-06-12T16:46:51Z	216	-	Credit balance is too low 	2
-110	https://www.fivetran.com/careers/job?gh_jid=7771684003	failed	2026-06-16T18:29:38Z	2026-06-16T18:29:39Z	218	-	Credit balance is too low 	1
+110	https://www.fivetran.com/careers/job?gh_jid=7771684003	failed	2026-06-17T16:56:24Z	2026-06-17T16:56:25Z	219	-	Credit balance is too low 	2
+111	https://app.careerpuck.com/job-board/lyft/job/8594129002?gh_jid=8594129002	failed	2026-06-17T16:56:24Z	2026-06-17T16:56:25Z	220	-	Credit balance is too low 	1
+112	https://job-boards.greenhouse.io/affirm/jobs/7764109003	failed	2026-06-17T16:56:27Z	2026-06-17T16:56:28Z	221	-	Credit balance is too low 	1
