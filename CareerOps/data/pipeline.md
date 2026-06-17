@@ -139,3 +139,6 @@
 - [ ] https://job-boards.greenhouse.io/sigmacomputing/jobs/7767611003 | Sigma Computing | Director of Strategic Partnerships, Snowflake
 
 - [ ] https://www.fivetran.com/careers/job?gh_jid=7771684003 | Fivetran | Principal Software Engineer - Data Lakes
+
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7764109003 | Affirm | Analytics Engineer II
+- [ ] https://app.careerpuck.com/job-board/lyft/job/8594129002?gh_jid=8594129002 | Lyft | Data Engineer
