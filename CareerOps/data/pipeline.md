@@ -125,3 +125,13 @@
 
 - [ ] https://job-boards.greenhouse.io/anthropic/jobs/5238460008 | Anthropic | Data Operations Manager, Human Data
 - [ ] https://jobs.ashbyhq.com/perplexity/2e73bc78-684c-47c5-95df-e9973a10e0b6 | Perplexity | Member of Technical Staff (Software Engineer, Data Platform)
+
+- [ ] https://app.careerpuck.com/job-board/lyft/job/8594129002?gh_jid=8594129002 | Lyft | Data Engineer
+- [ ] https://careers.airbnb.com/positions/7998356?gh_jid=7998356 | Airbnb | Senior Staff Data Engineer - Data Stewardship
+- [ ] https://job-boards.greenhouse.io/twilio/jobs/8008538 | Twilio | Staff, Analytics Engineer
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7764109003 | Affirm | Analytics Engineer II
+- [ ] https://instacart.careers/job/?gh_jid=7495338 | Instacart | Ads AI Analytics Lead II
+- [ ] https://www.fivetran.com/careers/job?gh_jid=7771684003 | Fivetran | Principal Software Engineer - Data Lakes
+- [ ] https://job-boards.greenhouse.io/sigmacomputing/jobs/7767609003 | Sigma Computing | Director of Strategic Partnerships, Snowflake
+- [ ] https://job-boards.greenhouse.io/sigmacomputing/jobs/7767896003 | Sigma Computing | Senior Partner Engineer, Databricks Alliance
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5247156008 | Anthropic | Engineering Manager, Safeguards Data Infrastructure

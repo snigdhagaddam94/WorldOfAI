@@ -101,3 +101,12 @@ id	url	status	started_at	completed_at	report_num	score	error	retries
 100	https://job-boards.greenhouse.io/airtable/jobs/8565121002	failed	2026-05-30T15:13:15Z	2026-05-30T15:13:16Z	199	-	Credit balance is too low 	2
 101	https://job-boards.greenhouse.io/anthropic/jobs/5238460008	failed	2026-06-03T18:24:26Z	2026-06-03T18:24:27Z	200	-	Credit balance is too low 	1
 102	https://jobs.ashbyhq.com/perplexity/2e73bc78-684c-47c5-95df-e9973a10e0b6	failed	2026-06-03T18:24:26Z	2026-06-03T18:24:27Z	201	-	Credit balance is too low 	1
+103	https://app.careerpuck.com/job-board/lyft/job/8594129002?gh_jid=8594129002	completed	2026-06-18T13:13:39Z	2026-06-18T13:13:39Z	202	1.8		0
+104	https://careers.airbnb.com/positions/7998356?gh_jid=7998356	completed	2026-06-18T13:13:39Z	2026-06-18T13:13:39Z	203	4.0		0
+105	https://job-boards.greenhouse.io/twilio/jobs/8008538	completed	2026-06-18T13:13:39Z	2026-06-18T13:13:39Z	204	3.0		0
+106	https://job-boards.greenhouse.io/affirm/jobs/7764109003	completed	2026-06-18T13:13:39Z	2026-06-18T13:13:39Z	205	2.0		0
+107	https://instacart.careers/job/?gh_jid=7495338	completed	2026-06-18T13:13:39Z	2026-06-18T13:13:39Z	206	2.8		0
+108	https://www.fivetran.com/careers/job?gh_jid=7771684003	completed	2026-06-18T13:13:39Z	2026-06-18T13:13:39Z	207	1.6		0
+109	https://job-boards.greenhouse.io/sigmacomputing/jobs/7767609003	completed	2026-06-18T13:13:39Z	2026-06-18T13:13:39Z	208	1.9		0
+110	https://job-boards.greenhouse.io/sigmacomputing/jobs/7767896003	completed	2026-06-18T13:13:39Z	2026-06-18T13:13:39Z	209	2.4		0
+111	https://job-boards.greenhouse.io/anthropic/jobs/5247156008	completed	2026-06-18T13:13:39Z	2026-06-18T13:13:39Z	210	4.0		0
