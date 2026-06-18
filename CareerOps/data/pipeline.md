@@ -142,3 +142,5 @@
 
 - [ ] https://app.careerpuck.com/job-board/lyft/job/8594129002?gh_jid=8594129002 | Lyft | Data Engineer
 - [ ] https://job-boards.greenhouse.io/affirm/jobs/7764109003 | Affirm | Analytics Engineer II
+
+- [ ] https://job-boards.greenhouse.io/twilio/jobs/8008538 | Twilio | Staff, Analytics Engineer, GTM Data Science & Analytics
