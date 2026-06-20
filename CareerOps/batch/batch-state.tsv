@@ -112,3 +112,4 @@ id	url	status	started_at	completed_at	report_num	score	error	retries
 111	https://app.careerpuck.com/job-board/lyft/job/8594129002?gh_jid=8594129002	failed	2026-06-18T17:17:18Z	2026-06-18T17:17:19Z	222	-	Credit balance is too low 	2
 112	https://job-boards.greenhouse.io/affirm/jobs/7764109003	failed	2026-06-18T17:17:18Z	2026-06-18T17:17:19Z	223	-	Credit balance is too low 	2
 113	https://job-boards.greenhouse.io/twilio/jobs/8008538	failed	2026-06-19T16:33:07Z	2026-06-19T16:33:08Z	225	-	Credit balance is too low 	2
+114	https://job-boards.greenhouse.io/affirm/jobs/7775353003	failed	2026-06-20T15:46:48Z	2026-06-20T15:46:49Z	226	-	Credit balance is too low 	1

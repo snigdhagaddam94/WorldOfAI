@@ -144,3 +144,5 @@
 - [ ] https://job-boards.greenhouse.io/affirm/jobs/7764109003 | Affirm | Analytics Engineer II
 
 - [ ] https://job-boards.greenhouse.io/twilio/jobs/8008538 | Twilio | Staff, Analytics Engineer, GTM Data Science & Analytics
+
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7775353003 | Affirm | Quantitative Analytics Lead
