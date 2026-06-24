@@ -148,3 +148,5 @@
 - [ ] https://job-boards.greenhouse.io/affirm/jobs/7775353003 | Affirm | Quantitative Analytics Lead
 
 - [ ] https://job-boards.greenhouse.io/affirm/jobs/7775355003 | Affirm | Quantitative Analytics Lead
+
+- [ ] https://boards.greenhouse.io/chime/jobs/8605078002?gh_jid=8605078002 | Chime | Senior Software Engineer, Data Engineering
