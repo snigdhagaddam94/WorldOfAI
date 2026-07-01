@@ -150,3 +150,6 @@
 - [ ] https://job-boards.greenhouse.io/affirm/jobs/7775355003 | Affirm | Quantitative Analytics Lead
 
 - [ ] https://boards.greenhouse.io/chime/jobs/8605078002?gh_jid=8605078002 | Chime | Senior Software Engineer, Data Engineering
+
+- [ ] https://job-boards.greenhouse.io/hightouch/jobs/6105396004 | Hightouch | ISV Partner Sales Snowflake
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5286493008 | Anthropic | Engineering Manager, Data Architecture
