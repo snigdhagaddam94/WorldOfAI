@@ -117,3 +117,4 @@ id	url	status	started_at	completed_at	report_num	score	error	retries
 116	https://boards.greenhouse.io/chime/jobs/8605078002?gh_jid=8605078002	failed	2026-06-25T16:28:55Z	2026-06-25T16:28:56Z	231	-	Credit balance is too low 	2
 117	https://job-boards.greenhouse.io/hightouch/jobs/6105396004	failed	2026-07-01T16:29:23Z	2026-07-01T16:29:25Z	232	-	Credit balance is too low 	1
 118	https://job-boards.greenhouse.io/anthropic/jobs/5286493008	failed	2026-07-01T16:29:23Z	2026-07-01T16:29:25Z	233	-	Credit balance is too low 	1
+119	https://job-boards.greenhouse.io/anthropic/jobs/5240422008	completed	2026-07-02T00:00:00Z	2026-07-02T00:05:00Z	234	4.0		0
