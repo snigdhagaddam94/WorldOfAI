@@ -153,3 +153,5 @@
 
 - [ ] https://job-boards.greenhouse.io/hightouch/jobs/6105396004 | Hightouch | ISV Partner Sales Snowflake
 - [ ] https://job-boards.greenhouse.io/anthropic/jobs/5286493008 | Anthropic | Engineering Manager, Data Architecture
+
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5240422008 | Anthropic | [P] Data Engineer, Safeguards
