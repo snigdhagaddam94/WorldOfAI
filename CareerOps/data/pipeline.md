@@ -155,3 +155,5 @@
 - [ ] https://job-boards.greenhouse.io/anthropic/jobs/5286493008 | Anthropic | Engineering Manager, Data Architecture
 
 - [ ] https://job-boards.greenhouse.io/anthropic/jobs/5240422008 | Anthropic | [P] Data Engineer, Safeguards
+
+- [ ] http://block.xyz/careers/jobs/5281312008?gh_jid=5281312008 | Block (formerly Square) | Senior Data Engineer, Risk

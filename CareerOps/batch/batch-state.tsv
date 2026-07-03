@@ -118,3 +118,4 @@ id	url	status	started_at	completed_at	report_num	score	error	retries
 117	https://job-boards.greenhouse.io/hightouch/jobs/6105396004	failed	2026-07-02T16:06:40Z	2026-07-02T16:06:42Z	234	-	Credit balance is too low 	2
 118	https://job-boards.greenhouse.io/anthropic/jobs/5286493008	failed	2026-07-02T16:06:40Z	2026-07-02T16:06:42Z	235	-	Credit balance is too low 	2
 119	https://job-boards.greenhouse.io/anthropic/jobs/5240422008	failed	2026-07-02T16:06:43Z	2026-07-02T16:06:45Z	236	-	Credit balance is too low 	1
+120	http://block.xyz/careers/jobs/5281312008?gh_jid=5281312008	completed	2026-07-03T00:00:00Z	2026-07-03T00:00:01Z	237	4.0		0
