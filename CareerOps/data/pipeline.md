@@ -161,3 +161,5 @@
 - [ ] https://job-boards.greenhouse.io/anthropic/jobs/5297059008 | Anthropic | Engineering Manager, Research Data Platform
 
 - [ ] https://jobs.dropbox.com/listing/8053628?gh_jid=8053628 | Dropbox | Data Engineer
+
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5114768008 | Anthropic | Staff+ Software Engineer, Data Infrastructure
