@@ -121,3 +121,4 @@ id	url	status	started_at	completed_at	report_num	score	error	retries
 120	http://block.xyz/careers/jobs/5281312008?gh_jid=5281312008	failed	2026-07-04T15:09:36Z	2026-07-04T15:09:37Z	239	-	Credit balance is too low 	2
 121	https://job-boards.greenhouse.io/anthropic/jobs/5297059008	failed	2026-07-08T16:03:08Z	2026-07-08T16:03:10Z	241	-	Credit balance is too low 	2
 122	https://jobs.dropbox.com/listing/8053628?gh_jid=8053628	failed	2026-07-15T15:36:48Z	2026-07-15T15:36:50Z	243	-	Credit balance is too low 	2
+123	https://job-boards.greenhouse.io/anthropic/jobs/5114768008	failed	2026-07-16T15:40:45Z	2026-07-16T15:40:47Z	244	-	Credit balance is too low 	1
