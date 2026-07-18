@@ -123,3 +123,6 @@ id	url	status	started_at	completed_at	report_num	score	error	retries
 122	https://jobs.dropbox.com/listing/8053628?gh_jid=8053628	failed	2026-07-15T15:36:48Z	2026-07-15T15:36:50Z	243	-	Credit balance is too low 	2
 123	https://job-boards.greenhouse.io/anthropic/jobs/5114768008	failed	2026-07-17T15:17:17Z	2026-07-17T15:17:19Z	245	-	Credit balance is too low 	2
 124	https://job-boards.greenhouse.io/affirm/jobs/7799329003	failed	2026-07-17T15:17:17Z	2026-07-17T15:17:19Z	246	-	Claude configuration file not found at: /home/runner/.claude.json A backup file exists at: /home/runner/.claude/backups/.claude.json.backup.1784301438196 You can manually restore it by running: cp "/h	1
+125	https://job-boards.greenhouse.io/affirm/jobs/7800444003	completed	2026-07-18T00:00:00Z	2026-07-18T00:00:00Z	168	2.0		0
+126	https://www.okta.com/company/careers/opportunity/8070149?gh_jid=8070149	completed	2026-07-18T00:00:00Z	2026-07-18T00:00:00Z	169	3.0		0
+127	https://www.okta.com/company/careers/opportunity/7784503?gh_jid=7784503	completed	2026-07-18T00:00:00Z	2026-07-18T00:00:00Z	170	3.0		0
