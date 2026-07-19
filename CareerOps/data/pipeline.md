@@ -169,3 +169,5 @@
 - [ ] https://job-boards.greenhouse.io/affirm/jobs/7800444003 | Affirm | Software Engineer II, Backend (Unified Data Platform)
 - [ ] https://www.okta.com/company/careers/opportunity/8070149?gh_jid=8070149 | Okta | Principal Data Engineer, People Data
 - [ ] https://www.okta.com/company/careers/opportunity/7784503?gh_jid=7784503 | Okta | Principal Data Engineer, Product Data
+
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7800446003 | Affirm | Software Engineer II, Backend (Unified Data Platform)
