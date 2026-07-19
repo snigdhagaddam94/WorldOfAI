@@ -126,3 +126,4 @@ id	url	status	started_at	completed_at	report_num	score	error	retries
 125	https://job-boards.greenhouse.io/affirm/jobs/7800444003	failed	2026-07-18T14:58:23Z	2026-07-18T14:58:25Z	248	-	Credit balance is too low 	1
 126	https://www.okta.com/company/careers/opportunity/8070149?gh_jid=8070149	failed	2026-07-18T14:58:26Z	2026-07-18T14:58:28Z	249	-	Credit balance is too low 	1
 127	https://www.okta.com/company/careers/opportunity/7784503?gh_jid=7784503	failed	2026-07-18T14:58:27Z	2026-07-18T14:58:28Z	250	-	Credit balance is too low 	1
+128	https://job-boards.greenhouse.io/affirm/jobs/7800446003	completed	2026-07-19T13:05:00Z	2026-07-19T13:09:17Z	251	2.5		0
