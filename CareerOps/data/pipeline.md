@@ -173,3 +173,8 @@
 - [ ] https://job-boards.greenhouse.io/affirm/jobs/7800446003 | Affirm | Software Engineer II, Backend (Unified Data Platform)
 
 - [ ] https://job-boards.greenhouse.io/affirm/jobs/7793244003 | Affirm | Analytics Lead, Full Stack
+
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7793242003 | Affirm | Analytics Lead, Full Stack
+- [ ] https://job-boards.greenhouse.io/hightouch/jobs/6122160004 | Hightouch | Forward Deployed Analytics Engineer 
+- [ ] https://job-boards.greenhouse.io/flexport/jobs/8046640 | Flexport | Head of Data Center Logistics Practice
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5247446008 | Anthropic | [C] Data Engineer, Safeguards

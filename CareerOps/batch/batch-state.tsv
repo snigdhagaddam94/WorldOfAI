@@ -127,4 +127,8 @@ id	url	status	started_at	completed_at	report_num	score	error	retries
 126	https://www.okta.com/company/careers/opportunity/8070149?gh_jid=8070149	failed	2026-07-19T15:00:41Z	2026-07-19T15:00:43Z	252	-	Claude configuration file not found at: /home/runner/.claude.json A backup file exists at: /home/runner/.claude/backups/.claude.json.backup.1784473242273 You can manually restore it by running: cp "/h	2
 127	https://www.okta.com/company/careers/opportunity/7784503?gh_jid=7784503	failed	2026-07-19T15:00:44Z	2026-07-19T15:00:46Z	253	-	Credit balance is too low 	2
 128	https://job-boards.greenhouse.io/affirm/jobs/7800446003	failed	2026-07-20T15:54:02Z	2026-07-20T15:54:03Z	255	-	Credit balance is too low 	2
-129	https://job-boards.greenhouse.io/affirm/jobs/7793244003	failed	2026-07-21T15:46:22Z	2026-07-21T15:46:24Z	256	-	Credit balance is too low 	1
+129	https://job-boards.greenhouse.io/affirm/jobs/7793244003	failed	2026-07-22T15:44:43Z	2026-07-22T15:44:45Z	257	-	Credit balance is too low 	2
+130	https://job-boards.greenhouse.io/affirm/jobs/7793242003	failed	2026-07-22T15:44:43Z	2026-07-22T15:44:45Z	258	-	Claude configuration file not found at: /home/runner/.claude.json A backup file exists at: /home/runner/.claude/backups/.claude.json.backup.1784735084403 You can manually restore it by running: cp "/h	1
+131	https://job-boards.greenhouse.io/hightouch/jobs/6122160004	failed	2026-07-22T15:44:46Z	2026-07-22T15:44:48Z	259	-	Credit balance is too low 	1
+132	https://job-boards.greenhouse.io/flexport/jobs/8046640	failed	2026-07-22T15:44:46Z	2026-07-22T15:44:48Z	260	-	Credit balance is too low 	1
+133	https://job-boards.greenhouse.io/anthropic/jobs/5247446008	failed	2026-07-22T15:44:49Z	2026-07-22T15:44:51Z	261	-	Credit balance is too low 	1
