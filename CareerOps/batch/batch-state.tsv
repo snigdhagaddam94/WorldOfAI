@@ -128,3 +128,6 @@ id	url	status	started_at	completed_at	report_num	score	error	retries
 127	https://www.okta.com/company/careers/opportunity/7784503?gh_jid=7784503	failed	2026-07-19T15:00:44Z	2026-07-19T15:00:46Z	253	-	Credit balance is too low 	2
 128	https://job-boards.greenhouse.io/affirm/jobs/7800446003	failed	2026-07-20T15:54:02Z	2026-07-20T15:54:03Z	255	-	Credit balance is too low 	2
 129	https://job-boards.greenhouse.io/affirm/jobs/7793244003	failed	2026-07-21T15:46:22Z	2026-07-21T15:46:24Z	256	-	Credit balance is too low 	1
+130	https://job-boards.greenhouse.io/affirm/jobs/7793242003	completed	2026-07-22T00:00:00Z	2026-07-22T00:10:00Z	168	3.2		0
+131	https://job-boards.greenhouse.io/hightouch/jobs/6122160004	completed	2026-07-22T00:10:00Z	2026-07-22T00:20:00Z	169	2.1		0
+132	https://job-boards.greenhouse.io/anthropic/jobs/5247446008	completed	2026-07-22T00:20:00Z	2026-07-22T00:30:00Z	170	3.7		0
