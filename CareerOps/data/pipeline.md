@@ -178,3 +178,5 @@
 - [ ] https://job-boards.greenhouse.io/hightouch/jobs/6122160004 | Hightouch | Forward Deployed Analytics Engineer 
 - [ ] https://job-boards.greenhouse.io/flexport/jobs/8046640 | Flexport | Head of Data Center Logistics Practice
 - [ ] https://job-boards.greenhouse.io/anthropic/jobs/5247446008 | Anthropic | [C] Data Engineer, Safeguards
+
+- [ ] https://job-boards.greenhouse.io/sigmacomputing/jobs/7809973003 | Sigma Computing | Data Engineer
