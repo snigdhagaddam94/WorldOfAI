@@ -180,3 +180,5 @@
 - [ ] https://job-boards.greenhouse.io/anthropic/jobs/5247446008 | Anthropic | [C] Data Engineer, Safeguards
 
 - [ ] https://job-boards.greenhouse.io/sigmacomputing/jobs/7809973003 | Sigma Computing | Data Engineer
+
+- [ ] https://job-boards.greenhouse.io/sigmacomputing/jobs/7809974003 | Sigma Computing | Data Engineer

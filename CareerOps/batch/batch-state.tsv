@@ -132,4 +132,5 @@ id	url	status	started_at	completed_at	report_num	score	error	retries
 131	https://job-boards.greenhouse.io/hightouch/jobs/6122160004	failed	2026-07-23T15:56:57Z	2026-07-23T15:56:59Z	263	-	Credit balance is too low 	2
 132	https://job-boards.greenhouse.io/flexport/jobs/8046640	failed	2026-07-23T15:57:00Z	2026-07-23T15:57:02Z	264	-	Credit balance is too low 	2
 133	https://job-boards.greenhouse.io/anthropic/jobs/5247446008	failed	2026-07-23T15:57:00Z	2026-07-23T15:57:01Z	265	-	Credit balance is too low 	2
-134	https://job-boards.greenhouse.io/sigmacomputing/jobs/7809973003	failed	2026-07-24T15:27:33Z	2026-07-24T15:27:35Z	266	-	Credit balance is too low 	1
+134	https://job-boards.greenhouse.io/sigmacomputing/jobs/7809973003	failed	2026-07-25T15:07:10Z	2026-07-25T15:07:11Z	267	-	Credit balance is too low 	2
+135	https://job-boards.greenhouse.io/sigmacomputing/jobs/7809974003	failed	2026-07-25T15:07:10Z	2026-07-25T15:07:11Z	268	-	Claude configuration file not found at: /home/runner/.claude.json A backup file exists at: /home/runner/.claude/backups/.claude.json.backup.1784992030683 You can manually restore it by running: cp "/h	1
