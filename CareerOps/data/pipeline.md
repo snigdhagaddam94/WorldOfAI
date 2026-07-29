@@ -182,3 +182,5 @@
 - [ ] https://job-boards.greenhouse.io/sigmacomputing/jobs/7809973003 | Sigma Computing | Data Engineer
 
 - [ ] https://job-boards.greenhouse.io/sigmacomputing/jobs/7809974003 | Sigma Computing | Data Engineer
+
+- [ ] https://job-boards.greenhouse.io/twilio/jobs/8044650 | Twilio | Senior Analytics Engineer
