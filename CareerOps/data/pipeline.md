@@ -184,3 +184,6 @@
 - [ ] https://job-boards.greenhouse.io/sigmacomputing/jobs/7809974003 | Sigma Computing | Data Engineer
 
 - [ ] https://job-boards.greenhouse.io/twilio/jobs/8044650 | Twilio | Senior Analytics Engineer
+
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7819441003 | Affirm | Quantitative Analytics Manager, Affirm Bank Model Governance
+- [ ] https://jobs.dropbox.com/listing/8090062?gh_jid=8090062 | Dropbox | Senior Manager, Data Engineering
