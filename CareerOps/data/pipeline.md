@@ -187,3 +187,5 @@
 
 - [ ] https://job-boards.greenhouse.io/affirm/jobs/7819441003 | Affirm | Quantitative Analytics Manager, Affirm Bank Model Governance
 - [ ] https://jobs.dropbox.com/listing/8090062?gh_jid=8090062 | Dropbox | Senior Manager, Data Engineering
+
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7814576003 | Affirm | Analytics Lead, Strategic Insights (Compliance)
