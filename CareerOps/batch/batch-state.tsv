@@ -137,4 +137,4 @@ id	url	status	started_at	completed_at	report_num	score	error	retries
 136	https://job-boards.greenhouse.io/twilio/jobs/8044650	failed	2026-07-30T15:53:29Z	2026-07-30T15:53:32Z	271	-	Credit balance is too low 	2
 137	https://job-boards.greenhouse.io/affirm/jobs/7819441003	failed	2026-07-31T16:02:40Z	2026-07-31T16:02:41Z	274	-	Credit balance is too low 	2
 138	https://jobs.dropbox.com/listing/8090062?gh_jid=8090062	failed	2026-07-31T16:02:40Z	2026-07-31T16:02:41Z	275	-	Claude configuration file not found at: /home/runner/.claude.json A backup file exists at: /home/runner/.claude/backups/.claude.json.backup.1785513760591 You can manually restore it by running: cp "/h	2
-139	https://job-boards.greenhouse.io/affirm/jobs/7814576003	failed	2026-07-31T16:02:43Z	2026-07-31T16:02:44Z	276	-	Credit balance is too low 	1
+139	https://job-boards.greenhouse.io/affirm/jobs/7814576003	failed	2026-08-01T15:03:49Z	2026-08-01T15:03:50Z	277	-	Credit balance is too low 	2
