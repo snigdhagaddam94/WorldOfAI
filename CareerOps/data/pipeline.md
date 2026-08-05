@@ -189,3 +189,7 @@
 - [ ] https://jobs.dropbox.com/listing/8090062?gh_jid=8090062 | Dropbox | Senior Manager, Data Engineering
 
 - [ ] https://job-boards.greenhouse.io/affirm/jobs/7814576003 | Affirm | Analytics Lead, Strategic Insights (Compliance)
+
+- [ ] https://job-boards.greenhouse.io/twilio/jobs/8104438 | Twilio | Marketing Strategy and Analytics Manager
+- [ ] https://www.pinterestcareers.com/jobs/?gh_jid=8046828 | Pinterest | Sr. Client Partner, Pinterest Spark 
+- [ ] https://jobs.dropbox.com/listing/8090065?gh_jid=8090065 | Dropbox | Senior Manager, Data Engineering
