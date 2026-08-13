@@ -193,3 +193,5 @@
 - [ ] https://job-boards.greenhouse.io/twilio/jobs/8104438 | Twilio | Marketing Strategy and Analytics Manager
 - [ ] https://www.pinterestcareers.com/jobs/?gh_jid=8046828 | Pinterest | Sr. Client Partner, Pinterest Spark 
 - [ ] https://jobs.dropbox.com/listing/8090065?gh_jid=8090065 | Dropbox | Senior Manager, Data Engineering
+
+- [ ] https://instacart.careers/job/?gh_jid=8126023 | Instacart | Senior Data Engineer II, Finance

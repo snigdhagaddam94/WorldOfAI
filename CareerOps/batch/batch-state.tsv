@@ -141,3 +141,4 @@ id	url	status	started_at	completed_at	report_num	score	error	retries
 141	https://www.pinterestcareers.com/jobs/?gh_jid=8046828	failed	2026-08-07T14:56:47Z	2026-08-07T14:56:49Z	282	-	Claude configuration file not found at: /home/runner/.claude.json A backup file exists at: /home/runner/.claude/backups/.claude.json.backup.1786114608418 You can manually restore it by running: cp "/h	2
 140	https://job-boards.greenhouse.io/twilio/jobs/8104438	failed	2026-08-07T14:56:47Z	2026-08-07T14:56:49Z	281	-	Credit balance is too low 	2
 142	https://jobs.dropbox.com/listing/8090065?gh_jid=8090065	failed	2026-08-07T14:56:50Z	2026-08-07T14:56:52Z	283	-	Credit balance is too low 	2
+143	https://instacart.careers/job/?gh_jid=8126023	failed	2026-08-13T15:01:07Z	2026-08-13T15:01:08Z	284	-	Credit balance is too low 	1
