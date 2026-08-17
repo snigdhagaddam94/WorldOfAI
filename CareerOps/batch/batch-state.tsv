@@ -142,3 +142,4 @@ id	url	status	started_at	completed_at	report_num	score	error	retries
 140	https://job-boards.greenhouse.io/twilio/jobs/8104438	failed	2026-08-07T14:56:47Z	2026-08-07T14:56:49Z	281	-	Credit balance is too low 	2
 142	https://jobs.dropbox.com/listing/8090065?gh_jid=8090065	failed	2026-08-07T14:56:50Z	2026-08-07T14:56:52Z	283	-	Credit balance is too low 	2
 143	https://instacart.careers/job/?gh_jid=8126023	failed	2026-08-14T14:55:17Z	2026-08-14T14:55:19Z	285	-	Credit balance is too low 	2
+144	https://www.fivetran.com/careers/job?gh_jid=7818352003	failed	2026-08-17T14:32:07Z	2026-08-17T14:32:09Z	286	-	Credit balance is too low 	1

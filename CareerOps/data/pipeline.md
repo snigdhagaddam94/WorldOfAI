@@ -195,3 +195,5 @@
 - [ ] https://jobs.dropbox.com/listing/8090065?gh_jid=8090065 | Dropbox | Senior Manager, Data Engineering
 
 - [ ] https://instacart.careers/job/?gh_jid=8126023 | Instacart | Senior Data Engineer II, Finance
+
+- [ ] https://www.fivetran.com/careers/job?gh_jid=7818352003 | Fivetran | Staff Software Engineer_dbt core
