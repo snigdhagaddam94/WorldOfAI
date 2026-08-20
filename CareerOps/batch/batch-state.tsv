@@ -144,3 +144,4 @@ id	url	status	started_at	completed_at	report_num	score	error	retries
 143	https://instacart.careers/job/?gh_jid=8126023	failed	2026-08-14T14:55:17Z	2026-08-14T14:55:19Z	285	-	Credit balance is too low 	2
 144	https://www.fivetran.com/careers/job?gh_jid=7818352003	failed	2026-08-18T14:37:15Z	2026-08-18T14:37:17Z	287	-	Credit balance is too low 	2
 145	https://instacart.careers/job/?gh_jid=8132846	failed	2026-08-19T14:37:48Z	2026-08-19T14:37:50Z	289	-	Credit balance is too low 	2
+146	https://www.fivetran.com/careers/job?gh_jid=7850882003	failed	2026-08-20T14:39:51Z	2026-08-20T14:39:52Z	290	-	Credit balance is too low 	1

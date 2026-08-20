@@ -199,3 +199,5 @@
 - [ ] https://www.fivetran.com/careers/job?gh_jid=7818352003 | Fivetran | Staff Software Engineer_dbt core
 
 - [ ] https://instacart.careers/job/?gh_jid=8132846 | Instacart | Senior Data Engineer II, Finance
+
+- [ ] https://www.fivetran.com/careers/job?gh_jid=7850882003 | Fivetran | Global Technology Alliance Manager, Databricks
