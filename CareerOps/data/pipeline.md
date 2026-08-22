@@ -201,3 +201,6 @@
 - [ ] https://instacart.careers/job/?gh_jid=8132846 | Instacart | Senior Data Engineer II, Finance
 
 - [ ] https://www.fivetran.com/careers/job?gh_jid=7850882003 | Fivetran | Global Technology Alliance Manager, Databricks
+
+- [ ] https://app.careerpuck.com/job-board/lyft/job/8737764002?gh_jid=8737764002 | Lyft | Analytics Lead, Safety Reporting
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5357965008 | Anthropic | Accounting Analytics & BI Engineer
