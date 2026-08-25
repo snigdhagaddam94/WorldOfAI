@@ -204,3 +204,5 @@
 
 - [ ] https://app.careerpuck.com/job-board/lyft/job/8737764002?gh_jid=8737764002 | Lyft | Analytics Lead, Safety Reporting
 - [ ] https://job-boards.greenhouse.io/anthropic/jobs/5357965008 | Anthropic | Accounting Analytics & BI Engineer
+
+- [ ] https://www.pinterestcareers.com/jobs/?gh_jid=8076015 | Pinterest | Staff Software Engineer, Data Warehouse Foundation 
