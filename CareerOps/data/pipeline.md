@@ -206,3 +206,6 @@
 - [ ] https://job-boards.greenhouse.io/anthropic/jobs/5357965008 | Anthropic | Accounting Analytics & BI Engineer
 
 - [ ] https://www.pinterestcareers.com/jobs/?gh_jid=8076015 | Pinterest | Staff Software Engineer, Data Warehouse Foundation 
+
+- [ ] https://www.pinterestcareers.com/jobs/?gh_jid=7494956 | Pinterest | Sr. Staff Software Engineer, Big Data Platform
+- [ ] https://www.fivetran.com/careers/job?gh_jid=7976118003 | Fivetran | Global Technology Alliance Manager, Databricks
