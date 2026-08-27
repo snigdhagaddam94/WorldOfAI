@@ -209,3 +209,8 @@
 
 - [ ] https://www.pinterestcareers.com/jobs/?gh_jid=7494956 | Pinterest | Sr. Staff Software Engineer, Big Data Platform
 - [ ] https://www.fivetran.com/careers/job?gh_jid=7976118003 | Fivetran | Global Technology Alliance Manager, Databricks
+
+- [ ] https://www.fivetran.com/careers/job?gh_jid=7975436003 | Fivetran |  Staff Product Manager - dbt v2
+- [ ] https://www.fivetran.com/careers/job?gh_jid=7787885003 | Fivetran | Staff Product Manager - dbt v2
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5404725008 | Anthropic | Staff+ Research Engineer, RL Data Platform
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5404730008 | Anthropic | Staff+ Software Engineer, RL Data Platform
