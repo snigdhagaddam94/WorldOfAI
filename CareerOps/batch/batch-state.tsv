@@ -154,4 +154,4 @@ id	url	status	started_at	completed_at	report_num	score	error	retries
 153	https://www.fivetran.com/careers/job?gh_jid=7787885003	failed	2026-08-28T23:29:03Z	2026-08-28T23:29:04Z	306	-	Credit balance is too low 	2
 154	https://job-boards.greenhouse.io/anthropic/jobs/5404725008	failed	2026-08-28T23:29:06Z	2026-08-28T23:29:07Z	309	-	Credit balance is too low 	2
 155	https://job-boards.greenhouse.io/anthropic/jobs/5404730008	failed	2026-08-28T23:29:06Z	2026-08-28T23:29:07Z	308	-	Credit balance is too low 	2
-156	http://block.xyz/careers/jobs/5381381008?gh_jid=5381381008	failed	2026-08-28T23:29:09Z	2026-08-28T23:29:10Z	310	-	Credit balance is too low 	1
+156	http://block.xyz/careers/jobs/5381381008?gh_jid=5381381008	failed	2026-08-29T17:36:28Z	2026-08-29T17:36:30Z	311	-	Credit balance is too low 	2
