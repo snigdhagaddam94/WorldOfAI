@@ -216,3 +216,6 @@
 - [ ] https://job-boards.greenhouse.io/anthropic/jobs/5404730008 | Anthropic | Staff+ Software Engineer, RL Data Platform
 
 - [ ] http://block.xyz/careers/jobs/5381381008?gh_jid=5381381008 | Block (formerly Square) | Senior Software Engineer, Data Platform
+
+- [ ] https://instacart.careers/job/?gh_jid=8167458 | Instacart | Analytics Engineer II
+- [ ] https://hex.tech/careers/6175815004/?gh_jid=6175815004 | Hex Technologies | Analytics Engineer
