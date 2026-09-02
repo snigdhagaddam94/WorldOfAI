@@ -219,3 +219,6 @@
 
 - [ ] https://instacart.careers/job/?gh_jid=8167458 | Instacart | Analytics Engineer II
 - [ ] https://hex.tech/careers/6175815004/?gh_jid=6175815004 | Hex Technologies | Analytics Engineer
+
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7872398003 | Affirm | Analytics Lead, Full Stack
+- [ ] https://www.pinterestcareers.com/jobs/?gh_jid=7683981 | Pinterest | Principal Engineer, Big Data Platform
