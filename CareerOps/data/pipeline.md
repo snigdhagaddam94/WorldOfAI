@@ -222,3 +222,5 @@
 
 - [ ] https://job-boards.greenhouse.io/affirm/jobs/7872398003 | Affirm | Analytics Lead, Full Stack
 - [ ] https://www.pinterestcareers.com/jobs/?gh_jid=7683981 | Pinterest | Principal Engineer, Big Data Platform
+
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7871458003 | Affirm | Analytics Lead, Full Stack (Strategic Revenue Insights)
