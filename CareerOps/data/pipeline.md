@@ -230,3 +230,5 @@
 - [ ] https://job-boards.greenhouse.io/anthropic/jobs/4973067008 | Anthropic | Data Infrastructure Engineer, Pre-training
 
 - [ ] https://job-boards.greenhouse.io/anthropic/jobs/5418610008 | Anthropic | Data Engineer, GTM
+
+- [ ] https://careers.airbnb.com/positions/8197715?gh_jid=8197715 | Airbnb | Staff Software Engineer, Data Warehouse
