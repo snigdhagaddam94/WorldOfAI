@@ -232,3 +232,6 @@
 - [ ] https://job-boards.greenhouse.io/anthropic/jobs/5418610008 | Anthropic | Data Engineer, GTM
 
 - [ ] https://careers.airbnb.com/positions/8197715?gh_jid=8197715 | Airbnb | Staff Software Engineer, Data Warehouse
+
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7989061003 | Affirm | Senior Software Engineer, Backend (Consumer Data Platform)
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5424111008 | Anthropic | Recruiting Analytics Data Engineer 
