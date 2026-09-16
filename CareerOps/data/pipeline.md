@@ -235,3 +235,9 @@
 
 - [ ] https://job-boards.greenhouse.io/affirm/jobs/7989061003 | Affirm | Senior Software Engineer, Backend (Consumer Data Platform)
 - [ ] https://job-boards.greenhouse.io/anthropic/jobs/5424111008 | Anthropic | Recruiting Analytics Data Engineer 
+
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7979912003 | Affirm | Analytics Lead, Full Stack (Collections & Recoveries)
+- [ ] https://job-boards.greenhouse.io/twilio/jobs/8189769 | Twilio | Sr. Marketing Strategy and Analytics Manager
+- [ ] https://www.pinterestcareers.com/jobs/?gh_jid=8206769 | Pinterest | Sr. Client Partner, Pinterest Spark
+- [ ] https://www.fivetran.com/careers/job?gh_jid=7996531003 | Fivetran | Global Technology Alliance Manager, Databricks
+- [ ] https://www.okta.com/company/careers/opportunity/8204938?gh_jid=8204938 | Okta | Marketing Analytics Manager
