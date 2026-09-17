@@ -241,3 +241,7 @@
 - [ ] https://www.pinterestcareers.com/jobs/?gh_jid=8206769 | Pinterest | Sr. Client Partner, Pinterest Spark
 - [ ] https://www.fivetran.com/careers/job?gh_jid=7996531003 | Fivetran | Global Technology Alliance Manager, Databricks
 - [ ] https://www.okta.com/company/careers/opportunity/8204938?gh_jid=8204938 | Okta | Marketing Analytics Manager
+
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7916080003 | Affirm | Analytics Engineer II, Full Stack (Revenue Analytics)
+- [ ] http://block.xyz/careers/jobs/5424561008?gh_jid=5424561008 | Block (formerly Square) | Senior Analytics Engineer, AI & DX Analytics
+- [ ] https://job-boards.greenhouse.io/hightouch/jobs/5597121004 | Hightouch | Manager, Strategy Consultants (Agentic Customer Data Platform)
