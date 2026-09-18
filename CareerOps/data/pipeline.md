@@ -245,3 +245,6 @@
 - [ ] https://job-boards.greenhouse.io/affirm/jobs/7916080003 | Affirm | Analytics Engineer II, Full Stack (Revenue Analytics)
 - [ ] http://block.xyz/careers/jobs/5424561008?gh_jid=5424561008 | Block (formerly Square) | Senior Analytics Engineer, AI & DX Analytics
 - [ ] https://job-boards.greenhouse.io/hightouch/jobs/5597121004 | Hightouch | Manager, Strategy Consultants (Agentic Customer Data Platform)
+
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/7813362003 | Affirm | Analytics Engineer II, Full Stack (Revenue Analytics)
+- [ ] https://jobs.ashbyhq.com/perplexity/89750227-f7fe-4e9f-bcdd-eada353163fd | Perplexity | Member of Technical Staff (Search Core, Indexing & Data Pipeline Stream) 
