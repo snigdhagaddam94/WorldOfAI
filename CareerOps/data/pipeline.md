@@ -248,3 +248,6 @@
 
 - [ ] https://job-boards.greenhouse.io/affirm/jobs/7813362003 | Affirm | Analytics Engineer II, Full Stack (Revenue Analytics)
 - [ ] https://jobs.ashbyhq.com/perplexity/89750227-f7fe-4e9f-bcdd-eada353163fd | Perplexity | Member of Technical Staff (Search Core, Indexing & Data Pipeline Stream) 
+
+- [ ] https://jobs.dropbox.com/listing/8211529?gh_jid=8211529 | Dropbox | Data Engineer
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5426135008 | Anthropic | Engineering Manager, Data Infrastructure

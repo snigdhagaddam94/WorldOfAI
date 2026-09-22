@@ -177,3 +177,5 @@ id	url	status	started_at	completed_at	report_num	score	error	retries
 176	https://job-boards.greenhouse.io/hightouch/jobs/5597121004	failed	2026-09-18T17:35:39Z	2026-09-18T17:35:40Z	352	-	Credit balance is too low 	2
 177	https://job-boards.greenhouse.io/affirm/jobs/7813362003	failed	2026-09-19T17:05:32Z	2026-09-19T17:05:33Z	354	-	Credit balance is too low 	2
 178	https://jobs.ashbyhq.com/perplexity/89750227-f7fe-4e9f-bcdd-eada353163fd	failed	2026-09-19T17:05:32Z	2026-09-19T17:05:33Z	355	-	Credit balance is too low 	2
+179	https://jobs.dropbox.com/listing/8211529?gh_jid=8211529	failed	2026-09-22T18:00:20Z	2026-09-22T18:00:21Z	356	-	Credit balance is too low 	1
+180	https://job-boards.greenhouse.io/anthropic/jobs/5426135008	failed	2026-09-22T18:00:20Z	2026-09-22T18:00:22Z	357	-	Credit balance is too low 	1
