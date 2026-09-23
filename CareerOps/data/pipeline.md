@@ -251,3 +251,8 @@
 
 - [ ] https://jobs.dropbox.com/listing/8211529?gh_jid=8211529 | Dropbox | Data Engineer
 - [ ] https://job-boards.greenhouse.io/anthropic/jobs/5426135008 | Anthropic | Engineering Manager, Data Infrastructure
+
+- [ ] https://careers.airbnb.com/positions/8224032?gh_jid=8224032 | Airbnb | Senior Staff Data Engineer, Foundational Data
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/8003170003 | Affirm | Analytics Lead, Full Stack
+- [ ] https://jobs.dropbox.com/listing/8211532?gh_jid=8211532 | Dropbox | Data Engineer
+- [ ] https://www.pinterestcareers.com/jobs/?gh_jid=8209014 | Pinterest | Sr. Technical Program Manager, Data Engineering
