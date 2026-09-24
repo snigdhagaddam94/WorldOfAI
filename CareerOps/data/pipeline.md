@@ -256,3 +256,5 @@
 - [ ] https://job-boards.greenhouse.io/affirm/jobs/8003170003 | Affirm | Analytics Lead, Full Stack
 - [ ] https://jobs.dropbox.com/listing/8211532?gh_jid=8211532 | Dropbox | Data Engineer
 - [ ] https://www.pinterestcareers.com/jobs/?gh_jid=8209014 | Pinterest | Sr. Technical Program Manager, Data Engineering
+
+- [ ] http://block.xyz/careers/jobs/5434325008?gh_jid=5434325008 | Block (formerly Square) | Senior Analytics Engineer, AI & DX Analytics
