@@ -183,4 +183,4 @@ id	url	status	started_at	completed_at	report_num	score	error	retries
 181	https://careers.airbnb.com/positions/8224032?gh_jid=8224032	failed	2026-09-24T18:20:10Z	2026-09-24T18:20:12Z	364	-	Credit balance is too low 	2
 184	https://www.pinterestcareers.com/jobs/?gh_jid=8209014	failed	2026-09-24T18:20:13Z	2026-09-24T18:20:15Z	367	-	Credit balance is too low 	2
 183	https://jobs.dropbox.com/listing/8211532?gh_jid=8211532	failed	2026-09-24T18:20:13Z	2026-09-24T18:20:15Z	366	-	Credit balance is too low 	2
-185	http://block.xyz/careers/jobs/5434325008?gh_jid=5434325008	failed	2026-09-24T18:20:16Z	2026-09-24T18:20:18Z	368	-	Credit balance is too low 	1
+185	http://block.xyz/careers/jobs/5434325008?gh_jid=5434325008	failed	2026-09-25T18:21:56Z	2026-09-25T18:21:58Z	369	-	Credit balance is too low 	2
