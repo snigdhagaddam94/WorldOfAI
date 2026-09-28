@@ -260,3 +260,6 @@
 - [ ] http://block.xyz/careers/jobs/5434325008?gh_jid=5434325008 | Block (formerly Square) | Senior Analytics Engineer, AI & DX Analytics
 
 - [ ] https://job-boards.greenhouse.io/anthropic/jobs/5434145008 | Anthropic | Marketing Analytics Lead, Enterprise Marketing
+
+- [ ] https://www.pinterestcareers.com/jobs/?gh_jid=8015360 | Pinterest | Manager II, Engineering- Analytics Engineering, Core Data Science
+- [ ] https://www.pinterestcareers.com/jobs/?gh_jid=8015346 | Pinterest |  Staff Software, Engineering – Analytics Engineering, Core Data Science
