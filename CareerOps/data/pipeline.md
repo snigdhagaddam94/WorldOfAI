@@ -263,3 +263,5 @@
 
 - [ ] https://www.pinterestcareers.com/jobs/?gh_jid=8015360 | Pinterest | Manager II, Engineering- Analytics Engineering, Core Data Science
 - [ ] https://www.pinterestcareers.com/jobs/?gh_jid=8015346 | Pinterest |  Staff Software, Engineering – Analytics Engineering, Core Data Science
+
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/8004096003 | Affirm | Analytics Lead, Deposit Fraud Risk
