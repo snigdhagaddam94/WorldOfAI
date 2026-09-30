@@ -265,3 +265,6 @@
 - [ ] https://www.pinterestcareers.com/jobs/?gh_jid=8015346 | Pinterest |  Staff Software, Engineering – Analytics Engineering, Core Data Science
 
 - [ ] https://job-boards.greenhouse.io/affirm/jobs/8004096003 | Affirm | Analytics Lead, Deposit Fraud Risk
+
+- [ ] https://instacart.careers/job/?gh_jid=8240723 | Instacart | Data Operations Manager
+- [ ] https://www.okta.com/company/careers/opportunity/8239380?gh_jid=8239380 | Okta | Senior Software Engineer, Data Platform
