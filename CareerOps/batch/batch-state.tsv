@@ -188,5 +188,5 @@ id	url	status	started_at	completed_at	report_num	score	error	retries
 187	https://www.pinterestcareers.com/jobs/?gh_jid=8015360	failed	2026-09-29T19:12:49Z	2026-09-29T19:12:51Z	374	-	Credit balance is too low 	2
 188	https://www.pinterestcareers.com/jobs/?gh_jid=8015346	failed	2026-09-29T19:12:49Z	2026-09-29T19:12:51Z	375	-	Credit balance is too low 	2
 189	https://job-boards.greenhouse.io/affirm/jobs/8004096003	failed	2026-09-30T18:57:55Z	2026-09-30T18:57:56Z	377	-	Credit balance is too low 	2
-190	https://instacart.careers/job/?gh_jid=8240723	failed	2026-09-30T18:57:55Z	2026-09-30T18:57:57Z	378	-	Credit balance is too low 	1
-191	https://www.okta.com/company/careers/opportunity/8239380?gh_jid=8239380	failed	2026-09-30T18:57:58Z	2026-09-30T18:57:59Z	379	-	Credit balance is too low 	1
+190	https://instacart.careers/job/?gh_jid=8240723	failed	2026-10-01T19:20:47Z	2026-10-01T19:20:49Z	380	-	Credit balance is too low 	2
+191	https://www.okta.com/company/careers/opportunity/8239380?gh_jid=8239380	failed	2026-10-01T19:20:47Z	2026-10-01T19:20:49Z	381	-	Credit balance is too low 	2
