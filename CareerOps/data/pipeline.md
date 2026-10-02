@@ -268,3 +268,5 @@
 
 - [ ] https://instacart.careers/job/?gh_jid=8240723 | Instacart | Data Operations Manager
 - [ ] https://www.okta.com/company/careers/opportunity/8239380?gh_jid=8239380 | Okta | Senior Software Engineer, Data Platform
+
+- [ ] http://block.xyz/careers/jobs/5440102008?gh_jid=5440102008 | Block (formerly Square) | Senior Data Engineer, Product
