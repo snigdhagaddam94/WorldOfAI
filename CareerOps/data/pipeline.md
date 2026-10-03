@@ -270,3 +270,5 @@
 - [ ] https://www.okta.com/company/careers/opportunity/8239380?gh_jid=8239380 | Okta | Senior Software Engineer, Data Platform
 
 - [ ] http://block.xyz/careers/jobs/5440102008?gh_jid=5440102008 | Block (formerly Square) | Senior Data Engineer, Product
+
+- [ ] https://boards.greenhouse.io/chime/jobs/8840193002?gh_jid=8840193002 | Chime | Senior Software Engineer, Data Platform
