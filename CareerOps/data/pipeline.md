@@ -272,3 +272,7 @@
 - [ ] http://block.xyz/careers/jobs/5440102008?gh_jid=5440102008 | Block (formerly Square) | Senior Data Engineer, Product
 
 - [ ] https://boards.greenhouse.io/chime/jobs/8840193002?gh_jid=8840193002 | Chime | Senior Software Engineer, Data Platform
+
+- [ ] https://careers.airbnb.com/positions/8249633?gh_jid=8249633 | Airbnb | Senior Analytics Engineer, Airbnb.org
+- [ ] https://www.fivetran.com/careers/job?gh_jid=8013525003 | Fivetran | Senior Manager, dbt Fusion
+- [ ] https://jobs.ashbyhq.com/perplexity/71abd198-5a69-4837-aa59-df8eeb9e02eb | Perplexity | Member of Data Staff (Analytics Engineer)

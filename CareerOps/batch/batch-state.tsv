@@ -192,3 +192,6 @@ id	url	status	started_at	completed_at	report_num	score	error	retries
 191	https://www.okta.com/company/careers/opportunity/8239380?gh_jid=8239380	failed	2026-10-01T19:20:47Z	2026-10-01T19:20:49Z	381	-	Credit balance is too low 	2
 192	http://block.xyz/careers/jobs/5440102008?gh_jid=5440102008	failed	2026-10-03T17:51:51Z	2026-10-03T17:51:53Z	383	-	Credit balance is too low 	2
 193	https://boards.greenhouse.io/chime/jobs/8840193002?gh_jid=8840193002	failed	2026-10-04T18:03:12Z	2026-10-04T18:03:14Z	385	-	Credit balance is too low 	2
+194	https://careers.airbnb.com/positions/8249633?gh_jid=8249633	failed	2026-10-05T21:24:49Z	2026-10-05T21:24:51Z	386	-	Credit balance is too low 	1
+195	https://www.fivetran.com/careers/job?gh_jid=8013525003	failed	2026-10-05T21:24:49Z	2026-10-05T21:24:51Z	387	-	Credit balance is too low 	1
+196	https://jobs.ashbyhq.com/perplexity/71abd198-5a69-4837-aa59-df8eeb9e02eb	failed	2026-10-05T21:24:52Z	2026-10-05T21:24:53Z	388	-	Credit balance is too low 	1
