@@ -276,3 +276,7 @@
 - [ ] https://careers.airbnb.com/positions/8249633?gh_jid=8249633 | Airbnb | Senior Analytics Engineer, Airbnb.org
 - [ ] https://www.fivetran.com/careers/job?gh_jid=8013525003 | Fivetran | Senior Manager, dbt Fusion
 - [ ] https://jobs.ashbyhq.com/perplexity/71abd198-5a69-4837-aa59-df8eeb9e02eb | Perplexity | Member of Data Staff (Analytics Engineer)
+
+- [ ] https://app.careerpuck.com/job-board/lyft/job/8868958002?gh_jid=8868958002 | Lyft | Analytics Lead, Decisions & Insights
+- [ ] https://www.pinterestcareers.com/jobs/?gh_jid=8259517 | Pinterest | Sr. Software Engineer, Data Analytics Engineering
+- [ ] https://www.fivetran.com/careers/job?gh_jid=7818376003 | Fivetran | Senior Manager, dbt Fusion
