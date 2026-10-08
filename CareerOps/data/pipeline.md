@@ -280,3 +280,5 @@
 - [ ] https://app.careerpuck.com/job-board/lyft/job/8868958002?gh_jid=8868958002 | Lyft | Analytics Lead, Decisions & Insights
 - [ ] https://www.pinterestcareers.com/jobs/?gh_jid=8259517 | Pinterest | Sr. Software Engineer, Data Analytics Engineering
 - [ ] https://www.fivetran.com/careers/job?gh_jid=7818376003 | Fivetran | Senior Manager, dbt Fusion
+
+- [ ] https://jobs.lever.co/palantir/1b690123-1766-4e75-a0ef-0f58afa864b4 | Palantir | Data Engineer - Talent Acquisition Operations
