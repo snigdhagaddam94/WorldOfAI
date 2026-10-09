@@ -282,3 +282,6 @@
 - [ ] https://www.fivetran.com/careers/job?gh_jid=7818376003 | Fivetran | Senior Manager, dbt Fusion
 
 - [ ] https://jobs.lever.co/palantir/1b690123-1766-4e75-a0ef-0f58afa864b4 | Palantir | Data Engineer - Talent Acquisition Operations
+
+- [ ] http://block.xyz/careers/jobs/5442647008?gh_jid=5442647008 | Block (formerly Square) | Senior Data Engineer, Product
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5448481008 | Anthropic | Data Engineer, Product
