@@ -199,5 +199,5 @@ id	url	status	started_at	completed_at	report_num	score	error	retries
 198	https://www.pinterestcareers.com/jobs/?gh_jid=8259517	failed	2026-10-07T19:48:53Z	2026-10-07T19:48:55Z	396	-	Credit balance is too low 	2
 199	https://www.fivetran.com/careers/job?gh_jid=7818376003	failed	2026-10-07T19:48:57Z	2026-10-07T19:48:58Z	397	-	Credit balance is too low 	2
 200	https://jobs.lever.co/palantir/1b690123-1766-4e75-a0ef-0f58afa864b4	failed	2026-10-09T19:21:24Z	2026-10-09T19:21:26Z	399	-	Credit balance is too low 	2
-201	http://block.xyz/careers/jobs/5442647008?gh_jid=5442647008	failed	2026-10-09T19:21:24Z	2026-10-09T19:21:26Z	400	-	Credit balance is too low 	1
-202	https://job-boards.greenhouse.io/anthropic/jobs/5448481008	failed	2026-10-09T19:21:27Z	2026-10-09T19:21:28Z	401	-	Credit balance is too low 	1
+201	http://block.xyz/careers/jobs/5442647008?gh_jid=5442647008	failed	2026-10-10T18:20:39Z	2026-10-10T18:20:41Z	402	-	Credit balance is too low 	2
+202	https://job-boards.greenhouse.io/anthropic/jobs/5448481008	failed	2026-10-10T18:20:39Z	2026-10-10T18:20:41Z	403	-	Credit balance is too low 	2
