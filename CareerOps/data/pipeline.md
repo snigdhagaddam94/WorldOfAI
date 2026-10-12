@@ -285,3 +285,5 @@
 
 - [ ] http://block.xyz/careers/jobs/5442647008?gh_jid=5442647008 | Block (formerly Square) | Senior Data Engineer, Product
 - [ ] https://job-boards.greenhouse.io/anthropic/jobs/5448481008 | Anthropic | Data Engineer, Product
+
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5450099008 | Anthropic | Data Engineer, Billing & Payments
