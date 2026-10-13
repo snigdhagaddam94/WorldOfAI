@@ -287,3 +287,5 @@
 - [ ] https://job-boards.greenhouse.io/anthropic/jobs/5448481008 | Anthropic | Data Engineer, Product
 
 - [ ] https://job-boards.greenhouse.io/anthropic/jobs/5450099008 | Anthropic | Data Engineer, Billing & Payments
+
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/8010489003 | Affirm | Analytics Engineer II
