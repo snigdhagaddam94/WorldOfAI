@@ -289,3 +289,5 @@
 - [ ] https://job-boards.greenhouse.io/anthropic/jobs/5450099008 | Anthropic | Data Engineer, Billing & Payments
 
 - [ ] https://job-boards.greenhouse.io/affirm/jobs/8010489003 | Affirm | Analytics Engineer II
+
+- [ ] https://careers.airbnb.com/positions/8284841?gh_jid=8284841 | Airbnb | Staff Data Engineer, Tech Foundations
