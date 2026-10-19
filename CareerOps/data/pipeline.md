@@ -291,3 +291,5 @@
 - [ ] https://job-boards.greenhouse.io/affirm/jobs/8010489003 | Affirm | Analytics Engineer II
 
 - [ ] https://careers.airbnb.com/positions/8284841?gh_jid=8284841 | Airbnb | Staff Data Engineer, Tech Foundations
+
+- [ ] https://www.pinterestcareers.com/jobs/?gh_jid=8162539 | Pinterest | Staff Software Engineer, Infrastructure Data Engineering   
