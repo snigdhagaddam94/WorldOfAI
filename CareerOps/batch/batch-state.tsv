@@ -205,4 +205,4 @@ id	url	status	started_at	completed_at	report_num	score	error	retries
 204	https://job-boards.greenhouse.io/affirm/jobs/8010489003	failed	2026-10-14T18:23:44Z	2026-10-14T18:23:47Z	407	-	Credit balance is too low 	2
 205	https://careers.airbnb.com/positions/8284841?gh_jid=8284841	failed	2026-10-17T16:55:25Z	2026-10-17T16:55:26Z	409	-	Credit balance is too low 	2
 206	https://www.pinterestcareers.com/jobs/?gh_jid=8162539	failed	2026-10-20T18:23:36Z	2026-10-20T18:23:38Z	411	-	Credit balance is too low 	2
-207	https://job-boards.greenhouse.io/anthropic/jobs/5462966008	failed	2026-10-27T19:17:21Z	2026-10-27T19:17:23Z	412	-	Credit balance is too low 	1
+207	https://job-boards.greenhouse.io/anthropic/jobs/5462966008	failed	2026-10-28T19:23:46Z	2026-10-28T19:23:48Z	413	-	Credit balance is too low 	2
