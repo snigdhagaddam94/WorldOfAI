@@ -295,3 +295,5 @@
 - [ ] https://www.pinterestcareers.com/jobs/?gh_jid=8162539 | Pinterest | Staff Software Engineer, Infrastructure Data Engineering   
 
 - [ ] https://job-boards.greenhouse.io/anthropic/jobs/5462966008 | Anthropic | Security Data Engineer
+
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5464234008 | Anthropic | Data Engineer
