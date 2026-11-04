@@ -207,3 +207,4 @@ id	url	status	started_at	completed_at	report_num	score	error	retries
 206	https://www.pinterestcareers.com/jobs/?gh_jid=8162539	failed	2026-10-20T18:23:36Z	2026-10-20T18:23:38Z	411	-	Credit balance is too low 	2
 207	https://job-boards.greenhouse.io/anthropic/jobs/5462966008	failed	2026-10-28T19:23:46Z	2026-10-28T19:23:48Z	413	-	Credit balance is too low 	2
 208	https://job-boards.greenhouse.io/anthropic/jobs/5464234008	failed	2026-11-01T18:47:45Z	2026-11-01T18:47:47Z	415	-	Credit balance is too low 	2
+209	https://job-boards.greenhouse.io/anthropic/jobs/5471539008	failed	2026-11-04T20:41:49Z	2026-11-04T20:41:51Z	416	-	Credit balance is too low 	1

@@ -297,3 +297,5 @@
 - [ ] https://job-boards.greenhouse.io/anthropic/jobs/5462966008 | Anthropic | Security Data Engineer
 
 - [ ] https://job-boards.greenhouse.io/anthropic/jobs/5464234008 | Anthropic | Data Engineer
+
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5471539008 | Anthropic | Accounting Analytics & BI Engineer
