@@ -299,3 +299,8 @@
 - [ ] https://job-boards.greenhouse.io/anthropic/jobs/5464234008 | Anthropic | Data Engineer
 
 - [ ] https://job-boards.greenhouse.io/anthropic/jobs/5471539008 | Anthropic | Accounting Analytics & BI Engineer
+
+- [ ] https://job-boards.greenhouse.io/affirm/jobs/8011130003 | Affirm | Analytics Lead, Full Stack
+- [ ] https://jobs.ashbyhq.com/Perplexity/2e73bc78-684c-47c5-95df-e9973a10e0b6 | Perplexity | Member of Technical Staff (Software Engineer, Data Platform)
+- [ ] https://jobs.ashbyhq.com/Perplexity/89750227-f7fe-4e9f-bcdd-eada353163fd | Perplexity | Member of Technical Staff (Search Core, Indexing & Data Pipeline Stream) 
+- [ ] https://jobs.ashbyhq.com/Perplexity/71abd198-5a69-4837-aa59-df8eeb9e02eb | Perplexity | Member of Data Staff (Analytics Engineer)
