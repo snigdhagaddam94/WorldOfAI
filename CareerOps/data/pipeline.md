@@ -306,3 +306,8 @@
 - [ ] https://jobs.ashbyhq.com/Perplexity/71abd198-5a69-4837-aa59-df8eeb9e02eb | Perplexity | Member of Data Staff (Analytics Engineer)
 
 - [ ] https://job-boards.greenhouse.io/affirm/jobs/8011132003 | Affirm | Analytics Lead, Full Stack
+
+- [ ] https://instacart.careers/job/?gh_jid=8372848 | Instacart | Staff Software Engineer, Ads Data Platform
+- [ ] https://app.careerpuck.com/job-board/lyft/job/8940409002?gh_jid=8940409002 | Lyft | Data Engineer, Marketplace
+- [ ] https://boards.greenhouse.io/chime/jobs/8765690002?gh_jid=8765690002 | Chime | Director, Data Engineering
+- [ ] http://block.xyz/careers/jobs/5473605008?gh_jid=5473605008 | Block (formerly Square) | Staff Data Engineer, Advanced Insights & Modeling
