@@ -311,3 +311,5 @@
 - [ ] https://app.careerpuck.com/job-board/lyft/job/8940409002?gh_jid=8940409002 | Lyft | Data Engineer, Marketplace
 - [ ] https://boards.greenhouse.io/chime/jobs/8765690002?gh_jid=8765690002 | Chime | Director, Data Engineering
 - [ ] http://block.xyz/careers/jobs/5473605008?gh_jid=5473605008 | Block (formerly Square) | Staff Data Engineer, Advanced Insights & Modeling
+
+- [ ] https://instacart.careers/job/?gh_jid=8372846 | Instacart | Staff Software Engineer, Ads Data Platform
