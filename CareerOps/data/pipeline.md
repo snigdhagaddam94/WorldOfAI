@@ -313,3 +313,8 @@
 - [ ] http://block.xyz/careers/jobs/5473605008?gh_jid=5473605008 | Block (formerly Square) | Staff Data Engineer, Advanced Insights & Modeling
 
 - [ ] https://instacart.careers/job/?gh_jid=8372846 | Instacart | Staff Software Engineer, Ads Data Platform
+
+- [ ] https://careers.airbnb.com/positions/8396777?gh_jid=8396777 | Airbnb | Senior Data Engineer Tech Foundations
+- [ ] https://app.careerpuck.com/job-board/lyft/job/8948773002?gh_jid=8948773002 | Lyft | Analytics Lead, Growth Strategy & Analytics 
+- [ ] http://block.xyz/careers/jobs/5485151008?gh_jid=5485151008 | Block (formerly Square) | Sales Compensation Systems & Data Engineer
+- [ ] https://www.okta.com/company/careers/opportunity/8384001?gh_jid=8384001 | Okta | Senior Software Engineer, Data Platform
