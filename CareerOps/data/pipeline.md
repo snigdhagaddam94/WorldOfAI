@@ -318,3 +318,5 @@
 - [ ] https://app.careerpuck.com/job-board/lyft/job/8948773002?gh_jid=8948773002 | Lyft | Analytics Lead, Growth Strategy & Analytics 
 - [ ] http://block.xyz/careers/jobs/5485151008?gh_jid=5485151008 | Block (formerly Square) | Sales Compensation Systems & Data Engineer
 - [ ] https://www.okta.com/company/careers/opportunity/8384001?gh_jid=8384001 | Okta | Senior Software Engineer, Data Platform
+
+- [ ] https://app.careerpuck.com/job-board/lyft/job/8948757002?gh_jid=8948757002 | Lyft | Analytics Lead, Growth Strategy & Analytics 
