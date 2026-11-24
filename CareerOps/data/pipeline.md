@@ -320,3 +320,5 @@
 - [ ] https://www.okta.com/company/careers/opportunity/8384001?gh_jid=8384001 | Okta | Senior Software Engineer, Data Platform
 
 - [ ] https://app.careerpuck.com/job-board/lyft/job/8948757002?gh_jid=8948757002 | Lyft | Analytics Lead, Growth Strategy & Analytics 
+
+- [ ] https://www.pinterestcareers.com/jobs/?gh_jid=8213988 | Pinterest |  Data Analytics Engineer II
