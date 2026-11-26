@@ -322,3 +322,5 @@
 - [ ] https://app.careerpuck.com/job-board/lyft/job/8948757002?gh_jid=8948757002 | Lyft | Analytics Lead, Growth Strategy & Analytics 
 
 - [ ] https://www.pinterestcareers.com/jobs/?gh_jid=8213988 | Pinterest |  Data Analytics Engineer II
+
+- [ ] https://job-boards.greenhouse.io/twilio/jobs/8393933 | Twilio | Staff Data Engineer
